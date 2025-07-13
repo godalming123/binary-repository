@@ -1,20 +1,54 @@
 [helix]
-url = "https://github.com/helix-editor/helix/releases/download/${version}/helix-${version}-${architecture}-${os}.tar.xz"
-rootPath = "helix-${version}-${architecture}-${os}"
+url = "https://github.com/helix-editor/helix/releases/download/${version.main}/helix-${version.main}-${architecture}-${os}.tar.xz"
+rootPath = "helix-${version.main}-${architecture}-${os}"
 compression = ".tar.xz"
 filesToMakeExecutable = ["hx"]
-version = "25.01.1"
+version.main = "25.01.1"
 [helix.checksums]
-"x86_64-linux-25.01.1" = "TODO"
+# "x86_64-linux-25.01.1" = "TODO"
 
 [ghostty]
 # TODO
 
+[act]
+url = "https://github.com/nektos/act/releases/download/v${version.main}/act_${os}_${architecture}.tar.gz"
+compression = ".tar.gz"
+filesToMakeExecutable = ["act"]
+version.main = "0.2.79"
+[act.checksums]
+# "x86_64-linux-0.2.79" = "TODO"
+
 [nushell]
-url = "https://github.com/nushell/nushell/releases/download/0.105.1/nu-${version}-${architecture}-unknown-${os}-gnu.tar.gz"
-rootPath = "nu-${version}-${architecture}-unknown-${os}-gnu"
+url = "https://github.com/nushell/nushell/releases/download/0.105.1/nu-${version.main}-${architecture}-unknown-${os}-gnu.tar.gz"
+rootPath = "nu-${version.main}-${architecture}-unknown-${os}-gnu"
 compression = ".tar.gz"
 filesToMakeExecutable = ["nu"]
-version = "0.105.1"
+version.main = "0.105.1"
 [nushell.checksums]
-"x86_64-linux-0.105.1" = "TODO"
+#"x86_64-linux-0.105.1" = 0x6501bc346e2ad6eecae3bcf7eee78ac21b1a03bdc4fda879a4d24793c1f08db7
+
+[MuseScore]
+url = "https://cdn.jsdelivr.net/musescore/v${version.main}/MuseScore-Studio-${version.main}.${version.other}-${architecture}.AppImage"
+compression = "none"
+filesToMakeExecutable = ["."]
+version.main = "4.5.2"
+version.other = "251141401"
+[MuseScore.checksums]
+#"x86_64-linux-4.5.2-251141401" = "TODO"
+
+[zig]
+url = "https://ziglang.org/download/${version.main}/zig-${architecture}-${os}-${version.main}.tar.xz"
+rootPath = "zig-${architecture}-${os}-${version.main}"
+compression = ".tar.xz"
+filesToMakeExecutable = ["zig"]
+version.main = "0.14.1"
+[zig.checksums]
+#"x86_64-linux-0.14.1" = "TODO"
+
+[zls]
+url = "https://github.com/zigtools/zls/releases/download/${version.main}/zls-${architecture}-${os}.tar.xz"
+compression = ".tar.xz"
+filesToMakeExecutable = ["zls"]
+version.main = "0.14.0"
+[zls.checksums]
+#"x86_64-linux-0.14.0" = "TODO"
