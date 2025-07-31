@@ -1,0 +1,5 @@
+source = "xz"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libc.so.6",
+]

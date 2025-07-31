@@ -1,0 +1,5 @@
+homepage = "https://www.mesa3d.org/"
+url = "https://archive.archlinux.org/packages/m/mesa/mesa-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1:25.1.7-1"
+architectureNames.amd64 = "x86_64"

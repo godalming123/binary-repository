@@ -1,0 +1,9 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libxcb"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libxcb.so.1",
+#   "libc.so.6",
+# ]

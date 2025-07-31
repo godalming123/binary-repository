@@ -1,0 +1,6 @@
+source = "orc"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libm.so.6",
+  "libc.so.6",
+]

@@ -1,1 +1,1 @@
-../sources/MuseScore
+#!/usr/bin/env -S bento exec MuseScore .

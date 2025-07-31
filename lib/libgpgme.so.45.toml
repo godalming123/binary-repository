@@ -1,0 +1,8 @@
+source = "gpgme"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libassuan.so.9",
+  "libgpg-error.so.0",
+  "libc.so.6",
+  "ld-linux-x86-64.so.2",
+]

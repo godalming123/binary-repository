@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec neovim bin/nvim

@@ -1,0 +1,5 @@
+homepage = "https://sites.google.com/site/fullycapable/"
+url = "https://archive.archlinux.org/packages/l/libcap/libcap-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.76-1"
+architectureNames.amd64 = "x86_64"

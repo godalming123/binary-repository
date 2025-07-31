@@ -1,0 +1,7 @@
+homepage = "https://www.gtk.org/"
+url = "https://archive.archlinux.org/packages/g/gtk4/gtk4-1:${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "4.19.2-1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-4.19.2-1" = "TODO"

@@ -1,0 +1,5 @@
+homepage = "http://www.libpng.org/pub/png/libpng.html"
+url = "https://archive.archlinux.org/packages/l/libpng/libpng-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.6.50-1"
+architectureNames.amd64 = "x86_64"

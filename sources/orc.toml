@@ -1,0 +1,5 @@
+homepage = "https://gstreamer.freedesktop.org/modules/orc.html"
+url = "https://archive.archlinux.org/packages/o/orc/orc-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "0.4.41-1"
+architectureNames.amd64 = "x86_64"

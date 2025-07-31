@@ -1,0 +1,7 @@
+source = "avahi"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libdbus-1.so.3",
+  "libavahi-common.so.3",
+  "libc.so.6",
+]

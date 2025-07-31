@@ -1,1 +1,1 @@
-../sources/nushell/nu
+#!/usr/bin/env -S bento exec nushell nu

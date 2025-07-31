@@ -1,0 +1,6 @@
+homepage = "https://github.com/89luca89/lilipod"
+# TODO: Specify that lilipod only supports amd64
+url = "https://github.com/89luca89/lilipod/releases/download/v${version.main}/lilipod-linux-${architecture}"
+compression = "none"
+version.main = "0.0.3"
+filesToMakeExecutable = ["."]

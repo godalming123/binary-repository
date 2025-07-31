@@ -1,0 +1,11 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libxrandr"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libXext.so.6",
+#   "libXrender.so.1",
+#   "libX11.so.6",
+#   "libc.so.6",
+# ]

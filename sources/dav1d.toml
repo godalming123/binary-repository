@@ -1,0 +1,5 @@
+homepage = "https://code.videolan.org/videolan/dav1d"
+url = "https://archive.archlinux.org/packages/d/dav1d/dav1d-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.5.1-1"
+architectureNames.amd64 = "x86_64"

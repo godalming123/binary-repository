@@ -1,0 +1,5 @@
+source = "unibilium"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libc.so.6",
+]

@@ -1,1 +1,1 @@
-../sources/act/act
+#!/usr/bin/env -S bento exec act act

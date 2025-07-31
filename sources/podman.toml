@@ -1,0 +1,29 @@
+# TODO: There is no podman binary in `../bin` because it does not work. This is
+# becuase podman has no option to load default configuration files
+# (https://docs.podman.io/en/stable/markdown/podman.1.html#configuration-files)
+# from a directory other then `/usr/share/containers` while still allowing the
+# user to override some of the configuration files with files in
+# `$HOME/.config/containers`. Apparantly config parsing will be consolidated in
+# podman 6, so hopefully this option can be added then.
+
+homepage = "https://podman.io/"
+url = "https://archive.archlinux.org/packages/p/podman/podman-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "5.5.2-1"
+architectureNames.amd64 = "x86_64"
+
+[directlyDependentSharedLibraries]
+"usr/bin/podman" = [
+  "libsubid.so.5",
+  "libgpgme.so.45",
+  "libseccomp.so.2",
+  "libgcc_s.so.1",
+  "libc.so.6",
+]
+
+[env]
+# This is the kind of option that podman needs for it to work with bento
+"usr/bin/podman" = {"CONTAINERS_CONF_SYS_PATH"="${containers-common}/etc/containers"}
+
+[checksums]
+#"x86_64-5.5.2-1" = "TODO"

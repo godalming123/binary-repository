@@ -1,0 +1,5 @@
+homepage = "https://www.inf.puc-rio.br/~roberto/lpeg/"
+url = "https://archive.archlinux.org/packages/l/lua51-lpeg/lua51-lpeg-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.1.0-3"
+architectureNames.amd64 = "x86_64"

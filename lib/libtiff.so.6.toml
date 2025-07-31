@@ -1,0 +1,11 @@
+source = "libtiff"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libzstd.so.1",
+  "liblzma.so.5",
+  "libjbig.so.2.1",
+  "libjpeg.so.8",
+  "libz.so.1",
+  "libm.so.6",
+  "libc.so.6",
+]

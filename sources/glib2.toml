@@ -1,0 +1,7 @@
+homepage = "https://gitlab.gnome.org/GNOME/glib"
+url = "https://archive.archlinux.org/packages/g/glib2/glib2-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.84.3-1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-2.84.3-1" = "TODO"

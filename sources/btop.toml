@@ -1,0 +1,8 @@
+homepage = "https://github.com/aristocratos/btop"
+url = "https://github.com/aristocratos/btop/releases/download/v${version.main}/btop-${architecture}-linux-musl.tbz"
+compression = ".tbz"
+version.main = "1.4.4"
+architectureNames.amd64 = "x86_64"
+rootPath = "btop"
+[checksums]
+#"x86_64-linux-1.4.4" = "TODO"

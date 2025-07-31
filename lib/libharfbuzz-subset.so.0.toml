@@ -1,0 +1,7 @@
+source = "harfbuzz"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libharfbuzz.so.0",
+  "libm.so.6",
+  "libc.so.6",
+]

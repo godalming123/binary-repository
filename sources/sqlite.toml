@@ -1,0 +1,5 @@
+homepage = "https://www.sqlite.org/"
+url = "https://archive.archlinux.org/packages/s/sqlite/sqlite-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "3.50.3-1"
+architectureNames.amd64 = "x86_64"

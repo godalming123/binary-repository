@@ -1,0 +1,5 @@
+homepage = "https://www.gnu.org/software/libunistring/"
+url = "https://archive.archlinux.org/packages/l/libunistring/libunistring-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.3-1"
+architectureNames.amd64 = "x86_64"

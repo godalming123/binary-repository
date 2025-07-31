@@ -1,0 +1,5 @@
+homepage = "https://gnome.pages.gitlab.gnome.org/json-glib/"
+url = "https://archive.archlinux.org/packages/j/json-glib/json-glib-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.10.6-1"
+architectureNames.amd64 = "x86_64"

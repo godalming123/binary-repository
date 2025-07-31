@@ -1,0 +1,5 @@
+homepage = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
+url = "https://archive.archlinux.org/packages/l/libxml2/libxml2-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.14.5-1"
+architectureNames.amd64 = "x86_64"

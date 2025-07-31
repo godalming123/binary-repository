@@ -1,0 +1,8 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libdrm"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libc.so.6",
+# ]

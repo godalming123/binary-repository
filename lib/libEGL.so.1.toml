@@ -1,0 +1,9 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libglvnd"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libGLdispatch.so.0",
+#   "libc.so.6",
+# ]

@@ -1,0 +1,7 @@
+homepage = "https://gitlab.gnome.org/GNOME/libadwaita/"
+url = "https://archive.archlinux.org/packages/l/libadwaita/libadwaita-1:${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.7.5-1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-1.7.5-1" = "TODO"

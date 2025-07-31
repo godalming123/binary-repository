@@ -1,0 +1,9 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "shadow"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libaudit.so.1",
+#   "libc.so.6",
+# ]

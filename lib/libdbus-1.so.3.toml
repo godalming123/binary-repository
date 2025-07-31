@@ -1,0 +1,9 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "dbus"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libsystemd.so.0",
+#   "libc.so.6",
+# ]

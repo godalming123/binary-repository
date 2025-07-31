@@ -1,0 +1,5 @@
+homepage = "https://leancrypto.org"
+url = "https://archive.archlinux.org/packages/l/leancrypto/leancrypto-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.5.1-1"
+architectureNames.amd64 = "x86_64"

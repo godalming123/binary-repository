@@ -1,0 +1,5 @@
+homepage = "https://www.cl.cam.ac.uk/~mgk25/jbigkit/"
+url = "https://archive.archlinux.org/packages/j/jbigkit/jbigkit-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.1-8"
+architectureNames.amd64 = "x86_64"

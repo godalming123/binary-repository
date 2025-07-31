@@ -1,0 +1,5 @@
+homepage = "https://dri.freedesktop.org/"
+url = "https://archive.archlinux.org/packages/l/libdrm/libdrm-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.4.125-1"
+architectureNames.amd64 = "x86_64"

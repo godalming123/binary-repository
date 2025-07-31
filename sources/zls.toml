@@ -1,0 +1,8 @@
+homepage = "https://github.com/zigtools/zls"
+url = "https://github.com/zigtools/zls/releases/download/${version.main}/zls-${architecture}-linux.tar.xz"
+compression = ".tar.xz"
+filesToMakeExecutable = ["zls"]
+version.main = "0.14.0"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-0.14.0" = "TODO"

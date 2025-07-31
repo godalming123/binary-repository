@@ -1,0 +1,3 @@
+source = "icu"
+directory = "usr/lib"
+directlyDependentSharedLibraries = []

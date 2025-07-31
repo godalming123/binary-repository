@@ -1,1 +1,1 @@
-../sources/zls/zls
+#!/usr/bin/env -S bento exec zls zls

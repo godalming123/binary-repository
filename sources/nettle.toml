@@ -1,0 +1,5 @@
+homepage = "https://www.lysator.liu.se/~nisse/nettle"
+url = "https://archive.archlinux.org/packages/n/nettle/nettle-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "3.10.2-1"
+architectureNames.amd64 = "x86_64"

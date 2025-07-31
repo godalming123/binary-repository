@@ -1,1 +1,1 @@
-../sources/gh-cli/gh
+#!/usr/bin/env -S bento exec gh-cli gh

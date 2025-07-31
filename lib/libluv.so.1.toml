@@ -1,0 +1,3 @@
+source = "libuv"
+directory = "usr/lib"
+directlyDependentSharedLibraries = []

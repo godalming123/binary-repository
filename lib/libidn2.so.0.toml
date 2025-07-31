@@ -1,0 +1,6 @@
+source = "libidn2"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libunistring.so.5",
+  "libc.so.6",
+]

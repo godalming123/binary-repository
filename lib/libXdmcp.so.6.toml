@@ -1,0 +1,3 @@
+source = "libxdmcp"
+directory = "usr/lib"
+directlyDependentSharedLibraries = ["libc.so.6"]

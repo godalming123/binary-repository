@@ -1,0 +1,9 @@
+source = "libxml2"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libm.so.6",
+  "libz.so.1",
+  "liblzma.so.5",
+  "libicuuc.so.76",
+  "libc.so.6",
+]

@@ -1,0 +1,3 @@
+source = "libseccomp"
+directory = "usr/lib"
+directlyDependentSharedLibraries = ["libc.so.6"]

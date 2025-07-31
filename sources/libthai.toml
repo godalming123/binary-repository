@@ -1,0 +1,5 @@
+homepage = "https://linux.thai.net/projects/libthai"
+url = "https://archive.archlinux.org/packages/l/libthai/libthai-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "0.1.29-3"
+architectureNames.amd64 = "x86_64"

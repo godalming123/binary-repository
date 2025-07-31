@@ -1,0 +1,5 @@
+homepage = "https://github.com/neovim/unibilium"
+url = "https://archive.archlinux.org/packages/u/unibilium/unibilium-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.1.2-1"
+architectureNames.amd64 = "x86_64"

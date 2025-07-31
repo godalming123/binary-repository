@@ -1,0 +1,5 @@
+homepage = "https://gitlab.freedesktop.org/xorg/lib/libxcursor"
+url = "https://archive.archlinux.org/packages/l/libxcursor/libxcursor-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.2.3-1"
+architectureNames.amd64 = "x86_64"

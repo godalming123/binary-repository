@@ -1,0 +1,11 @@
+source = "gst-plugins-bad-libs"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libgstreamer-1.0.so.0",
+  "libgstvideo-1.0.so.0",
+  "libgsttag-1.0.so.0",
+  "libgstpbutils-1.0.so.0",
+  "libglib-2.0.so.0",
+  "libgobject-2.0.so.0",
+  "libc.so.6",
+]

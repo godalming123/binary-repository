@@ -1,0 +1,8 @@
+homepage = "https://cli.github.com/"
+url = "https://github.com/cli/cli/releases/download/v${version.main}/gh_${version.main}_linux_${architecture}.tar.gz"
+rootPath = "gh_${version.main}_linux_${architecture}/bin"
+compression = ".tar.gz"
+filesToMakeExecutable = ["gh"]
+version.main = "2.75.0"
+[checksums]
+# "amd64-linux-2.75.0" = "TODO"

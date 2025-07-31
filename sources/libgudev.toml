@@ -1,0 +1,5 @@
+homepage = "https://gitlab.gnome.org/GNOME/libgudev"
+url = "https://archive.archlinux.org/packages/l/libgudev/libgudev-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "238-3"
+architectureNames.amd64 = "x86_64"

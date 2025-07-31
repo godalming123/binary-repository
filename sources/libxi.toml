@@ -1,0 +1,5 @@
+homepage = "https://xorg.freedesktop.org"
+url = "https://archive.archlinux.org/packages/l/libxi/libxi-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.8.2-1"
+architectureNames.amd64 = "x86_64"

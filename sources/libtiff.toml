@@ -1,0 +1,5 @@
+homepage = "http://www.simplesystems.org/libtiff/"
+url = "https://archive.archlinux.org/packages/l/libtiff/libtiff-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "4.7.0-1"
+architectureNames.amd64 = "x86_64"

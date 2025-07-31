@@ -1,0 +1,5 @@
+homepage = "https://luajit.org/"
+url = "https://archive.archlinux.org/packages/l/luajit/luajit-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.1.1753364724-1"
+architectureNames.amd64 = "x86_64"

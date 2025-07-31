@@ -1,0 +1,5 @@
+homepage = "https://www.gnu.org/software/libc"
+url = "https://archive.archlinux.org/packages/g/glibc/glibc-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.41+r65+ge7c419a29575-1"
+architectureNames.amd64 = "x86_64"

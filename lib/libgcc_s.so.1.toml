@@ -1,0 +1,2 @@
+source = "gcc-libs"
+directory = "usr/lib"

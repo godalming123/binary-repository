@@ -1,0 +1,13 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libcups"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libavahi-common.so.3",
+#   "libavahi-client.so.3",
+#   "libgnutls.so.30",
+#   "libz.so.1",
+#   "libm.so.6",
+#   "libc.so.6",
+# ]

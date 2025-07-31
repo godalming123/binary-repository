@@ -1,0 +1,5 @@
+homepage = "https://ebassi.github.io/graphene/"
+url = "https://archive.archlinux.org/packages/g/graphene/graphene-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.10.8-2"
+architectureNames.amd64 = "x86_64"

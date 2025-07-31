@@ -1,0 +1,7 @@
+source = "libp11-kit"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libffi.so.8",
+  "libc.so.6",
+  "ld-linux-x86-64.so.2",
+]

@@ -1,0 +1,5 @@
+homepage = "https://sourceware.org/elfutils/"
+url = "https://archive.archlinux.org/packages/l/libelf/libelf-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "0.193-2"
+architectureNames.amd64 = "x86_64"

@@ -1,0 +1,5 @@
+homepage = "https://gitlab.freedesktop.org/pixman/pixman"
+url = "https://archive.archlinux.org/packages/p/pixman/pixman-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "0.46.4-1"
+architectureNames.amd64 = "x86_64"

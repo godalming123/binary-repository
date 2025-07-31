@@ -1,0 +1,6 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libx11"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = []

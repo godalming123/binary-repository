@@ -1,0 +1,5 @@
+homepage = "https://github.com/avahi/avahi"
+url = "https://archive.archlinux.org/packages/a/avahi/avahi-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1:0.8+r194+g3f79789-3"
+architectureNames.amd64 = "x86_64"

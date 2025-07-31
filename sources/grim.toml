@@ -1,0 +1,15 @@
+homepage = "https://gitlab.freedesktop.org/emersion/grim"
+url = "https://archive.archlinux.org/packages/g/grim/grim-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.5.0-1"
+architectureNames.amd64 = "x86_64"
+
+[directlyDependentSharedLibraries]
+"usr/bin/grim" = [
+  "libm.so.6",
+  "libpixman-1.so.0",
+  "libpng16.so.16",
+  "libwayland-client.so.0",
+  "libjpeg.so.8",
+  "libc.so.6",
+]

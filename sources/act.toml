@@ -1,0 +1,8 @@
+homepage = "https://nektosact.com/"
+url = "https://github.com/nektos/act/releases/download/v${version.main}/act_linux_${architecture}.tar.gz"
+compression = ".tar.gz"
+filesToMakeExecutable = ["act"]
+version.main = "0.2.79"
+architectureNames.amd64 = "x86_64"
+[checksums]
+# "x86_64-linux-0.2.79" = "TODO"

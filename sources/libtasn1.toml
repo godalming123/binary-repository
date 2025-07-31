@@ -1,0 +1,5 @@
+homepage = "https://www.gnu.org/software/libtasn1/"
+url = "https://archive.archlinux.org/packages/l/libtasn1/libtasn1-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "4.20.0-1"
+architectureNames.amd64 = "x86_64"

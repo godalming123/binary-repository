@@ -1,0 +1,9 @@
+homepage = "https://ziglang.org/"
+url = "https://ziglang.org/download/${version.main}/zig-${architecture}-linux-${version.main}.tar.xz"
+rootPath = "zig-${architecture}-linux-${version.main}"
+compression = ".tar.xz"
+filesToMakeExecutable = ["zig"]
+version.main = "0.14.1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-0.14.1" = "TODO"

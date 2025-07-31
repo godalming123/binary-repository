@@ -1,0 +1,10 @@
+homepage = "https://www.nushell.sh/"
+url = "https://github.com/nushell/nushell/releases/download/${version.main}/nu-${version.main}-${architecture}-unknown-linux-gnu.tar.gz"
+rootPath = "nu-${version.main}-${architecture}-unknown-linux-gnu"
+compression = ".tar.gz"
+filesToMakeExecutable = ["nu"]
+version.main = "0.106.1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+#"x86_64-0.105.1" = 0x6501bc346e2ad6eecae3bcf7eee78ac21b1a03bdc4fda879a4d24793c1f08db7

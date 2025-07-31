@@ -1,0 +1,5 @@
+homepage = "https://gcc.gnu.org/"
+url = "https://archive.archlinux.org/packages/g/gcc-libs/gcc-libs-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "15.1.1+r7+gf36ec88aa85a-1"
+architectureNames.amd64 = "x86_64"

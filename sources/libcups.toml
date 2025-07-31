@@ -1,0 +1,5 @@
+homepage = "https://openprinting.github.io/cups/"
+url = "https://archive.archlinux.org/packages/l/libcups/libcups-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2:2.4.12-2"
+architectureNames.amd64 = "x86_64"

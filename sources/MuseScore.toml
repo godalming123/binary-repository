@@ -1,0 +1,9 @@
+homepage = "https://musescore.org/"
+url = "https://cdn.jsdelivr.net/musescore/v${version.main}/MuseScore-Studio-${version.main}.${version.other}-${architecture}.AppImage"
+compression = "none"
+filesToMakeExecutable = ["."]
+version.main = "4.5.2"
+version.other = "251141401"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-4.5.2-251141401" = "TODO"

@@ -1,0 +1,9 @@
+homepage = "https://helix-editor.com/"
+url = "https://github.com/helix-editor/helix/releases/download/${version.main}/helix-${version.main}-${architecture}-linux.tar.xz"
+rootPath = "helix-${version.main}-${architecture}-linux"
+compression = ".tar.xz"
+filesToMakeExecutable = ["hx"]
+version.main = "25.07.1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+# "x86_64-linux-25.01.1" = "TODO"

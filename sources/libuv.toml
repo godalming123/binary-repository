@@ -1,0 +1,5 @@
+homepage = "https://github.com/libuv/libuv"
+url = "https://archive.archlinux.org/packages/l/libuv/libuv-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.51.0-1"
+architectureNames.amd64 = "x86_64"

@@ -1,0 +1,13 @@
+source = "gdk-pixbuf2"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libm.so.6",
+  "libglib-2.0.so.0",
+  "libgobject-2.0.so.0",
+  "libgmodule-2.0.so.0",
+  "libgio-2.0.so.0",
+  "libpng16.so.16",
+  "libjpeg.so.8",
+  "libtiff.so.6",
+  "libc.so.6",
+]

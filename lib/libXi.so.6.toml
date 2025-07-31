@@ -1,0 +1,10 @@
+source = "system"
+directory = "/usr/lib64"
+
+# source = "libxi"
+# directory = "usr/lib"
+# directlyDependentSharedLibraries = [
+#   "libX11.so.6",
+#   "libXext.so.6",
+#   "libc.so.6",
+# ]

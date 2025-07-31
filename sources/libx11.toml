@@ -1,0 +1,7 @@
+homepage = "https://gitlab.freedesktop.org/xorg/lib/libx11"
+url = "https://archive.archlinux.org/packages/l/libx11/libx11-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.8.12-1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-1.8.12-1" = "TODO"

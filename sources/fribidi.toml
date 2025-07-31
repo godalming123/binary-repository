@@ -1,0 +1,5 @@
+homepage = "https://github.com/fribidi/fribidi"
+url = "https://archive.archlinux.org/packages/f/fribidi/fribidi-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.0.16-2"
+architectureNames.amd64 = "x86_64"

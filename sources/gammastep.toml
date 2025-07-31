@@ -1,0 +1,5 @@
+homepage = "https://gitlab.com/chinstrap/gammastep"
+url = "https://archive.archlinux.org/packages/g/gammastep/gammastep-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "2.0.11-1"
+architectureNames.amd64 = "x86_64"

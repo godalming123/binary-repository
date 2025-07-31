@@ -1,0 +1,7 @@
+homepage = "https://github.com/wmww/gtk4-layer-shell"
+url = "https://archive.archlinux.org/packages/g/gtk4-layer-shell/gtk4-layer-shell-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.0.3-1"
+architectureNames.amd64 = "x86_64"
+[checksums]
+#"x86_64-linux-1.0.3-1" = "TODO"

@@ -1,0 +1,2 @@
+source = "libjpeg-turbo"
+directory = "usr/lib"

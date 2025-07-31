@@ -1,0 +1,8 @@
+source = "graphene"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libm.so.6",
+  "libgobject-2.0.so.0",
+  "libglib-2.0.so.0",
+  "libc.so.6",
+]

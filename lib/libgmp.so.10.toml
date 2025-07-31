@@ -1,0 +1,5 @@
+source = "gmp"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libc.so.6",
+]

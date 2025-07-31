@@ -1,0 +1,14 @@
+source = "gnutls"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libleancrypto.so.1",
+  "libp11-kit.so.0",
+  "libidn2.so.0",
+  "libunistring.so.5",
+  "libtasn1.so.6",
+  "libhogweed.so.6",
+  "libnettle.so.8",
+  "libgmp.so.10",
+  "libc.so.6",
+  "ld-linux-x86-64.so.2",
+]

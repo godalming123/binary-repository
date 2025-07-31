@@ -1,0 +1,5 @@
+homepage = "https://sourceware.org/libffi/"
+url = "https://archive.archlinux.org/packages/l/libffi/libffi-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "3.5.1-1"
+architectureNames.amd64 = "x86_64"

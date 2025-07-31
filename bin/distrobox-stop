@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec distrobox usr/bin/distrobox-stop
