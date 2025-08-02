@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libxdamage/libxdamage-${version.
 compression = ".tar.zst"
 version.main = "1.1.6-2"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libxdamage/libxdamage-1.1.6-2-x86_64.pkg.tar.zst" = "9832fffabc38afb4901d0329a04d2097bc47d4e79cd7b84ab5087b83b637324c"

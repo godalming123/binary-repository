@@ -4,3 +4,6 @@ url = "https://github.com/89luca89/lilipod/releases/download/v${version.main}/li
 compression = "none"
 version.main = "0.0.3"
 filesToMakeExecutable = ["."]
+
+[checksums]
+"https://github.com/89luca89/lilipod/releases/download/v0.0.3/lilipod-linux-x86_64" = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"

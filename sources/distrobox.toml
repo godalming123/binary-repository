@@ -2,5 +2,6 @@ homepage = "https://distrobox.it/"
 url = "https://archive.archlinux.org/packages/d/distrobox/distrobox-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
 version.main = "1.8.1.2-1"
+
 [checksums]
-#"x86_64-1.8.1.2-1" = "TODO"
+"https://archive.archlinux.org/packages/d/distrobox/distrobox-1.8.1.2-1-any.pkg.tar.zst" = "6ef704090c6eb6dcff7299941877d9124a1c698d81e410f43f75f75684efd24a"

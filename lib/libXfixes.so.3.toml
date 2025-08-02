@@ -1,5 +1,4 @@
 source = "system"
-directory = "/usr/lib64"
 
 # source = "libxfixes"
 # directory = "usr/lib"

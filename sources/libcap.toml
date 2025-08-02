@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libcap/libcap-${version.main}-${
 compression = ".tar.zst"
 version.main = "2.76-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libcap/libcap-2.76-1-x86_64.pkg.tar.zst" = "2b8e51caff26ef7d70aea69b0c079eda5f942010c7f7db88b064228c845a7cbb"

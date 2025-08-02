@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libthai/libthai-${version.main}-
 compression = ".tar.zst"
 version.main = "0.1.29-3"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libthai/libthai-0.1.29-3-x86_64.pkg.tar.zst" = "40729f2231d3b1829663e451b61edd5163fcadf578e600bb386568a207427058"

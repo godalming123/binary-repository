@@ -4,5 +4,6 @@ compression = ".tar.gz"
 filesToMakeExecutable = ["act"]
 version.main = "0.2.79"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-# "x86_64-linux-0.2.79" = "TODO"
+"https://github.com/nektos/act/releases/download/v0.2.79/act_linux_x86_64.tar.gz" = "b4c14df1a6e713a63e8e153534091a2e0d93a73538da301bd3aaa3c1f2a6f571"

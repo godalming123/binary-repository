@@ -4,5 +4,6 @@ compression = ".tar.xz"
 filesToMakeExecutable = ["zls"]
 version.main = "0.14.0"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-linux-0.14.0" = "TODO"
+"https://github.com/zigtools/zls/releases/download/0.14.0/zls-x86_64-linux.tar.xz" = "661f8d402ba3dc9b04b6e9bc3026495be7b838d2f18d148db2bd98bd699c1360"

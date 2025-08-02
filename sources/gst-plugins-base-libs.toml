@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/g/gst-plugins-base-libs/gst-plugin
 compression = ".tar.zst"
 version.main = "1.26.4-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/g/gst-plugins-base-libs/gst-plugins-base-libs-1.26.4-1-x86_64.pkg.tar.zst" = "ddc02326aa5195b9280eec5137726e2d81ea263a6ae6c1a85fbcaf0d12497a45"

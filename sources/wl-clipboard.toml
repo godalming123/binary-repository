@@ -7,3 +7,6 @@ architectureNames.amd64 = "x86_64"
 [directlyDependentSharedLibraries]
 "usr/bin/wl-copy" = ["libwayland-client.so.0", "libc.so.6"]
 "usr/bin/wl-paste" = ["libwayland-client.so.0", "libc.so.6"]
+
+[checksums]
+"https://archive.archlinux.org/packages/w/wl-clipboard/wl-clipboard-1:2.2.1-3-x86_64.pkg.tar.zst" = "6c3168e2e489d1ee99c7d9dc5bb54ab3414234aecff31d8d0f5094b10b127284"

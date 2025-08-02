@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/leancrypto/leancrypto-${version.
 compression = ".tar.zst"
 version.main = "1.5.1-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/leancrypto/leancrypto-1.5.1-1-x86_64.pkg.tar.zst" = "30f2f0d7e95615761cb4d15c8c66d292702ddcb0c81f1947ccad5603c545dde1"

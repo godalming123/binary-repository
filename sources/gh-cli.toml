@@ -4,5 +4,6 @@ rootPath = "gh_${version.main}_linux_${architecture}/bin"
 compression = ".tar.gz"
 filesToMakeExecutable = ["gh"]
 version.main = "2.75.0"
+
 [checksums]
-# "amd64-linux-2.75.0" = "TODO"
+"https://github.com/cli/cli/releases/download/v2.75.0/gh_2.75.0_linux_x86_64.tar.gz" = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"

@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/g/gdk-pixbuf2/gdk-pixbuf2-${versio
 compression = ".tar.zst"
 version.main = "2.42.12-2"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/g/gdk-pixbuf2/gdk-pixbuf2-2.42.12-2-x86_64.pkg.tar.zst" = "63de2d2a476cd8985bf4962f5693fb46d59288828f2b461c289af4e3b2546138"

@@ -5,5 +5,6 @@ filesToMakeExecutable = ["."]
 version.main = "4.5.2"
 version.other = "251141401"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-linux-4.5.2-251141401" = "TODO"
+"https://cdn.jsdelivr.net/musescore/v4.5.2/MuseScore-Studio-4.5.2.251141401-x86_64.AppImage" = "d010b6464c78b4da23077eb4f096f949ae68bac4c809a8b008a0cfbf48e260a5"

@@ -5,5 +5,6 @@ compression = ".tar.xz"
 filesToMakeExecutable = ["zig"]
 version.main = "0.14.1"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-linux-0.14.1" = "TODO"
+"https://ziglang.org/download/0.14.1/zig-x86_64-linux-0.14.1.tar.xz" = "24aeeec8af16c381934a6cd7d95c807a8cb2cf7df9fa40d359aa884195c4716c"

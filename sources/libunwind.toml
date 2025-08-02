@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libunwind/libunwind-${version.ma
 compression = ".tar.zst"
 version.main = "1.8.2-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libunwind/libunwind-1.8.2-1-x86_64.pkg.tar.zst" = "74ba64398637c2dad73f0ed09cee63a83a0f9a67f1484e6fea5a6223ff165d55"

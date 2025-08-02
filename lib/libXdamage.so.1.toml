@@ -1,5 +1,4 @@
 source = "system"
-directory = "/usr/lib64"
 
 # source = "libxdamage"
 # directory = "usr/lib"

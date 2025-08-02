@@ -1,5 +1,4 @@
 source = "system"
-directory = "/usr/lib64"
 
 # source = "wayland"
 # directory = "usr/lib"

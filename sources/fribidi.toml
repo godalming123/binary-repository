@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/f/fribidi/fribidi-${version.main}-
 compression = ".tar.zst"
 version.main = "1.0.16-2"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/f/fribidi/fribidi-1.0.16-2-x86_64.pkg.tar.zst" = "7146e87f3f68db302ca0e8d507e80f1f9881a05bb00e54bc762c507883c05803"

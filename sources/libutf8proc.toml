@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libutf8proc/libutf8proc-${versio
 compression = ".tar.zst"
 version.main = "2.10.0-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libutf8proc/libutf8proc-2.10.0-1-x86_64.pkg.tar.zst" = "b7b149c8ab9cc3ac3c4e1418dea1c41d554cb94c4a18ef03970f872ea49a3a9d"

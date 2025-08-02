@@ -3,5 +3,6 @@ url = "https://archive.archlinux.org/packages/o/oniguruma/oniguruma-${version.ma
 compression = ".tar.zst"
 version.main = "6.9.10-1"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-6.9.10-1" = "TODO"
+"https://archive.archlinux.org/packages/o/oniguruma/oniguruma-6.9.10-1-x86_64.pkg.tar.zst" = "25b7266753b04ed80dd771b7499d2750ad859a90fa87b37b891687891c108efe"

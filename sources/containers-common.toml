@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/c/containers-common/containers-com
 compression = ".tar.zst"
 version.main = "1:0.63.1-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/c/containers-common/containers-common-1:0.63.1-1-any.pkg.tar.zst" = "54fd28028b00feb084718f9fafc44dcae13c84ffb07d95a4dc58a3e6899a2cd5"

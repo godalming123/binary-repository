@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libuv/libuv-${version.main}-${ar
 compression = ".tar.zst"
 version.main = "1.51.0-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libuv/libuv-1.51.0-1-x86_64.pkg.tar.zst" = "4a4e992621b881a221becb6b9669bb4092ffebec8d87bd90f235866356cc5c35"

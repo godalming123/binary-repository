@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libxfixes/libxfixes-${version.ma
 compression = ".tar.zst"
 version.main = "6.0.1-2"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libxfixes/libxfixes-6.0.1-2-x86_64.pkg.tar.zst" = "59ee4926edc79a6e7feb0f79d80e1a1a74108cd1e47328a28521fab23a2ecb83"

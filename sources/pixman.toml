@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/p/pixman/pixman-${version.main}-${
 compression = ".tar.zst"
 version.main = "0.46.4-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/p/pixman/pixman-0.46.4-1-x86_64.pkg.tar.zst" = "e87e665d25a2230a178d8490202e1d677fde5908f68ebedf7d987308fc26fcb6"

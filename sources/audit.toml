@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/a/audit/audit-${version.main}-${ar
 compression = ".tar.zst"
 version.main = "4.0.5-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/a/audit/audit-4.0.5-1-x86_64.pkg.tar.zst" = "09d03362067b441b343df86d41025cd4be8ce2f10347e610fc8db2c389822ebc"

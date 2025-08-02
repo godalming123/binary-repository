@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libxcb/libxcb-${version.main}-${
 compression = ".tar.zst"
 version.main = "1.17.0-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libxcb/libxcb-1.17.0-1-x86_64.pkg.tar.zst" = "2b2e7ac64b1d56c08a227c10bcab179605f2773f31db0a8c89f49f4e5b2f1292"

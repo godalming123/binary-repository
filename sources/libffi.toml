@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libffi/libffi-${version.main}-${
 compression = ".tar.zst"
 version.main = "3.5.1-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libffi/libffi-3.5.1-1-x86_64.pkg.tar.zst" = "2a5df57eb1ec875b8fd825baf5eb70db2d487d7652532415b4bba38037afbb1e"

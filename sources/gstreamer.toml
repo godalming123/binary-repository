@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/g/gstreamer/gstreamer-${version.ma
 compression = ".tar.zst"
 version.main = "1.26.4-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/g/gstreamer/gstreamer-1.26.4-1-x86_64.pkg.tar.zst" = "0733d826d603605b2be1ea604580b0bec984586dce97a2f8d34a682eda19a28c"

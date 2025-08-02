@@ -26,4 +26,4 @@ architectureNames.amd64 = "x86_64"
 "usr/bin/podman" = {"CONTAINERS_CONF_SYS_PATH"="${containers-common}/etc/containers"}
 
 [checksums]
-#"x86_64-5.5.2-1" = "TODO"
+"https://archive.archlinux.org/packages/p/podman/podman-5.5.2-1-x86_64.pkg.tar.zst" = "04b6fe029d0893223241b052e018ae295cd85ccd0b68c6f72628c74905bc09aa"

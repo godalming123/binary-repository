@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libelf/libelf-${version.main}-${
 compression = ".tar.zst"
 version.main = "0.193-2"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libelf/libelf-0.193-2-x86_64.pkg.tar.zst" = "4de9844fda6589d6ad1c9414dd9cc3ebb6f7f928fc2fb81a309a2a2ce66b1416"

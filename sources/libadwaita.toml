@@ -3,5 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libadwaita/libadwaita-1:${versio
 compression = ".tar.zst"
 version.main = "1.7.5-1"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-linux-1.7.5-1" = "TODO"
+"https://archive.archlinux.org/packages/l/libadwaita/libadwaita-1:1.7.5-1-x86_64.pkg.tar.zst" = "cdb980594428c4bf8d46d25538cae9b4b783228e3ab505c12bd40f793b81e33a"

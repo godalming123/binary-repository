@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libxkbcommon/libxkbcommon-${vers
 compression = ".tar.zst"
 version.main = "1.10.0-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libxkbcommon/libxkbcommon-1.10.0-1-x86_64.pkg.tar.zst" = "fd6d107fa8068a9bc07a78fb30fff618c25fd6c14a9aad10034d20fb1f23af21"

@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/n/nettle/nettle-${version.main}-${
 compression = ".tar.zst"
 version.main = "3.10.2-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/n/nettle/nettle-3.10.2-1-x86_64.pkg.tar.zst" = "fa1a132d0d9cd8c58d90605e2b64b63503e89f398912a653ed05abd0f2dd0a3e"

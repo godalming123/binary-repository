@@ -12,3 +12,6 @@ architectureNames.amd64 = "x86_64"
   "libc.so.6",
   "ld-linux-x86-64.so.2",
 ]
+
+[checksums]
+"https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.tar.gz" = "02b808a3ee8fc30161e07fe3c3edfb24b28bd0295323ac5dbdd8ec7012cac67d"

@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/m/mesa/mesa-${version.main}-${arch
 compression = ".tar.zst"
 version.main = "1:25.1.7-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/m/mesa/mesa-1:25.1.7-1-x86_64.pkg.tar.zst" = "e5552c5364978668aba6b822c1238b2d6b9d4044ff14df3921e787690370594e"

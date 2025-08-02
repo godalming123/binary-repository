@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/e/expat/expat-${version.main}-${ar
 compression = ".tar.zst"
 version.main = "2.7.1-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/e/expat/expat-2.7.1-1-x86_64.pkg.tar.zst" = "1868255dd1d5a673436887070b4739512529a54af3407ed7d1d0059dadd48d58"

@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libgudev/libgudev-${version.main
 compression = ".tar.zst"
 version.main = "238-3"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libgudev/libgudev-238-3-x86_64.pkg.tar.zst" = "2eb60ecec6a7c1c2b18ae9c259afeb45ad18abb4cdfa486ff38f333557ed520f"

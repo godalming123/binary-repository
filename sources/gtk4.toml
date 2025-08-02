@@ -3,5 +3,6 @@ url = "https://archive.archlinux.org/packages/g/gtk4/gtk4-1:${version.main}-${ar
 compression = ".tar.zst"
 version.main = "4.19.2-1"
 architectureNames.amd64 = "x86_64"
+
 [checksums]
-#"x86_64-linux-4.19.2-1" = "TODO"
+"https://archive.archlinux.org/packages/g/gtk4/gtk4-1:4.19.2-1-x86_64.pkg.tar.zst" = "9fbb06d0b6cf3bb2e6be67f602e3ab690f3a0e2bb77403e5f5d7c2469fba0868"

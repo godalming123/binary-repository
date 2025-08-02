@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libtiff/libtiff-${version.main}-
 compression = ".tar.zst"
 version.main = "4.7.0-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libtiff/libtiff-4.7.0-1-x86_64.pkg.tar.zst" = "aff14fafcb3565002b52914473f393a5c3e8148f28eeb1c61c7d87d9f717f276"

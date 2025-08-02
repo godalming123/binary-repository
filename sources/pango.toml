@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/p/pango/pango-${version.main}-${ar
 compression = ".tar.zst"
 version.main = "1:1.56.4-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/p/pango/pango-1:1.56.4-1-x86_64.pkg.tar.zst" = "aad7e42a5dc72ba86c454ddbaccd1d0d0a1012c6d8ebd7078c8b9c9b6e0bfc41"

@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libunistring/libunistring-${vers
 compression = ".tar.zst"
 version.main = "1.3-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libunistring/libunistring-1.3-1-x86_64.pkg.tar.zst" = "914f6602e4aeefa48fdba88a7432763d088c854844589950fbb5426e44582741"

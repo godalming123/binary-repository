@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/l/libdrm/libdrm-${version.main}-${
 compression = ".tar.zst"
 version.main = "2.4.125-1"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libdrm/libdrm-2.4.125-1-x86_64.pkg.tar.zst" = "53c724b1d1a06e913bc75e28a4cbbecb12a5da812d54cf3e1fb418b99e9a6f73"

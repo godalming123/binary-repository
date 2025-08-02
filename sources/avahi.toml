@@ -3,3 +3,6 @@ url = "https://archive.archlinux.org/packages/a/avahi/avahi-${version.main}-${ar
 compression = ".tar.zst"
 version.main = "1:0.8+r194+g3f79789-3"
 architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/a/avahi/avahi-1:0.8+r194+g3f79789-3-x86_64.pkg.tar.zst" = "4eaddce0585eba9ea61cf9c685bc43e9f05e461aea463b82c9607c927cdcdb7e"
