@@ -1,0 +1,10 @@
+homepage = "https://github.com/google/brotli"
+description = "Generic-purpose lossless compression algorithm"
+licenses = ["MIT"]
+url = "https://archive.archlinux.org/packages/b/brotli/brotli-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.1.0-3"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/b/brotli/brotli-1.1.0-3-x86_64.pkg.tar.zst" = "34d7d1f09eacbac59d5a3aef6bbef4a971859c9789c13c59caa490178e1ee0cc"

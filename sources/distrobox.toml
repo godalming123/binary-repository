@@ -1,4 +1,5 @@
 homepage = "https://distrobox.it/"
+programmingLanguage = "Posix shell"
 url = "https://archive.archlinux.org/packages/d/distrobox/distrobox-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
 version.main = "1.8.1.2-1"

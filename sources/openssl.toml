@@ -1,0 +1,17 @@
+homepage = "https://www.openssl.org"
+description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
+licenses = ["Apache-2.0"]
+url = "https://archive.archlinux.org/packages/o/openssl/openssl-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "3.5.1-1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/o/openssl/openssl-3.5.1-1-x86_64.pkg.tar.zst" = "3b740ed216c18f3a7a5c8ea655164e9a45c077f60a783bc3a1109caa13a87368"
+
+[directlyDependentSharedLibraries]
+"/home/jg/.cache/bento/downloadedSources/openssl/usr/bin/openssl" = [
+  "libssl.so.3",
+  "libcrypto.so.3",
+  "libc.so.6",
+]

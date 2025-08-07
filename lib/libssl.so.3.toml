@@ -1,0 +1,6 @@
+source = "openssl"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libcrypto.so.3",
+  "libc.so.6",
+]

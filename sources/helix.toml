@@ -1,4 +1,5 @@
 homepage = "https://helix-editor.com/"
+programmingLanguage = "Rust"
 url = "https://github.com/helix-editor/helix/releases/download/${version.main}/helix-${version.main}-${architecture}-linux.tar.xz"
 rootPath = "helix-${version.main}-${architecture}-linux"
 compression = ".tar.xz"

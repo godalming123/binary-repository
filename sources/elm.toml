@@ -1,0 +1,9 @@
+homepage = "https://elm-lang.org/"
+programmingLanguage = "Haskell"
+version.main = "0.19.1"
+compression = ".gz"
+url = "https://github.com/elm/compiler/releases/download/${version.main}/binary-for-linux-64-bit.gz"
+filesToMakeExecutable = ["."]
+
+[checksums]
+"https://github.com/elm/compiler/releases/download/0.19.1/binary-for-linux-64-bit.gz" = "e44af52bb27f725a973478e589d990a6428e115fe1bb14f03833134d6c0f155c"

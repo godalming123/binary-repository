@@ -1,0 +1,10 @@
+homepage = "https://c-ares.org/"
+description = "A C library for asynchronous DNS requests"
+licenses = ["MIT"]
+url = "https://archive.archlinux.org/packages/c/c-ares/c-ares-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "1.34.5-1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/c/c-ares/c-ares-1.34.5-1-x86_64.pkg.tar.zst" = "e443cfdb155aee2e90a8aeede06b42f44cf7608c66589da385e3ed7f262f51ed"

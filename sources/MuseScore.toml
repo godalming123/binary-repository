@@ -1,4 +1,5 @@
 homepage = "https://musescore.org/"
+programmingLanguage = "C++"
 url = "https://cdn.jsdelivr.net/musescore/v${version.main}/MuseScore-Studio-${version.main}.${version.other}-${architecture}.AppImage"
 compression = "none"
 filesToMakeExecutable = ["."]

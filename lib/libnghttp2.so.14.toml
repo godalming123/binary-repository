@@ -1,0 +1,5 @@
+source = "libnghttp2"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libc.so.6",
+]

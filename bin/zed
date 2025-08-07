@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec zed zed.app/bin/zed

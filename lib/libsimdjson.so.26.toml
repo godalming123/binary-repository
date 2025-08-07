@@ -1,0 +1,7 @@
+source = "simdjson"
+directory = "usr/lib"
+directlyDependentSharedLibraries = [
+  "libstdc++.so.6",
+  "libgcc_s.so.1",
+  "libc.so.6",
+]
