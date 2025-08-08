@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec clang usr/bin/clang-tidy

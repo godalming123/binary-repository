@@ -1,0 +1,10 @@
+homepage = "https://thrysoee.dk/editline/"
+description = "Command line editor library providing generic line editing, history, and tokenization functions"
+licenses = ["BSD-3-Clause"]
+url = "https://archive.archlinux.org/packages/l/libedit/libedit-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "20250104_3.1-1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/libedit/libedit-20250104_3.1-1-x86_64.pkg.tar.zst" = "9b4167ade67f899d5f4d1e0d3e8e8f18b5edfdd076f5aeffd100cb3093117987"

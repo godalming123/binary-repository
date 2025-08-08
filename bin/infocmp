@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec ncurses usr/bin/infocmp

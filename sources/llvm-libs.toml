@@ -1,0 +1,10 @@
+homepage = "https://llvm.org/"
+description = "LLVM runtime libraries"
+licenses = ["Apache-2.0 WITH LLVM-exception"]
+url = "https://archive.archlinux.org/packages/l/llvm-libs/llvm-libs-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "20.1.8-1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/l/llvm-libs/llvm-libs-20.1.8-1-x86_64.pkg.tar.zst" = "710e552406edbc6badab91a2ce47bb12a6c3ebf85758448d953211be7d610486"

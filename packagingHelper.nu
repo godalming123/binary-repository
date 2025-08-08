@@ -1,5 +1,12 @@
 #!/usr/bin/env nu
 
+def removePrefix [str: string, prefix: string]: any -> string {
+  if not ($str | str starts-with $prefix) {
+    error make {msg: $"String `($str)` does not have the prefix `($prefix)`"}
+  }
+  return ($str | str substring ($prefix | str length)..-1)
+}
+
 def getIniValue (valueName: string) {
   let startsWith = $"($valueName) = "
   $in
@@ -87,18 +94,35 @@ def "main setupSource" (sourceName: string) {
   let sourceDir = ensureSourceIsInstalled $sourceName
   let binariesDir = $"($sourceDir)/usr/bin"
   if ($binariesDir | path exists) {
-    let binaries = ls $binariesDir | where {|binary| (open --raw $binary.name | bytes at 0..3) == 0x[7f 45 4c 46]} | each {
+    let binaries = (
+      ls $binariesDir
+      | each {|binary| $binary.name | path expand} # This is necersarry to follow symlinks
+      | where {|binary| ($binary | path type) == "file"}
+      | each {
+        |binary|
+        return {
+          fullPath: $binary,
+          pathWithinSource: (removePrefix $binary $"($env.FILE_PWD)/downloadedSources/($sourceName)/"),
+        }
+      }
+    )
+    $binaries | each {
       |binary|
-      print $binary.name
-      let deps = getDirectDeps $binary.name
-      # TODO: Fix the path $binary.name so that it is relative to $binariesDir
-      return $'"($binary.name)" = (formatTomlList $deps)'
+      let binaryName = (basename $binary.fullPath)
+      if not ($"($env.FILE_PWD)/bin/($binaryName)" | path exists) {
+        main addExecutable $sourceName $binaryName $binary.pathWithinSource
+      }
     }
-    if ($binaries | length) > 0 {
+    let binaryDeps = $binaries | where {|binary| (open --raw $binary.fullPath | bytes at 0..3) == 0x[7f 45 4c 46]} | each {
+      |binary|
+      let deps = getDirectDeps $binary.fullPath
+      return $'"($binary.pathWithinSource)" = (formatTomlList $deps)'
+    }
+    if ($binaryDeps | length) > 0 {
       [
         ""
         "[directlyDependentSharedLibraries]"
-        ...$binaries
+        ...$binaryDeps
       ] | str join "\n" | save --append $tomlFile
     }
   }

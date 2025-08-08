@@ -1,0 +1,19 @@
+homepage = "https://odin-lang.org/"
+description = "Data-oriented programming language"
+licenses = ["BSD-3-Clause"]
+url = "https://archive.archlinux.org/packages/o/odin/odin-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+version.main = "dev_2025_08-1"
+architectureNames.amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/o/odin/odin-dev_2025_08-1-x86_64.pkg.tar.zst" = "31f108ed6db4b1353aacd0d83370ae56b1572cef6347a30e4e732bbae8ad4e22"
+
+[directlyDependentSharedLibraries]
+"usr/lib/odin/odin" = [
+  "libm.so.6",
+  "libstdc++.so.6",
+  "libLLVM.so.20.1",
+  "libgcc_s.so.1",
+  "libc.so.6",
+]

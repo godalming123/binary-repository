@@ -19,14 +19,19 @@ A repository of binaries from other build systems that is designed to be used wi
 
 - Go
 - Fish
-- Odin
-- Zen browser
 - Firefox
 - Zoxide
 - Sway
 - Jq
-- Lf
 - Wtype
+- Python3
+
+## Missing packages that also aren't packaged in fedora
+
+- Odin
+- [Ols](https://github.com/DanielGavin/ols)
+- Zen browser
+- Dprint
 
 # Stargazers over time
 
