@@ -1,0 +1,11 @@
+homepage = "https://cursor.com/"
+licenses = ["Proprietary"]
+url = "https://downloads.cursor.com/production/${version.other}/linux/x64/Cursor-${version.main}-${architecture}.AppImage" # TODO: Replace x86 with something that works on non x86 architectures
+version.main = "1.4.2"
+version.other = "d01860bc5f5a36b62f8a77cd42578126270db343"
+compression = "none"
+architectureNames.amd64 = "x86_64"
+filesToMakeExecutable = ["."]
+
+[checksums]
+"https://downloads.cursor.com/production/d01860bc5f5a36b62f8a77cd42578126270db343/linux/x64/Cursor-1.4.2-x86_64.AppImage" = "58c640d028c0a5c493ba9e052c8c7168eee130c66b24f6b062c7c25e714ae041"

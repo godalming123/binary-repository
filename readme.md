@@ -12,8 +12,11 @@ A repository of binaries from other build systems that is designed to be used wi
 - Some binaries can ask to install packages from bento twice:
   - `npm`
   - `npx`
+  - `odin`
 - Add descriptions for sources
 - Add licenses info for sources
+- Zed tries to auto update itself
+- `npx` does not seem to recognise binaries installed with `npm install -g`
 
 # Missing packages
 
@@ -25,6 +28,7 @@ A repository of binaries from other build systems that is designed to be used wi
 - Jq
 - Wtype
 - Python3
+- Cloc
 
 ## Missing packages that also aren't packaged in fedora
 

@@ -1,11 +1,11 @@
 homepage = "https://nodejs.org/"
 url = "https://archive.archlinux.org/packages/n/nodejs/nodejs-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "24.5.0-1"
+version.main = "24.6.0-1"
 architectureNames.amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/n/nodejs/nodejs-24.5.0-1-x86_64.pkg.tar.zst" = "b57d2275136c6f17b9c0de731bf8d6da981947738431288e5638bfd21dc1b5c5"
+"https://archive.archlinux.org/packages/n/nodejs/nodejs-24.6.0-1-x86_64.pkg.tar.zst" = "a04a5291e16da1d9f86a01d46f9189ee206b5fc5805e7ab1a60917f86f16018c"
 
 [directlyDependentSharedLibraries]
 "usr/bin/node" = [

@@ -1,8 +1,9 @@
 homepage = "https://zed.dev/"
 url = "https://github.com/zed-industries/zed/releases/download/v${version.main}/zed-linux-${architecture}.tar.gz"
 compression = ".tar.gz"
-version.main = "0.198.2"
+version.main = "0.198.5"
 architectureNames.amd64 = "x86_64"
 
 [checksums]
 "https://github.com/zed-industries/zed/releases/download/v0.198.2/zed-linux-x86_64.tar.gz" = "a0b05f6e686ceab30da8ecb0ee2290cc3f811f78b69dd085e676451df390dd50"
+"https://github.com/zed-industries/zed/releases/download/v0.198.5/zed-linux-x86_64.tar.gz" = "f672fc47be6a65f33ceaca58ed4abf938b40e076cb8b7a5c69bf6a20325f5ad6"
