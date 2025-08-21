@@ -3,7 +3,8 @@ url = "https://github.com/cli/cli/releases/download/v${version.main}/gh_${versio
 rootPath = "gh_${version.main}_linux_${architecture}/bin"
 compression = ".tar.gz"
 filesToMakeExecutable = ["gh"]
-version.main = "2.75.0"
+version.main = "2.76.2"
 
 [checksums]
-"https://github.com/cli/cli/releases/download/v2.75.0/gh_2.75.0_linux_x86_64.tar.gz" = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+"https://github.com/cli/cli/releases/download/v2.75.0/gh_2.75.0_linux_amd64.tar.gz" = "98f910f4cde42a345e241f867f42b2229dda60267d7f87a56d283842519a4cb7"
+"https://github.com/cli/cli/releases/download/v2.76.2/gh_2.76.2_linux_amd64.tar.gz" = "62544b0f3759bbf1155c0ac3d75838b5fe23d66dfb75cf8368f84fff8f82b93e"

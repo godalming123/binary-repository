@@ -53,6 +53,10 @@ def main () {
   help main
 }
 
+def "main help" () {
+  help main
+}
+
 def "main addPackageFromArch" (--arch-agnostic-package, packageName: string, packageVersion: string) {
   let url = getPackageUrl $packageName $packageVersion (if $arch_agnostic_package {"any"} else {"x86_64"})
   let file = $"/tmp/($packageName).tar.zst"
