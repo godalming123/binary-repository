@@ -1,8 +1,12 @@
 homepage = "https://icu.unicode.org"
 url = "https://archive.archlinux.org/packages/i/icu/icu-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "76.1-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "76.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/i/icu/icu-76.1-1-x86_64.pkg.tar.zst" = "8e0745f79b330395e04cb6c2119dd901b0adb35f031ab5b4240bb7e72e688157"

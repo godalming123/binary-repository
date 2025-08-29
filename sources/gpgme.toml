@@ -1,8 +1,12 @@
 homepage = "https://www.gnupg.org/related_software/gpgme/"
 url = "https://archive.archlinux.org/packages/g/gpgme/gpgme-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "2.0.0-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "2.0.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gpgme/gpgme-2.0.0-1-x86_64.pkg.tar.zst" = "f63e5510da98ea38777b6cb3c2fa44d2240b48190c5c2e4597c4e9889ab087f7"

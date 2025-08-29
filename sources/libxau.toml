@@ -1,8 +1,12 @@
 homepage = "https://xorg.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/l/libxau/libxau-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.0.12-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.0.12-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libxau/libxau-1.0.12-1-x86_64.pkg.tar.zst" = "605c8b059c36792f4e0cc235acadf39d0762df6c7878825a1be01a00ae7ea21e"

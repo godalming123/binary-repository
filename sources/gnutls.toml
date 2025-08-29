@@ -1,8 +1,12 @@
 homepage = "https://www.gnutls.org/"
 url = "https://archive.archlinux.org/packages/g/gnutls/gnutls-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "3.8.10-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "3.8.10-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gnutls/gnutls-3.8.10-1-x86_64.pkg.tar.zst" = "01c7e088a306767c3d7932a2f9ec305eb57097a2816e6e929fce28c86ffde438"

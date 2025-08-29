@@ -3,12 +3,18 @@ description = "JavaScript package manager"
 licenses = ["Artistic-2.0"]
 url = "https://archive.archlinux.org/packages/n/npm/npm-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "11.5.2-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "11.5.2-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/n/npm/npm-11.5.2-1-any.pkg.tar.zst" = "293013247a822283c3015fc11fd31406b83835524fa1d58e606a1c84a937a89b"
 
-[env]
-"usr/lib/node_modules/npm/bin/npm-cli.js" = {"NODE_PATH" = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"}
-"usr/lib/node_modules/npm/bin/npx-cli.js" = {"NODE_PATH" = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"}
+[env."usr/lib/node_modules/npm/bin/npm-cli.js"]
+NODE_PATH = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"
+
+[env."usr/lib/node_modules/npm/bin/npx-cli.js"]
+NODE_PATH = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"

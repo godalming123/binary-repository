@@ -1,8 +1,13 @@
 homepage = "https://gitlab.gnome.org/GNOME/glib"
 url = "https://archive.archlinux.org/packages/w/wayland/wayland-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.23.1-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.24.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/w/wayland/wayland-1.23.1-2-x86_64.pkg.tar.zst" = "9ca6bb8b3dea22e3858433817291486961f7d591a6bb91e9991b8cf0c08e7bc6"
+"https://archive.archlinux.org/packages/w/wayland/wayland-1.24.0-1-x86_64.pkg.tar.zst" = "c5bb589f6ab9ecfd1e3db0af14baaee530da9fe1edd87d19b07e946a0513eb9c"

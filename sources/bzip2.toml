@@ -1,8 +1,12 @@
 homepage = "https://sourceware.org/bzip2/"
 url = "https://archive.archlinux.org/packages/b/bzip2/bzip2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.0.8-6"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.0.8-6"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/b/bzip2/bzip2-1.0.8-6-x86_64.pkg.tar.zst" = "8779003d659c441b952095c19907603a738c1366f25cc51be3fd139fa4e95748"

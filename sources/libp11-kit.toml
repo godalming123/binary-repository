@@ -1,8 +1,12 @@
 homepage = "https://p11-glue.freedesktop.org"
 url = "https://archive.archlinux.org/packages/l/libp11-kit/libp11-kit-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "0.25.5-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "0.25.5-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libp11-kit/libp11-kit-0.25.5-1-x86_64.pkg.tar.zst" = "e3e16d93bda4890e19bf480d84f3b3c65c924b78287a3cc3da879721afc3c7a4"

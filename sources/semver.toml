@@ -3,8 +3,12 @@ description = "The semantic version parser used by npm"
 licenses = ["ISC"]
 url = "https://archive.archlinux.org/packages/s/semver/semver-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "7.7.2-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "7.7.2-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/s/semver/semver-7.7.2-1-any.pkg.tar.zst" = "8b86fb7c61be1917ab50997788c6527fd19131d0629b84e10629bd3364aa5740"

@@ -1,8 +1,13 @@
 homepage = "https://gstreamer.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/g/gst-plugins-bad-libs/gst-plugins-bad-libs-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.26.4-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.26.5-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gst-plugins-bad-libs/gst-plugins-bad-libs-1.26.4-1-x86_64.pkg.tar.zst" = "8135831df62a376160b405b344469a0f1ad65f0fe2eeb38af71fdf4d943449b2"
+"https://archive.archlinux.org/packages/g/gst-plugins-bad-libs/gst-plugins-bad-libs-1.26.5-2-x86_64.pkg.tar.zst" = "08f0fafc64f0a74a2e47a0d3330248697b681b297d8eaaa952213af0a71e3dfb"

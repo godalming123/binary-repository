@@ -1,10 +1,22 @@
 #!/usr/bin/env nu
 
-def removePrefix [str: string, prefix: string]: any -> string {
-  if not ($str | str starts-with $prefix) {
-    error make {msg: $"String `($str)` does not have the prefix `($prefix)`"}
+def removePrefix [prefix: string]: string -> string {
+  if not ($in | str starts-with $prefix) {
+    error make {msg: $"String `($in)` does not have the prefix `($prefix)`"}
   }
-  return ($str | str substring ($prefix | str length)..-1)
+  return ($in | str substring ($prefix | str length)..-1)
+}
+
+def removeSuffix [suffix: string]: string -> string {
+  if not ($in | str ends-with $suffix) {
+    error make {msg: $"String `($in)` does not have the suffix `($suffix)`"}
+  }
+  return ($in | str substring 0..(($in | str length) - ($suffix | str length) - 1))
+}
+
+def removeFromEnd (numberToRemove: int): list<any> -> list<any> {
+  # TODO: Consider using a more efficient implementation of this
+  $in | reverse | skip $numberToRemove | reverse
 }
 
 def getIniValue (valueName: string) {
@@ -16,9 +28,37 @@ def getIniValue (valueName: string) {
   | str substring ($startsWith | str length)..-1
 }
 
-def getPackageUrl (packageName: string, packageVersion: string, packageArch: string) {
-  $"https://archive.archlinux.org/packages/($packageName | split chars | get 0)/($packageName)/($packageName)-($packageVersion)-($packageArch).pkg.tar.zst"
+def getChecksum (filePath: string): any -> string {
+  sha256sum $filePath | split row " " | get 0
 }
+
+let archPackageRepo = "https://archive.archlinux.org/packages"
+
+def getPackageUrl (packageName: string, packageVersion: string, packageArch: string) {
+  $"($archPackageRepo)/($packageName | split chars | get 0)/($packageName)/($packageName)-($packageVersion)-($packageArch).pkg.tar.zst"
+}
+
+def downloadPackage (packageName: string, packageVersion: string, packageArch: string) {
+  let url = getPackageUrl $packageName $packageVersion $packageArch
+  let file = $"/tmp/($packageName)-($packageVersion).tar.zst"
+  let dir = $"/tmp/($packageName)-($packageVersion)"
+
+  if not ($dir | path exists) {
+    if not ($file | path exists) {
+      print $"Fetching ($packageName) from ($url)"
+      curl --location $url -o $file
+    }
+
+    print $"Extracting ($packageName)"
+    mkdir $dir
+    tar --extract --use-compress-program unzstd --file $file --directory $dir
+  }
+
+  {url: $url, file: $file, dir: $dir}
+}
+
+# TODO: For the places that still ask the user what version of a packge to use:
+# Use `getLatestPackages` to get the latest version instead of asking the user
 
 def ensureSourceIsInstalled (sourceName: string) {
   let sourceDir = $"($env.FILE_PWD)/downloadedSources/($sourceName)"
@@ -43,6 +83,7 @@ def getDirectDeps [binaryPath: string]: any -> list<string> {
   )
 }
 
+# TODO: Use `to toml` instead of using custom code to generate TOML
 def formatTomlList (items: list<string>): any -> string {
   return (if ($items | length) == 0 { "[]" } else {
     $"[\n($items | each {|item| $'  "($item)",'} | str join "\n")\n]"
@@ -58,36 +99,20 @@ def "main help" () {
 }
 
 def "main addPackageFromArch" (--arch-agnostic-package, packageName: string, packageVersion: string) {
-  let url = getPackageUrl $packageName $packageVersion (if $arch_agnostic_package {"any"} else {"x86_64"})
-  let file = $"/tmp/($packageName).tar.zst"
-  let dir = $"/tmp/($packageName)"
-
-  if not ($dir | path exists) {
-    if not ($file | path exists) {
-      print $"Fetching ($packageName) from ($url)"
-      curl --location $url -o $file
-    }
-
-    print $"Extracting ($packageName)"
-    mkdir $dir
-    tar --extract --use-compress-program unzstd --file $file --directory $dir
-  }
+  let downloadedPackage = downloadPackage $packageName $packageVersion (if $arch_agnostic_package {"any"} else {"x86_64"})
 
   print "Adding package to sources"
-  let pkgInfo = open $"($dir)/.PKGINFO"
-  [
-    $"homepage = \"($pkgInfo | getIniValue url)\""
-    $"description = \"($pkgInfo | getIniValue pkgdesc)\""
-    $"licenses = [\"($pkgInfo | getIniValue license)\"]" # TODO: Hanlde a package having multiple licenses
-    $"url = \"(getPackageUrl $packageName "${version.main}" (if $arch_agnostic_package {"any"} else {"${architecture}"}))\""
-    "compression = \".tar.zst\""
-    $"version.main = \"($packageVersion)\""
-    "architectureNames.amd64 = \"x86_64\""
-    ""
-    "[checksums]"
-    $'"($url)" = "(sha256sum $file | split column " " | get column1.0)"'
-    ""
-  ] | str join "\n" | save $"($env.FILE_PWD)/sources/($packageName).toml"
+  let pkgInfo = open $"($downloadedPackage.dir)/.PKGINFO"
+  {
+    homepage: ($pkgInfo | getIniValue url)
+    description: ($pkgInfo | getIniValue pkgdesc)
+    licenses: [($pkgInfo | getIniValue license)] # TODO: Handle a package having multiple licenses
+    url: (getPackageUrl $packageName "${version.main}" (if $arch_agnostic_package {"any"} else {"${architecture}"}))
+    compression: ".tar.zst"
+    version: {main: $packageVersion}
+    architectureNames: {amd64: "x86_64"}
+    checksums: {$downloadedPackage.url: (getChecksum $downloadedPackage.file)}
+  } | to toml | save $"($env.FILE_PWD)/sources/($packageName).toml"
   main setupSource $packageName
 
   print "Done"
@@ -106,7 +131,7 @@ def "main setupSource" (sourceName: string) {
         |binary|
         return {
           fullPath: $binary,
-          pathWithinSource: (removePrefix $binary $"($env.FILE_PWD)/downloadedSources/($sourceName)/"),
+          pathWithinSource: ($binary | removePrefix $"($env.FILE_PWD)/downloadedSources/($sourceName)/"),
         }
       }
     )
@@ -152,4 +177,69 @@ def "main addLibrary" (sourceName: string, libraryName: string) {
   ] | str join "\n"
   $contents | save $path
   print $"Created file ($path) with the following contents:\n($contents)"
+}
+
+def getLatestPackages () {
+  curl "https://mirrors.edge.kernel.org/archlinux/pool/packages/"
+  | lines
+  | skip 4
+  | removeFromEnd 2
+  | each {
+    |line|
+    $line
+      | removePrefix "<a href=\""
+      | split row '"'
+      | get 0
+  } | where {|line| $line | str ends-with ".pkg.tar.zst"}
+  | each {
+    |fileName|
+    let componentsReversed = $fileName
+      | removeSuffix ".pkg.tar.zst"
+      | str replace "%3A" ":"
+      | str replace "%2B" "+"
+      | split row "-"
+      | reverse
+    let architecture = $componentsReversed | get 0
+    let version = $componentsReversed | skip 1 | first 2 | reverse | str join "-"
+    let name = $componentsReversed | skip 3 | reverse | str join "-"
+    {version: $version, name: $name, architectureAgnostic: (match $architecture {
+      "any" => true
+      "x86_64" => false
+      _ => {error make {msg: $"Unexpected architecture ($architecture) for package ($name)"}}
+    })}
+  }
+}
+
+def "main updatePackages" () {
+  let packages = getLatestPackages
+  ls sources | each {
+    |sourceFile|
+    let source = open $sourceFile.name
+    if ($source.url | str starts-with $archPackageRepo) {
+      let urlComponents = $source.url | split row "/"
+      let packageName = $urlComponents.5
+      let architectureAgnostic = not ("${architecture}" in $source.url)
+      let packageVersions = $packages | where name == $packageName | each {
+        |package|
+        match [$architectureAgnostic $package.architectureAgnostic] {
+          [true false] => {error make {msg: $"The original URL for the ($packageName) package is architecture agnostic, but version ($package.version) of the package is not"}}
+          [false true] => {error make {msg: $"The original URL for the ($packageName) package is not architecture agnostic, but version ($package.version) of the package is"}}
+          _ => $package.version
+        }
+      }
+      let newVersion = {main: (match ($packageVersions | length) {
+        0 => {error make {msg: $"Cannot find the latest version for a package called ($packageName)"}}
+        1 => $packageVersions.0
+        _ => {
+          $packageVersions | input list $"I am not sure what to pick for the latest version of the ($packageName) package. Can you help me select a version"
+        }
+      })}
+      let downloadedPackage = downloadPackage $packageName $newVersion.main (if $architectureAgnostic {"any"} else {"x86_64"})
+      let newChecksums = $source.checksums | upsert $downloadedPackage.url (getChecksum $downloadedPackage.file)
+      $source
+      | update "version" $newVersion
+      | update "checksums" $newChecksums
+      | save --force $sourceFile.name
+    }
+  }
 }

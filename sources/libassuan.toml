@@ -1,8 +1,12 @@
 homepage = "https://www.gnupg.org/related_software/libassuan/"
 url = "https://archive.archlinux.org/packages/l/libassuan/libassuan-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "3.0.0-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "3.0.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libassuan/libassuan-3.0.0-1-x86_64.pkg.tar.zst" = "1843d675b324c9d549f3413dcbe653ec86876ac2898fc94423926ed30eab25a1"

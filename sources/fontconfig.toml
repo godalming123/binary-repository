@@ -1,8 +1,12 @@
 homepage = "https://www.freedesktop.org/wiki/Software/fontconfig/"
 url = "https://archive.archlinux.org/packages/f/fontconfig/fontconfig-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "2:2.17.1-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "2:2.17.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/f/fontconfig/fontconfig-2:2.17.1-1-x86_64.pkg.tar.zst" = "64dcc7ccaa5460b93ce1c76a9e104bcbb373d3d15fb5abc01a1192f4607e9d2e"

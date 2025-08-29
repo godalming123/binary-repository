@@ -1,8 +1,12 @@
 homepage = "https://libjpeg-turbo.org/"
 url = "https://archive.archlinux.org/packages/l/libjpeg-turbo/libjpeg-turbo-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "3.1.1-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "3.1.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libjpeg-turbo/libjpeg-turbo-3.1.1-1-x86_64.pkg.tar.zst" = "989f0511ecfe0c06f87dfac3271f14659285e4ee96d87e05861662985020d2a3"

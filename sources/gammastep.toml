@@ -1,8 +1,12 @@
 homepage = "https://gitlab.com/chinstrap/gammastep"
 url = "https://archive.archlinux.org/packages/g/gammastep/gammastep-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "2.0.11-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "2.0.11-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gammastep/gammastep-2.0.11-1-x86_64.pkg.tar.zst" = "981188856d975485839ce82848e57e8638fd04715658768d3db9f9d7166d04bd"

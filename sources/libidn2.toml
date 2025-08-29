@@ -1,8 +1,12 @@
 homepage = "https://www.gnu.org/software/libidn/#libidn2"
 url = "https://archive.archlinux.org/packages/l/libidn2/libidn2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "2.3.7-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "2.3.7-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libidn2/libidn2-2.3.7-1-x86_64.pkg.tar.zst" = "390e3a494f38bfa3d2f59fb1eb33f69cc7477f96caa27e4a635c523e13389700"

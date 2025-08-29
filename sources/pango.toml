@@ -1,8 +1,13 @@
 homepage = "https://www.pango.org/"
 url = "https://archive.archlinux.org/packages/p/pango/pango-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1:1.56.4-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1:1.57.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/p/pango/pango-1:1.56.4-1-x86_64.pkg.tar.zst" = "aad7e42a5dc72ba86c454ddbaccd1d0d0a1012c6d8ebd7078c8b9c9b6e0bfc41"
+"https://archive.archlinux.org/packages/p/pango/pango-1:1.57.0-1-x86_64.pkg.tar.zst" = "a4ce30ed15ee4fcdc018c2c3f7a5943e0b4fb51a71d7471ba32e707c12cd4816"

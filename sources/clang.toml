@@ -3,214 +3,212 @@ description = "C language family frontend for LLVM"
 licenses = ["Apache-2.0 WITH LLVM-exception"]
 url = "https://archive.archlinux.org/packages/c/clang/clang-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "20.1.8-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "20.1.8-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/c/clang/clang-20.1.8-1-x86_64.pkg.tar.zst" = "77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545"
 
 [directlyDependentSharedLibraries]
 "usr/bin/amdgpu-arch" = [
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/c-index-test" = [
-  "libclang.so.20.1",
-  "libxml2.so.16",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libgcc_s.so.1",
-  "libc.so.6",
+    "libclang.so.20.1",
+    "libxml2.so.16",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libgcc_s.so.1",
+    "libc.so.6",
 ]
 "usr/bin/clang-20" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang++" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
-]
-"usr/bin/clang-20" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-apply-replacements" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-change-namespace" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-check" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-cl" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-cpp" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-doc" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-extdef-mapping" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-format" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-include-cleaner" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-include-fixer" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libm.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libm.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-installapi" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-linker-wrapper" = [
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-move" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-nvlink-wrapper" = [
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-offload-bundler" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-offload-packager" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-query" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-refactor" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-reorder-fields" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-repl" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-scan-deps" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-sycl-linker" = [
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clang-tidy" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libm.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libm.so.6",
+    "libc.so.6",
 ]
 "usr/bin/clangd" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libm.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libm.so.6",
+    "libc.so.6",
 ]
 "usr/bin/diagtool" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/find-all-symbols" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/modularize" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/nvptx-arch" = [
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]
 "usr/bin/pp-trace" = [
-  "libclang-cpp.so.20.1",
-  "libLLVM.so.20.1",
-  "libstdc++.so.6",
-  "libc.so.6",
+    "libclang-cpp.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
 ]

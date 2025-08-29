@@ -1,0 +1,30 @@
+homepage = "https://github.com/PCRE2Project/pcre2"
+description = "A library that implements Perl 5-style regular expressions. 2nd version"
+licenses = ["BSD-2-Clause"]
+url = "https://archive.archlinux.org/packages/p/pcre2/pcre2-${version.main}-${architecture}.pkg.tar.zst"
+compression = ".tar.zst"
+
+[version]
+main = "10.46-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"https://archive.archlinux.org/packages/p/pcre2/pcre2-10.46-1-x86_64.pkg.tar.zst" = "7ed688c073b3bb605d15a36e9e5865577096601788e851027ad8e3e81b2445a2"
+
+[directlyDependentSharedLibraries]
+"usr/bin/pcre2grep" = [
+  "libz.so.1",
+  "libbz2.so.1.0",
+  "libpcre2-8.so.0",
+  "libc.so.6",
+]
+"usr/bin/pcre2test" = [
+  "libreadline.so.8",
+  "libpcre2-8.so.0",
+  "libpcre2-posix.so.3",
+  "libpcre2-16.so.0",
+  "libpcre2-32.so.0",
+  "libc.so.6",
+]

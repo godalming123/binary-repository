@@ -1,8 +1,12 @@
 homepage = "https://xorg.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/l/libxrandr/libxrandr-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.5.4-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.5.4-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libxrandr/libxrandr-1.5.4-1-x86_64.pkg.tar.zst" = "f58fbb7db4b6c6a35aa388f28f63ae847a2834f331fa7ed4e18ad1ce6e40f064"

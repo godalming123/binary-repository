@@ -1,8 +1,12 @@
 homepage = "https://github.com/tree-sitter/tree-sitter"
 url = "https://archive.archlinux.org/packages/t/tree-sitter/tree-sitter-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "0.25.8-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "0.25.8-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/t/tree-sitter/tree-sitter-0.25.8-1-x86_64.pkg.tar.zst" = "4fa692336576a27aef54d7b9aeedc26dab4ebabc40b6c07e2c26a3d83da0e306"

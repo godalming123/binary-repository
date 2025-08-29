@@ -1,8 +1,12 @@
 homepage = "https://www.freedesktop.org/software/colord/"
 url = "https://archive.archlinux.org/packages/l/libcolord/libcolord-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.4.8-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.4.8-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libcolord/libcolord-1.4.8-1-x86_64.pkg.tar.zst" = "8e440c51060be0f6ea808462a2569f2d9f1dfe454f15723a32bb61f43dc0c286"

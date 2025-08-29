@@ -1,8 +1,12 @@
 homepage = "https://www.zlib.net/"
 url = "https://archive.archlinux.org/packages/z/zlib/zlib-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1:1.3.1-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1:1.3.1-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/z/zlib/zlib-1:1.3.1-2-x86_64.pkg.tar.zst" = "4e44ca417663fbdbadd2aa975cb5f56c2fe771ca76bc1462f63760d813fe2458"

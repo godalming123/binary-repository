@@ -1,8 +1,12 @@
 homepage = "https://facebook.github.io/zstd/"
 url = "https://archive.archlinux.org/packages/z/zstd/zstd-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.5.7-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.5.7-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/z/zstd/zstd-1.5.7-2-x86_64.pkg.tar.zst" = "7088eb799005899e24874e2d1af4ef73df1ff9a97ee74179245c64c9c4b0fa3c"

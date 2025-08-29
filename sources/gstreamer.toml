@@ -1,8 +1,13 @@
 homepage = "https://gstreamer.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/g/gstreamer/gstreamer-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.26.4-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.26.5-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gstreamer/gstreamer-1.26.4-1-x86_64.pkg.tar.zst" = "0733d826d603605b2be1ea604580b0bec984586dce97a2f8d34a682eda19a28c"
+"https://archive.archlinux.org/packages/g/gstreamer/gstreamer-1.26.5-2-x86_64.pkg.tar.zst" = "8156fed6b141f224d6e9fad091fd34c62fc5f42b60ea4a30ee8cfdce7a82a33b"

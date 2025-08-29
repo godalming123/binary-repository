@@ -1,8 +1,12 @@
 homepage = "https://github.com/shadow-maint/shadow"
 url = "https://archive.archlinux.org/packages/s/shadow/shadow-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "4.18.0-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "4.18.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [directlyDependentSharedLibraries]
 "usr/bin/getsubids" = ["libsubid.so.5"]

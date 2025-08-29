@@ -1,8 +1,12 @@
 homepage = "https://xorg.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/l/libxrender/libxrender-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "0.9.12-1"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "0.9.12-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libxrender/libxrender-0.9.12-1-x86_64.pkg.tar.zst" = "fed0389073d5b107074eaab48cefcc2716e607865142cde5b579c8ceeefea142"

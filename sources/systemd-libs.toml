@@ -1,8 +1,13 @@
 homepage = "https://www.github.com/systemd/systemd"
 url = "https://archive.archlinux.org/packages/s/systemd-libs/systemd-libs-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "257.7-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "257.8-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/s/systemd-libs/systemd-libs-257.7-2-x86_64.pkg.tar.zst" = "e15d141271d24b0014e4335079b585985569cc93019165f745aac7869ccd6272"
+"https://archive.archlinux.org/packages/s/systemd-libs/systemd-libs-257.8-2-x86_64.pkg.tar.zst" = "7212ee9a7f0764fdf04f8810fbde381ea458d7ac53df7638ab7e6d4eaa11983f"

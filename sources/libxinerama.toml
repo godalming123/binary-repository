@@ -1,8 +1,12 @@
 homepage = "https://xorg.freedesktop.org/"
 url = "https://archive.archlinux.org/packages/l/libxinerama/libxinerama-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "1.1.5-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "1.1.5-2"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/l/libxinerama/libxinerama-1.1.5-2-x86_64.pkg.tar.zst" = "05a41224c7819853f5d79c2e28c8679d6a534a535d45a462ccb05fa8d58b05ad"

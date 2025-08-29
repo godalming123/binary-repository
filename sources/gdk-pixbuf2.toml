@@ -1,8 +1,13 @@
 homepage = "https://wiki.gnome.org/Projects/GdkPixbuf"
 url = "https://archive.archlinux.org/packages/g/gdk-pixbuf2/gdk-pixbuf2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-version.main = "2.42.12-2"
-architectureNames.amd64 = "x86_64"
+
+[version]
+main = "2.43.5-1"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
 "https://archive.archlinux.org/packages/g/gdk-pixbuf2/gdk-pixbuf2-2.42.12-2-x86_64.pkg.tar.zst" = "63de2d2a476cd8985bf4962f5693fb46d59288828f2b461c289af4e3b2546138"
+"https://archive.archlinux.org/packages/g/gdk-pixbuf2/gdk-pixbuf2-2.43.5-1-x86_64.pkg.tar.zst" = "d6a5bcc8d91408537c9e1673ac5979f125b990d205268377bd33118c76c623d1"
