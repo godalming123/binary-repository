@@ -2,6 +2,24 @@ homepage = "https://www.cl.cam.ac.uk/~mgk25/jbigkit/"
 url = "https://archive.archlinux.org/packages/j/jbigkit/jbigkit-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
 
+[directlyDependentSharedLibraries]
+"usr/bin/jbgtopbm" = [
+    "libjbig.so.2.1",
+    "libc.so.6",
+]
+"usr/bin/jbgtopbm85" = [
+    "libjbig85.so.2.1",
+    "libc.so.6",
+]
+"usr/bin/pbmtojbg" = [
+    "libjbig.so.2.1",
+    "libc.so.6",
+]
+"usr/bin/pbmtojbg85" = [
+    "libjbig85.so.2.1",
+    "libc.so.6",
+]
+
 [version]
 main = "2.1-8"
 

@@ -3,7 +3,7 @@ url = "https://archive.archlinux.org/packages/g/glibc/glibc-${version.main}-${ar
 compression = ".tar.zst"
 
 [version]
-main = "2.42+r17+gd7274d718e6f-1"
+main = "2.41+r65+ge7c419a29575-1"
 
 [architectureNames]
 amd64 = "x86_64"

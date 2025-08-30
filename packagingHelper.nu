@@ -19,6 +19,14 @@ def removeFromEnd (numberToRemove: int): list<any> -> list<any> {
   $in | reverse | skip $numberToRemove | reverse
 }
 
+def replaceNull (valueInsteadOfNull: any): any -> any {
+  if $in == null {
+    $valueInsteadOfNull
+  } else {
+    $in
+  }
+}
+
 def getIniValue (valueName: string) {
   let startsWith = $"($valueName) = "
   $in
@@ -83,19 +91,64 @@ def getDirectDeps [binaryPath: string]: any -> list<string> {
   )
 }
 
-# TODO: Use `to toml` instead of using custom code to generate TOML
-def formatTomlList (items: list<string>): any -> string {
-  return (if ($items | length) == 0 { "[]" } else {
-    $"[\n($items | each {|item| $'  "($item)",'} | str join "\n")\n]"
-  })
-}
-
 def main () {
   help main
 }
 
 def "main help" () {
   help main
+}
+
+def getLibraryDeps [libraryName: string]: any -> list<record> {
+  let library = open $"($env.FILE_PWD)/lib/($libraryName).toml"
+  if $library.source == "system" {
+    let libraryProps = {source: "system"}
+    [$libraryProps, {$libraryName: $libraryProps}]
+  } else {
+    let source = open $"($env.FILE_PWD)/sources/($library.source).toml"
+    let libraryProps = {source: $library.source, version: $source.version.main}
+    $library
+    | get --optional directlyDependentSharedLibraries
+    | replaceNull []
+    | reduce --fold [$libraryProps, {$libraryName: $libraryProps}] {
+      |dependentLibraryName, acc|
+      let deps = getLibraryDeps $dependentLibraryName
+      [
+        ($acc.0 | upsert dependencies ($acc.0 | get --optional dependencies | replaceNull {} | insert $dependentLibraryName $deps.0)),
+        ($acc.1 | merge $deps.1),
+      ]
+    }
+  }
+}
+
+def getExecutableDeps [sourceName: string, executablePathInSource: string]: any -> list<record> {
+  open $"($env.FILE_PWD)/sources/($sourceName).toml"
+  | get --optional directlyDependentSharedLibraries
+  | get --optional $executablePathInSource
+  | replaceNull []
+  | reduce --fold [{}, {}] {
+    |libraryName, acc|
+    let deps = getLibraryDeps $libraryName
+    [($acc.0 | insert $libraryName $deps.0), ($acc.1 | merge $deps.1)]
+  }
+}
+
+def "main getDepsAsList" [--as-nuon (-n), sourceName: string, binaryPathInSource: string] {
+  let out = (getExecutableDeps $sourceName $binaryPathInSource).1
+  if $as_nuon {
+    $out | to nuon
+  } else {
+    $out
+  }
+}
+
+def "main getDepsAsTree" [--as-nuon (-n), sourceName: string, binaryPathInSource: string] {
+  let out = (getExecutableDeps $sourceName $binaryPathInSource).0
+  if $as_nuon {
+    $out | to nuon
+  } else {
+    $out
+  }
 }
 
 def "main addPackageFromArch" (--arch-agnostic-package, packageName: string, packageVersion: string) {
@@ -120,6 +173,7 @@ def "main addPackageFromArch" (--arch-agnostic-package, packageName: string, pac
 
 def "main setupSource" (sourceName: string) {
   let tomlFile = $"($env.FILE_PWD)/sources/($sourceName).toml"
+  let toml = open $tomlFile
   let sourceDir = ensureSourceIsInstalled $sourceName
   let binariesDir = $"($sourceDir)/usr/bin"
   if ($binariesDir | path exists) {
@@ -144,16 +198,13 @@ def "main setupSource" (sourceName: string) {
     }
     let binaryDeps = $binaries | where {|binary| (open --raw $binary.fullPath | bytes at 0..3) == 0x[7f 45 4c 46]} | each {
       |binary|
-      let deps = getDirectDeps $binary.fullPath
-      return $'"($binary.pathWithinSource)" = (formatTomlList $deps)'
+      {libraryPath: $binary.pathWithinSource, deps: (getDirectDeps $binary.fullPath)}
     }
-    if ($binaryDeps | length) > 0 {
-      [
-        ""
-        "[directlyDependentSharedLibraries]"
-        ...$binaryDeps
-      ] | str join "\n" | save --append $tomlFile
-    }
+    let newDirectlyDependentSharedLibraries = ($binaryDeps | reduce --fold {} {|dep, acc| $acc | upsert $dep.libraryPath $dep.deps})
+    $toml
+    | upsert directlyDependentSharedLibraries $newDirectlyDependentSharedLibraries
+    | to toml
+    | save --force $tomlFile
   }
   # TODO: Handle setting up the shared libraries as well as the binaries
 }
@@ -170,11 +221,11 @@ def "main addLibrary" (sourceName: string, libraryName: string) {
   ensureSourceIsInstalled $sourceName
   let path = $"($env.FILE_PWD)/lib/($libraryName).toml"
   let libraryPath = $"($env.FILE_PWD)/downloadedSources/($sourceName)/usr/lib/($libraryName)"
-  let contents = [
-    $'source = "($sourceName)"'
-    'directory = "usr/lib"'
-    $"directlyDependentSharedLibraries = (formatTomlList (getDirectDeps $libraryPath))"
-  ] | str join "\n"
+  let contents = {
+    source: $sourceName,
+    directory: "usr/lib",
+    directlyDependentSharedLibraries: (getDirectDeps $libraryPath)
+  } | to toml
   $contents | save $path
   print $"Created file ($path) with the following contents:\n($contents)"
 }
@@ -195,8 +246,8 @@ def getLatestPackages () {
     |fileName|
     let componentsReversed = $fileName
       | removeSuffix ".pkg.tar.zst"
-      | str replace "%3A" ":"
-      | str replace "%2B" "+"
+      | str replace --all "%3A" ":"
+      | str replace --all "%2B" "+"
       | split row "-"
       | reverse
     let architecture = $componentsReversed | get 0

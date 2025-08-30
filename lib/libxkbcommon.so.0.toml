@@ -1,5 +1,3 @@
 source = "libxkbcommon"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
-  "libc.so.6",
-]
+directlyDependentSharedLibraries = ["libc.so.6"]
