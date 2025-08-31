@@ -1,6 +1,7 @@
 homepage = "https://harfbuzz.github.io/"
-url = "https://archive.archlinux.org/packages/h/harfbuzz/harfbuzz-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/h/harfbuzz/harfbuzz-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "11.4.4-1"
@@ -9,5 +10,5 @@ main = "11.4.4-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/h/harfbuzz/harfbuzz-11.2.1-1-x86_64.pkg.tar.zst" = "9ffe4e898c506a568fcb6d7e23da8f11a92332d8bb27b343cf00bf4763e5a466"
-"https://archive.archlinux.org/packages/h/harfbuzz/harfbuzz-11.4.4-1-x86_64.pkg.tar.zst" = "967cd22f0b09df3cdc360eea451bdbf2054d51e0c4eafd17d41edd8500b476dc"
+"packages/h/harfbuzz/harfbuzz-11.2.1-1-x86_64.pkg.tar.zst" = "9ffe4e898c506a568fcb6d7e23da8f11a92332d8bb27b343cf00bf4763e5a466"
+"packages/h/harfbuzz/harfbuzz-11.4.4-1-x86_64.pkg.tar.zst" = "967cd22f0b09df3cdc360eea451bdbf2054d51e0c4eafd17d41edd8500b476dc"

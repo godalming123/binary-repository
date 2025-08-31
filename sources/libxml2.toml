@@ -1,6 +1,7 @@
 homepage = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
-url = "https://archive.archlinux.org/packages/l/libxml2/libxml2-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libxml2/libxml2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.14.5-1"
@@ -9,4 +10,4 @@ main = "2.14.5-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libxml2/libxml2-2.14.5-1-x86_64.pkg.tar.zst" = "098b504c15b9e319706aa3e882ca155ff87449a5ac3851f1994dc57706a53c13"
+"packages/l/libxml2/libxml2-2.14.5-1-x86_64.pkg.tar.zst" = "098b504c15b9e319706aa3e882ca155ff87449a5ac3851f1994dc57706a53c13"

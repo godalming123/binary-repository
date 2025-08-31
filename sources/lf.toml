@@ -1,8 +1,9 @@
 homepage = "https://github.com/gokcehan/lf"
 description = "A terminal file manager inspired by ranger"
 licenses = ["MIT"]
-url = "https://archive.archlinux.org/packages/l/lf/lf-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/lf/lf-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "37-1"
@@ -11,8 +12,8 @@ main = "37-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/lf/lf-36-1-x86_64.pkg.tar.zst" = "0d3dedd0e51513299e923430eb2cbd4f91ce59e2a3198a0f6354c8ad0fb34de4"
-"https://archive.archlinux.org/packages/l/lf/lf-37-1-x86_64.pkg.tar.zst" = "52a753f7220b5ea05ccba49822400f031332a8ba644e4dd972ed06974e67de1f"
+"packages/l/lf/lf-36-1-x86_64.pkg.tar.zst" = "0d3dedd0e51513299e923430eb2cbd4f91ce59e2a3198a0f6354c8ad0fb34de4"
+"packages/l/lf/lf-37-1-x86_64.pkg.tar.zst" = "52a753f7220b5ea05ccba49822400f031332a8ba644e4dd972ed06974e67de1f"
 
 [directlyDependentSharedLibraries]
 "lf/usr/bin/lf" = [

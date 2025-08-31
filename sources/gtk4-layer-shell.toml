@@ -1,6 +1,7 @@
 homepage = "https://github.com/wmww/gtk4-layer-shell"
-url = "https://archive.archlinux.org/packages/g/gtk4-layer-shell/gtk4-layer-shell-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/gtk4-layer-shell/gtk4-layer-shell-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.2.0-1"
@@ -9,5 +10,5 @@ main = "1.2.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/g/gtk4-layer-shell/gtk4-layer-shell-1.0.3-1-x86_64.pkg.tar.zst" = "c8d69e83cbaffe4a438ac28c3944afaa5edc920477829c7e92a75942ed479e5c"
-"https://archive.archlinux.org/packages/g/gtk4-layer-shell/gtk4-layer-shell-1.2.0-1-x86_64.pkg.tar.zst" = "1c33c65e0c48d8abb24e7cb752d0e598f9af7f7a20f7cb97360154066354e793"
+"packages/g/gtk4-layer-shell/gtk4-layer-shell-1.0.3-1-x86_64.pkg.tar.zst" = "c8d69e83cbaffe4a438ac28c3944afaa5edc920477829c7e92a75942ed479e5c"
+"packages/g/gtk4-layer-shell/gtk4-layer-shell-1.2.0-1-x86_64.pkg.tar.zst" = "1c33c65e0c48d8abb24e7cb752d0e598f9af7f7a20f7cb97360154066354e793"

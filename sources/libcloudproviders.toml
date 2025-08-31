@@ -1,6 +1,7 @@
 homepage = "https://gitlab.gnome.org/World/libcloudproviders"
-url = "https://archive.archlinux.org/packages/l/libcloudproviders/libcloudproviders-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libcloudproviders/libcloudproviders-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "0.3.6-2"
@@ -9,4 +10,4 @@ main = "0.3.6-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libcloudproviders/libcloudproviders-0.3.6-2-x86_64.pkg.tar.zst" = "bf09bc1df797003344599dc2771fcfd9d7ddaf422e0287c56261539e392064d0"
+"packages/l/libcloudproviders/libcloudproviders-0.3.6-2-x86_64.pkg.tar.zst" = "bf09bc1df797003344599dc2771fcfd9d7ddaf422e0287c56261539e392064d0"

@@ -1,6 +1,7 @@
 homepage = "https://www.gnupg.org/"
-url = "https://archive.archlinux.org/packages/l/libgpg-error/libgpg-error-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libgpg-error/libgpg-error-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.55-1"
@@ -9,4 +10,4 @@ main = "1.55-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libgpg-error/libgpg-error-1.55-1-x86_64.pkg.tar.zst" = "6e723f8171084613ac37c666e145b0776c389b55071a14b1c404188f78ccd6f9"
+"packages/l/libgpg-error/libgpg-error-1.55-1-x86_64.pkg.tar.zst" = "6e723f8171084613ac37c666e145b0776c389b55071a14b1c404188f78ccd6f9"

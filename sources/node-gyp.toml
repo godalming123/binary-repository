@@ -1,8 +1,9 @@
 homepage = "https://github.com/nodejs/node-gyp"
 description = "Node.js native addon build tool"
 licenses = ["MIT"]
-url = "https://archive.archlinux.org/packages/n/node-gyp/node-gyp-${version.main}-any.pkg.tar.zst"
+urlInMirror = "packages/n/node-gyp/node-gyp-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "11.4.2-1"
@@ -11,7 +12,7 @@ main = "11.4.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/n/node-gyp/node-gyp-11.3.0-1-any.pkg.tar.zst" = "4a7688e8a073a7eaa493c2615f048155bf460ae38d048010c4252d2c0dddd1cb"
-"https://archive.archlinux.org/packages/n/node-gyp/node-gyp-11.4.2-1-any.pkg.tar.zst" = "f32ceae937c76f1e6af8e95a696c83c05716812189f223771b29d4eed85702ce"
+"packages/n/node-gyp/node-gyp-11.3.0-1-any.pkg.tar.zst" = "4a7688e8a073a7eaa493c2615f048155bf460ae38d048010c4252d2c0dddd1cb"
+"packages/n/node-gyp/node-gyp-11.4.2-1-any.pkg.tar.zst" = "f32ceae937c76f1e6af8e95a696c83c05716812189f223771b29d4eed85702ce"
 
 [directlyDependentSharedLibraries]

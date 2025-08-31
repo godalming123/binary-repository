@@ -1,6 +1,7 @@
 homepage = "https://www.gnu.org/software/libc"
-url = "https://archive.archlinux.org/packages/g/glibc/glibc-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/glibc/glibc-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.41+r65+ge7c419a29575-1"
@@ -9,5 +10,5 @@ main = "2.41+r65+ge7c419a29575-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/g/glibc/glibc-2.41+r65+ge7c419a29575-1-x86_64.pkg.tar.zst" = "4eeb7ce640fcb5c38a8a89c9015f68979f7f91cc71d715d3bd90f74bd442a107"
-"https://archive.archlinux.org/packages/g/glibc/glibc-2.42+r17+gd7274d718e6f-1-x86_64.pkg.tar.zst" = "3747b4615f411f92d0a51b238d3e584f7e7c69f542381c3dd3fd57d2cf9ea025"
+"packages/g/glibc/glibc-2.41+r65+ge7c419a29575-1-x86_64.pkg.tar.zst" = "4eeb7ce640fcb5c38a8a89c9015f68979f7f91cc71d715d3bd90f74bd442a107"
+"packages/g/glibc/glibc-2.42+r17+gd7274d718e6f-1-x86_64.pkg.tar.zst" = "3747b4615f411f92d0a51b238d3e584f7e7c69f542381c3dd3fd57d2cf9ea025"

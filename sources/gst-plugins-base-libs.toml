@@ -1,6 +1,7 @@
 homepage = "https://gstreamer.freedesktop.org/"
-url = "https://archive.archlinux.org/packages/g/gst-plugins-base-libs/gst-plugins-base-libs-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/gst-plugins-base-libs/gst-plugins-base-libs-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.26.5-2"
@@ -9,5 +10,5 @@ main = "1.26.5-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/g/gst-plugins-base-libs/gst-plugins-base-libs-1.26.4-1-x86_64.pkg.tar.zst" = "ddc02326aa5195b9280eec5137726e2d81ea263a6ae6c1a85fbcaf0d12497a45"
-"https://archive.archlinux.org/packages/g/gst-plugins-base-libs/gst-plugins-base-libs-1.26.5-2-x86_64.pkg.tar.zst" = "33c2efbbc4070b2438df207e14cd13b87c461a01967b0a0fb71a7c584e0f1f48"
+"packages/g/gst-plugins-base-libs/gst-plugins-base-libs-1.26.4-1-x86_64.pkg.tar.zst" = "ddc02326aa5195b9280eec5137726e2d81ea263a6ae6c1a85fbcaf0d12497a45"
+"packages/g/gst-plugins-base-libs/gst-plugins-base-libs-1.26.5-2-x86_64.pkg.tar.zst" = "33c2efbbc4070b2438df207e14cd13b87c461a01967b0a0fb71a7c584e0f1f48"

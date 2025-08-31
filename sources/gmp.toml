@@ -1,6 +1,7 @@
 homepage = "https://gmplib.org/"
-url = "https://archive.archlinux.org/packages/g/gmp/gmp-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/gmp/gmp-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "6.3.0-2"
@@ -9,4 +10,4 @@ main = "6.3.0-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/g/gmp/gmp-6.3.0-2-x86_64.pkg.tar.zst" = "286c23ed38d46f803a19d06ca46dc67d96805f7805f7b9818cf9c0ca65a69326"
+"packages/g/gmp/gmp-6.3.0-2-x86_64.pkg.tar.zst" = "286c23ed38d46f803a19d06ca46dc67d96805f7805f7b9818cf9c0ca65a69326"

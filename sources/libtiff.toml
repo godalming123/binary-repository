@@ -1,6 +1,7 @@
 homepage = "http://www.simplesystems.org/libtiff/"
-url = "https://archive.archlinux.org/packages/l/libtiff/libtiff-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libtiff/libtiff-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "4.7.0-2"
@@ -9,5 +10,5 @@ main = "4.7.0-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libtiff/libtiff-4.7.0-1-x86_64.pkg.tar.zst" = "aff14fafcb3565002b52914473f393a5c3e8148f28eeb1c61c7d87d9f717f276"
-"https://archive.archlinux.org/packages/l/libtiff/libtiff-4.7.0-2-x86_64.pkg.tar.zst" = "79132b78b1e62c305a1c6007dc4af8de2e48705c61a62dfce934b97580a40d97"
+"packages/l/libtiff/libtiff-4.7.0-1-x86_64.pkg.tar.zst" = "aff14fafcb3565002b52914473f393a5c3e8148f28eeb1c61c7d87d9f717f276"
+"packages/l/libtiff/libtiff-4.7.0-2-x86_64.pkg.tar.zst" = "79132b78b1e62c305a1c6007dc4af8de2e48705c61a62dfce934b97580a40d97"

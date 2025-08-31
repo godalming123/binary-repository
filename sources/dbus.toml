@@ -1,6 +1,7 @@
 homepage = "https://www.freedesktop.org/wiki/Software/dbus/"
-url = "https://archive.archlinux.org/packages/d/dbus/dbus-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/d/dbus/dbus-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.16.2-1"
@@ -9,4 +10,4 @@ main = "1.16.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/d/dbus/dbus-1.16.2-1-x86_64.pkg.tar.zst" = "740fb8d02f6a5798984f17bf09c4f9f62f42a8339499c283867d9c35cda0d8af"
+"packages/d/dbus/dbus-1.16.2-1-x86_64.pkg.tar.zst" = "740fb8d02f6a5798984f17bf09c4f9f62f42a8339499c283867d9c35cda0d8af"

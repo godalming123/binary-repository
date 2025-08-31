@@ -1,6 +1,7 @@
 homepage = "https://www.gnu.org/software/libtasn1/"
-url = "https://archive.archlinux.org/packages/l/libtasn1/libtasn1-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libtasn1/libtasn1-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "4.20.0-1"
@@ -9,4 +10,4 @@ main = "4.20.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libtasn1/libtasn1-4.20.0-1-x86_64.pkg.tar.zst" = "f3883e75f33797b241032a2cfa60cb5caa8636914b42f8fb7ea9b2eb23d6f837"
+"packages/l/libtasn1/libtasn1-4.20.0-1-x86_64.pkg.tar.zst" = "f3883e75f33797b241032a2cfa60cb5caa8636914b42f8fb7ea9b2eb23d6f837"

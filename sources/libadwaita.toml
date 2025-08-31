@@ -1,6 +1,7 @@
 homepage = "https://gitlab.gnome.org/GNOME/libadwaita/"
-url = "https://archive.archlinux.org/packages/l/libadwaita/libadwaita-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libadwaita/libadwaita-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1:1.7.6-1"
@@ -9,5 +10,5 @@ main = "1:1.7.6-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libadwaita/libadwaita-1:1.7.5-1-x86_64.pkg.tar.zst" = "cdb980594428c4bf8d46d25538cae9b4b783228e3ab505c12bd40f793b81e33a"
-"https://archive.archlinux.org/packages/l/libadwaita/libadwaita-1:1.7.6-1-x86_64.pkg.tar.zst" = "7624bc59cf9b924341be4da5465f1602b58d924c4082f16a45ddef9fda601c44"
+"packages/l/libadwaita/libadwaita-1:1.7.5-1-x86_64.pkg.tar.zst" = "cdb980594428c4bf8d46d25538cae9b4b783228e3ab505c12bd40f793b81e33a"
+"packages/l/libadwaita/libadwaita-1:1.7.6-1-x86_64.pkg.tar.zst" = "7624bc59cf9b924341be4da5465f1602b58d924c4082f16a45ddef9fda601c44"

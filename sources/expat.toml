@@ -1,6 +1,7 @@
 homepage = "https://libexpat.github.io/"
-url = "https://archive.archlinux.org/packages/e/expat/expat-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/e/expat/expat-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.7.1-1"
@@ -9,4 +10,4 @@ main = "2.7.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/e/expat/expat-2.7.1-1-x86_64.pkg.tar.zst" = "1868255dd1d5a673436887070b4739512529a54af3407ed7d1d0059dadd48d58"
+"packages/e/expat/expat-2.7.1-1-x86_64.pkg.tar.zst" = "1868255dd1d5a673436887070b4739512529a54af3407ed7d1d0059dadd48d58"

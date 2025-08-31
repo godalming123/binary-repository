@@ -1,6 +1,7 @@
 homepage = "https://code.videolan.org/videolan/dav1d"
-url = "https://archive.archlinux.org/packages/d/dav1d/dav1d-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/d/dav1d/dav1d-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.5.1-1"
@@ -9,4 +10,4 @@ main = "1.5.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/d/dav1d/dav1d-1.5.1-1-x86_64.pkg.tar.zst" = "6b6857c12c438f283981d2686765c96aa5aeea384864f4a728f6f8da9ffab7e0"
+"packages/d/dav1d/dav1d-1.5.1-1-x86_64.pkg.tar.zst" = "6b6857c12c438f283981d2686765c96aa5aeea384864f4a728f6f8da9ffab7e0"

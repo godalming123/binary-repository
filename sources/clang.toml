@@ -1,8 +1,9 @@
 homepage = "https://clang.llvm.org/"
 description = "C language family frontend for LLVM"
 licenses = ["Apache-2.0 WITH LLVM-exception"]
-url = "https://archive.archlinux.org/packages/c/clang/clang-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/c/clang/clang-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "20.1.8-1"
@@ -11,7 +12,7 @@ main = "20.1.8-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/c/clang/clang-20.1.8-1-x86_64.pkg.tar.zst" = "77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545"
+"packages/c/clang/clang-20.1.8-1-x86_64.pkg.tar.zst" = "77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545"
 
 [directlyDependentSharedLibraries]
 "usr/bin/amdgpu-arch" = [

@@ -1,6 +1,7 @@
 homepage = "https://github.com/anholt/libepoxy"
-url = "https://archive.archlinux.org/packages/l/libepoxy/libepoxy-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libepoxy/libepoxy-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.5.10-3"
@@ -9,4 +10,4 @@ main = "1.5.10-3"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libepoxy/libepoxy-1.5.10-3-x86_64.pkg.tar.zst" = "6e3f4e026b94d45b044f8c15ef0cc04772eafa892dd8b0bf037b1f865f0aaa33"
+"packages/l/libepoxy/libepoxy-1.5.10-3-x86_64.pkg.tar.zst" = "6e3f4e026b94d45b044f8c15ef0cc04772eafa892dd8b0bf037b1f865f0aaa33"

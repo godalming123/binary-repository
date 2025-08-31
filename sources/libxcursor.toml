@@ -1,6 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/xorg/lib/libxcursor"
-url = "https://archive.archlinux.org/packages/l/libxcursor/libxcursor-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libxcursor/libxcursor-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.2.3-1"
@@ -9,4 +10,4 @@ main = "1.2.3-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libxcursor/libxcursor-1.2.3-1-x86_64.pkg.tar.zst" = "2a90267877c2f5ffe6c41a8ef91e6def3b7720de7b4b2628b329373ce20c1b99"
+"packages/l/libxcursor/libxcursor-1.2.3-1-x86_64.pkg.tar.zst" = "2a90267877c2f5ffe6c41a8ef91e6def3b7720de7b4b2628b329373ce20c1b99"

@@ -1,6 +1,7 @@
 homepage = "https://leancrypto.org"
-url = "https://archive.archlinux.org/packages/l/leancrypto/leancrypto-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/leancrypto/leancrypto-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.5.1-1"
@@ -9,4 +10,4 @@ main = "1.5.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/leancrypto/leancrypto-1.5.1-1-x86_64.pkg.tar.zst" = "30f2f0d7e95615761cb4d15c8c66d292702ddcb0c81f1947ccad5603c545dde1"
+"packages/l/leancrypto/leancrypto-1.5.1-1-x86_64.pkg.tar.zst" = "30f2f0d7e95615761cb4d15c8c66d292702ddcb0c81f1947ccad5603c545dde1"

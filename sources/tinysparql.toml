@@ -1,6 +1,7 @@
 homepage = "https://tinysparql.org/"
-url = "https://archive.archlinux.org/packages/t/tinysparql/tinysparql-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/t/tinysparql/tinysparql-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "3.9.2-2"
@@ -9,4 +10,4 @@ main = "3.9.2-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/t/tinysparql/tinysparql-3.9.2-2-x86_64.pkg.tar.zst" = "73f4afebafa4d94193f30ff13da2a308cee79f886fb305dc6c8389ad75be6828"
+"packages/t/tinysparql/tinysparql-3.9.2-2-x86_64.pkg.tar.zst" = "73f4afebafa4d94193f30ff13da2a308cee79f886fb305dc6c8389ad75be6828"

@@ -1,6 +1,7 @@
 homepage = "https://github.com/containers"
-url = "https://archive.archlinux.org/packages/c/containers-common/containers-common-${version.main}-any.pkg.tar.zst"
+urlInMirror = "packages/c/containers-common/containers-common-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1:0.64.1-1"
@@ -9,5 +10,5 @@ main = "1:0.64.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/c/containers-common/containers-common-1:0.63.1-1-any.pkg.tar.zst" = "54fd28028b00feb084718f9fafc44dcae13c84ffb07d95a4dc58a3e6899a2cd5"
-"https://archive.archlinux.org/packages/c/containers-common/containers-common-1:0.64.1-1-any.pkg.tar.zst" = "8355640ae889c95e576351a6d5850211c915d391a82759ef1525811af9ae7c2e"
+"packages/c/containers-common/containers-common-1:0.63.1-1-any.pkg.tar.zst" = "54fd28028b00feb084718f9fafc44dcae13c84ffb07d95a4dc58a3e6899a2cd5"
+"packages/c/containers-common/containers-common-1:0.64.1-1-any.pkg.tar.zst" = "8355640ae889c95e576351a6d5850211c915d391a82759ef1525811af9ae7c2e"

@@ -1,6 +1,7 @@
 homepage = "https://xorg.freedesktop.org/"
-url = "https://archive.archlinux.org/packages/l/libxrender/libxrender-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libxrender/libxrender-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "0.9.12-1"
@@ -9,4 +10,4 @@ main = "0.9.12-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libxrender/libxrender-0.9.12-1-x86_64.pkg.tar.zst" = "fed0389073d5b107074eaab48cefcc2716e607865142cde5b579c8ceeefea142"
+"packages/l/libxrender/libxrender-0.9.12-1-x86_64.pkg.tar.zst" = "fed0389073d5b107074eaab48cefcc2716e607865142cde5b579c8ceeefea142"

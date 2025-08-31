@@ -1,6 +1,7 @@
 homepage = "https://github.com/avahi/avahi"
-url = "https://archive.archlinux.org/packages/a/avahi/avahi-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/a/avahi/avahi-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1:0.9rc2-1"
@@ -9,5 +10,5 @@ main = "1:0.9rc2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/a/avahi/avahi-1:0.8+r194+g3f79789-3-x86_64.pkg.tar.zst" = "4eaddce0585eba9ea61cf9c685bc43e9f05e461aea463b82c9607c927cdcdb7e"
-"https://archive.archlinux.org/packages/a/avahi/avahi-1:0.9rc2-1-x86_64.pkg.tar.zst" = "50e772c2d1ae29a56efee64c5488cf0a61cd259f0a2a35d329e6761de3258bae"
+"packages/a/avahi/avahi-1:0.8+r194+g3f79789-3-x86_64.pkg.tar.zst" = "4eaddce0585eba9ea61cf9c685bc43e9f05e461aea463b82c9607c927cdcdb7e"
+"packages/a/avahi/avahi-1:0.9rc2-1-x86_64.pkg.tar.zst" = "50e772c2d1ae29a56efee64c5488cf0a61cd259f0a2a35d329e6761de3258bae"

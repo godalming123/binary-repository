@@ -1,6 +1,7 @@
 homepage = "https://linux.thai.net/projects/datrie"
-url = "https://archive.archlinux.org/packages/l/libdatrie/libdatrie-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libdatrie/libdatrie-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "0.2.13-4"
@@ -9,4 +10,4 @@ main = "0.2.13-4"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libdatrie/libdatrie-0.2.13-4-x86_64.pkg.tar.zst" = "b0869b4745655b0ac32e6293534f3e82160068d8d496be98e79645df3dd4ccd1"
+"packages/l/libdatrie/libdatrie-0.2.13-4-x86_64.pkg.tar.zst" = "b0869b4745655b0ac32e6293534f3e82160068d8d496be98e79645df3dd4ccd1"

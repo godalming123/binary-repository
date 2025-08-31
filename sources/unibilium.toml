@@ -1,6 +1,7 @@
 homepage = "https://github.com/neovim/unibilium"
-url = "https://archive.archlinux.org/packages/u/unibilium/unibilium-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/u/unibilium/unibilium-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.1.2-1"
@@ -9,4 +10,4 @@ main = "2.1.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/u/unibilium/unibilium-2.1.2-1-x86_64.pkg.tar.zst" = "4aff3d15c068582898236e442b1c018683af194afaea1e13da697f5fd5c479de"
+"packages/u/unibilium/unibilium-2.1.2-1-x86_64.pkg.tar.zst" = "4aff3d15c068582898236e442b1c018683af194afaea1e13da697f5fd5c479de"

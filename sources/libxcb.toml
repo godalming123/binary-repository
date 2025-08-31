@@ -1,6 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/xorg/lib/libxcb"
-url = "https://archive.archlinux.org/packages/l/libxcb/libxcb-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libxcb/libxcb-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.17.0-1"
@@ -9,4 +10,4 @@ main = "1.17.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libxcb/libxcb-1.17.0-1-x86_64.pkg.tar.zst" = "2b2e7ac64b1d56c08a227c10bcab179605f2773f31db0a8c89f49f4e5b2f1292"
+"packages/l/libxcb/libxcb-1.17.0-1-x86_64.pkg.tar.zst" = "2b2e7ac64b1d56c08a227c10bcab179605f2773f31db0a8c89f49f4e5b2f1292"

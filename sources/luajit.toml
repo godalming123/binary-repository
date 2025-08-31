@@ -1,6 +1,7 @@
 homepage = "https://luajit.org/"
-url = "https://archive.archlinux.org/packages/l/luajit/luajit-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/luajit/luajit-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.1.1753364724-1"
@@ -9,4 +10,4 @@ main = "2.1.1753364724-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/luajit/luajit-2.1.1753364724-1-x86_64.pkg.tar.zst" = "3d2e235db44a666a24e743cc56098eb1a3137473dc35e4678033f844c1c5ac8a"
+"packages/l/luajit/luajit-2.1.1753364724-1-x86_64.pkg.tar.zst" = "3d2e235db44a666a24e743cc56098eb1a3137473dc35e4678033f844c1c5ac8a"

@@ -1,8 +1,9 @@
 homepage = "https://invisible-island.net/ncurses/ncurses.html"
 description = "System V Release 4.0 curses emulation library"
 licenses = ["MIT-open-group"]
-url = "https://archive.archlinux.org/packages/n/ncurses/ncurses-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/n/ncurses/ncurses-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "6.5-4"
@@ -11,7 +12,7 @@ main = "6.5-4"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/n/ncurses/ncurses-6.5-4-x86_64.pkg.tar.zst" = "2d06710b287264cbf2e27fdd25f99fb080b2e8ecff53302af965435c0b83ec6a"
+"packages/n/ncurses/ncurses-6.5-4-x86_64.pkg.tar.zst" = "2d06710b287264cbf2e27fdd25f99fb080b2e8ecff53302af965435c0b83ec6a"
 
 [directlyDependentSharedLibraries]
 "usr/bin/tic" = [

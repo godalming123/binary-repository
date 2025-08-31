@@ -1,6 +1,7 @@
 homepage = "https://www.lysator.liu.se/~nisse/nettle"
-url = "https://archive.archlinux.org/packages/n/nettle/nettle-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/n/nettle/nettle-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "3.10.2-1"
@@ -9,4 +10,4 @@ main = "3.10.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/n/nettle/nettle-3.10.2-1-x86_64.pkg.tar.zst" = "fa1a132d0d9cd8c58d90605e2b64b63503e89f398912a653ed05abd0f2dd0a3e"
+"packages/n/nettle/nettle-3.10.2-1-x86_64.pkg.tar.zst" = "fa1a132d0d9cd8c58d90605e2b64b63503e89f398912a653ed05abd0f2dd0a3e"

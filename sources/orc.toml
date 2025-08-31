@@ -1,6 +1,7 @@
 homepage = "https://gstreamer.freedesktop.org/modules/orc.html"
-url = "https://archive.archlinux.org/packages/o/orc/orc-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/o/orc/orc-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "0.4.41-1"
@@ -9,4 +10,4 @@ main = "0.4.41-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/o/orc/orc-0.4.41-1-x86_64.pkg.tar.zst" = "360a9f24cce9f9b7abd3406c465c9a32991c4f060ba6b9c55200c869c1dfad7c"
+"packages/o/orc/orc-0.4.41-1-x86_64.pkg.tar.zst" = "360a9f24cce9f9b7abd3406c465c9a32991c4f060ba6b9c55200c869c1dfad7c"

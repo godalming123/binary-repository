@@ -1,6 +1,7 @@
 homepage = "https://www.oberhumer.com/opensource/lzo"
-url = "https://archive.archlinux.org/packages/l/lzo/lzo-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/lzo/lzo-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.10-5"
@@ -9,4 +10,4 @@ main = "2.10-5"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/lzo/lzo-2.10-5-x86_64.pkg.tar.zst" = "dd5ec871aea5ddfd38d4a25539e966dc05e75d6969ebc31917c8d25b97ccd69e"
+"packages/l/lzo/lzo-2.10-5-x86_64.pkg.tar.zst" = "dd5ec871aea5ddfd38d4a25539e966dc05e75d6969ebc31917c8d25b97ccd69e"

@@ -1,6 +1,7 @@
 homepage = "https://github.com/seccomp/libseccomp"
-url = "https://archive.archlinux.org/packages/l/libseccomp/libseccomp-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libseccomp/libseccomp-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "2.5.6-1"
@@ -9,4 +10,4 @@ main = "2.5.6-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libseccomp/libseccomp-2.5.6-1-x86_64.pkg.tar.zst" = "f89a22cfad511093e688db860b5f1ed99038037984020c37ecc6cafd84feda3b"
+"packages/l/libseccomp/libseccomp-2.5.6-1-x86_64.pkg.tar.zst" = "f89a22cfad511093e688db860b5f1ed99038037984020c37ecc6cafd84feda3b"

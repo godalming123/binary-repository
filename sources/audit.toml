@@ -1,6 +1,7 @@
 homepage = "https://github.com/linux-audit/audit-userspace"
-url = "https://archive.archlinux.org/packages/a/audit/audit-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/a/audit/audit-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "4.0.5-1"
@@ -9,4 +10,4 @@ main = "4.0.5-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/a/audit/audit-4.0.5-1-x86_64.pkg.tar.zst" = "09d03362067b441b343df86d41025cd4be8ce2f10347e610fc8db2c389822ebc"
+"packages/a/audit/audit-4.0.5-1-x86_64.pkg.tar.zst" = "09d03362067b441b343df86d41025cd4be8ce2f10347e610fc8db2c389822ebc"

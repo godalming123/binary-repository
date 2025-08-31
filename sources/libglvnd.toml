@@ -1,6 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/glvnd/libglvnd"
-url = "https://archive.archlinux.org/packages/l/libglvnd/libglvnd-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libglvnd/libglvnd-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.7.0-3"
@@ -9,4 +10,4 @@ main = "1.7.0-3"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libglvnd/libglvnd-1.7.0-3-x86_64.pkg.tar.zst" = "633c2e95d7798d0ce7ee1b7fe970a22325f7f6d35b9f923bb61b223a80934437"
+"packages/l/libglvnd/libglvnd-1.7.0-3-x86_64.pkg.tar.zst" = "633c2e95d7798d0ce7ee1b7fe970a22325f7f6d35b9f923bb61b223a80934437"

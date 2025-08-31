@@ -1,8 +1,9 @@
 homepage = "https://github.com/atx/wtype"
 description = "xdotool type for wayland"
 licenses = ["MIT"]
-url = "https://archive.archlinux.org/packages/w/wtype/wtype-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/w/wtype/wtype-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "0.4-2"
@@ -11,7 +12,7 @@ main = "0.4-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/w/wtype/wtype-0.4-2-x86_64.pkg.tar.zst" = "36ce49003b9e741b85463574d3ab35316bd27d0ef950db0e1f8540d75d68409d"
+"packages/w/wtype/wtype-0.4-2-x86_64.pkg.tar.zst" = "36ce49003b9e741b85463574d3ab35316bd27d0ef950db0e1f8540d75d68409d"
 
 [directlyDependentSharedLibraries]
 "usr/bin/wtype" = [

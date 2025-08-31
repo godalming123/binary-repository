@@ -1,0 +1,14 @@
+homepage = "https://go.dev/"
+description = "Build simple, secure, scalable systems with Go"
+licenses = ["BSD-3-Clause"]
+programmingLanguage = "Go"
+urlInMirror = "dl/go${version.main}.linux-${architecture}.tar.gz"
+compression = ".tar.gz"
+rootPath = "go"
+mirrors = ["https://go.dev"]
+
+[version]
+main = "1.25.0"
+
+[checksums]
+"dl/go1.25.0.linux-amd64.tar.gz" = "2852af0cb20a13139b3448992e69b868e50ed0f8a1e5940ee1de9e19a123b613"

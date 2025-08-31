@@ -1,10 +1,13 @@
 homepage = "https://cli.github.com/"
-url = "https://github.com/cli/cli/releases/download/v${version.main}/gh_${version.main}_linux_${architecture}.tar.gz"
+urlInMirror = "cli/cli/releases/download/v${version.main}/gh_${version.main}_linux_${architecture}.tar.gz"
 rootPath = "gh_${version.main}_linux_${architecture}/bin"
 compression = ".tar.gz"
 filesToMakeExecutable = ["gh"]
-version.main = "2.76.2"
+mirrors = ["https://github.com"]
+
+[version]
+main = "2.76.2"
 
 [checksums]
-"https://github.com/cli/cli/releases/download/v2.75.0/gh_2.75.0_linux_amd64.tar.gz" = "98f910f4cde42a345e241f867f42b2229dda60267d7f87a56d283842519a4cb7"
-"https://github.com/cli/cli/releases/download/v2.76.2/gh_2.76.2_linux_amd64.tar.gz" = "62544b0f3759bbf1155c0ac3d75838b5fe23d66dfb75cf8368f84fff8f82b93e"
+"cli/cli/releases/download/v2.75.0/gh_2.75.0_linux_amd64.tar.gz" = "98f910f4cde42a345e241f867f42b2229dda60267d7f87a56d283842519a4cb7"
+"cli/cli/releases/download/v2.76.2/gh_2.76.2_linux_amd64.tar.gz" = "62544b0f3759bbf1155c0ac3d75838b5fe23d66dfb75cf8368f84fff8f82b93e"

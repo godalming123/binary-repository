@@ -1,6 +1,7 @@
 homepage = "https://www.gtk.org/"
-url = "https://archive.archlinux.org/packages/g/gtk4/gtk4-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/gtk4/gtk4-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1:4.19.4-1"
@@ -9,5 +10,5 @@ main = "1:4.19.4-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/g/gtk4/gtk4-1:4.19.2-1-x86_64.pkg.tar.zst" = "9fbb06d0b6cf3bb2e6be67f602e3ab690f3a0e2bb77403e5f5d7c2469fba0868"
-"https://archive.archlinux.org/packages/g/gtk4/gtk4-1:4.19.4-1-x86_64.pkg.tar.zst" = "b197374108399f51703fb43a1765310a8dece1641c08df2a065813b451a58c22"
+"packages/g/gtk4/gtk4-1:4.19.2-1-x86_64.pkg.tar.zst" = "9fbb06d0b6cf3bb2e6be67f602e3ab690f3a0e2bb77403e5f5d7c2469fba0868"
+"packages/g/gtk4/gtk4-1:4.19.4-1-x86_64.pkg.tar.zst" = "b197374108399f51703fb43a1765310a8dece1641c08df2a065813b451a58c22"

@@ -1,6 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/emersion/grim"
-url = "https://archive.archlinux.org/packages/g/grim/grim-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/g/grim/grim-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "1.5.0-2"
@@ -19,5 +20,5 @@ amd64 = "x86_64"
 ]
 
 [checksums]
-"https://archive.archlinux.org/packages/g/grim/grim-1.5.0-1-x86_64.pkg.tar.zst" = "ec576012e8c1419422dff60bbe5fa0d21565d9e9360a6aa4352851ca160753ae"
-"https://archive.archlinux.org/packages/g/grim/grim-1.5.0-2-x86_64.pkg.tar.zst" = "2cbddb88d4a3316c61e8984203bbdca81cbf089c323e5db09c4e1648c483c8a6"
+"packages/g/grim/grim-1.5.0-1-x86_64.pkg.tar.zst" = "ec576012e8c1419422dff60bbe5fa0d21565d9e9360a6aa4352851ca160753ae"
+"packages/g/grim/grim-1.5.0-2-x86_64.pkg.tar.zst" = "2cbddb88d4a3316c61e8984203bbdca81cbf089c323e5db09c4e1648c483c8a6"

@@ -1,6 +1,7 @@
 homepage = "https://sourceware.org/libffi/"
-url = "https://archive.archlinux.org/packages/l/libffi/libffi-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/l/libffi/libffi-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "3.5.2-1"
@@ -9,5 +10,5 @@ main = "3.5.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/l/libffi/libffi-3.5.1-1-x86_64.pkg.tar.zst" = "2a5df57eb1ec875b8fd825baf5eb70db2d487d7652532415b4bba38037afbb1e"
-"https://archive.archlinux.org/packages/l/libffi/libffi-3.5.2-1-x86_64.pkg.tar.zst" = "6855aa68ae506c124f9e62c6be3dd40dd750a050d7126d5265118128638da5c3"
+"packages/l/libffi/libffi-3.5.1-1-x86_64.pkg.tar.zst" = "2a5df57eb1ec875b8fd825baf5eb70db2d487d7652532415b4bba38037afbb1e"
+"packages/l/libffi/libffi-3.5.2-1-x86_64.pkg.tar.zst" = "6855aa68ae506c124f9e62c6be3dd40dd750a050d7126d5265118128638da5c3"

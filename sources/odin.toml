@@ -1,8 +1,9 @@
 homepage = "https://odin-lang.org/"
 description = "Data-oriented programming language"
 licenses = ["BSD-3-Clause"]
-url = "https://archive.archlinux.org/packages/o/odin/odin-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "packages/o/odin/odin-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "dev_2025_08-2"
@@ -11,8 +12,8 @@ main = "dev_2025_08-2"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/o/odin/odin-dev_2025_08-1-x86_64.pkg.tar.zst" = "31f108ed6db4b1353aacd0d83370ae56b1572cef6347a30e4e732bbae8ad4e22"
-"https://archive.archlinux.org/packages/o/odin/odin-dev_2025_08-2-x86_64.pkg.tar.zst" = "e84072073ee4aeea15010dab3fe61ae1602138b9efaaff2c3214e5b6d66d2654"
+"packages/o/odin/odin-dev_2025_08-1-x86_64.pkg.tar.zst" = "31f108ed6db4b1353aacd0d83370ae56b1572cef6347a30e4e732bbae8ad4e22"
+"packages/o/odin/odin-dev_2025_08-2-x86_64.pkg.tar.zst" = "e84072073ee4aeea15010dab3fe61ae1602138b9efaaff2c3214e5b6d66d2654"
 
 [directlyDependentSharedLibraries]
 "usr/lib/odin/odin" = [

@@ -1,10 +1,15 @@
 homepage = "https://github.com/aristocratos/btop"
 programmingLanguage = "C++"
-url = "https://github.com/aristocratos/btop/releases/download/v${version.main}/btop-${architecture}-linux-musl.tbz"
+urlInMirror = "aristocratos/btop/releases/download/v${version.main}/btop-${architecture}-linux-musl.tbz"
 compression = ".tbz"
-version.main = "1.4.4"
-architectureNames.amd64 = "x86_64"
 rootPath = "btop"
+mirrors = ["https://github.com"]
+
+[version]
+main = "1.4.4"
+
+[architectureNames]
+amd64 = "x86_64"
 
 [checksums]
-"https://github.com/aristocratos/btop/releases/download/v1.4.4/btop-x86_64-linux-musl.tbz" = "fec7d1b59c671290a0f80d5a32617ea6d60412485fc04318fd194b9550ff6b49"
+"aristocratos/btop/releases/download/v1.4.4/btop-x86_64-linux-musl.tbz" = "fec7d1b59c671290a0f80d5a32617ea6d60412485fc04318fd194b9550ff6b49"

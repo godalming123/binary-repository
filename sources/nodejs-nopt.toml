@@ -1,8 +1,9 @@
 homepage = "https://github.com/npm/nopt"
 description = "Node/npm Option Parsing library"
 licenses = ["custom:ISC"]
-url = "https://archive.archlinux.org/packages/n/nodejs-nopt/nodejs-nopt-${version.main}-any.pkg.tar.zst"
+urlInMirror = "packages/n/nodejs-nopt/nodejs-nopt-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
+mirrors = ["https://archive.archlinux.org"]
 
 [version]
 main = "7.2.1-1"
@@ -11,4 +12,4 @@ main = "7.2.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"https://archive.archlinux.org/packages/n/nodejs-nopt/nodejs-nopt-7.2.1-1-any.pkg.tar.zst" = "272efa4c79c657d997fc56834311f8d5cf118da18a0646bc93319c4b10ed6b42"
+"packages/n/nodejs-nopt/nodejs-nopt-7.2.1-1-any.pkg.tar.zst" = "272efa4c79c657d997fc56834311f8d5cf118da18a0646bc93319c4b10ed6b42"
