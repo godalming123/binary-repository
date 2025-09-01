@@ -20,7 +20,8 @@ A repository of binaries from other build systems that is designed to be used wi
 - Zed tries to auto update itself
 - `npx` does not seem to recognise binaries installed with `npm install -g`
 - Lilipod only supports AMD64, but bento has no way of knowing this
-- Cursor only works on x86_64
+- Cursor only works on x86_64, and bento has no way of knowing this
+- Ghostty only works on x86_64, and bento has no way of knowing this
 
 # Missing packages
 

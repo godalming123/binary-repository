@@ -1,18 +1,14 @@
 homepage = "https://ghostty.org/"
 programmingLanguage = "Zig"
-urlInMirror = "packages/g/ghostty/ghostty-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "godalming123/ghostty-bin/releases/download/v${version.main}/ghostty.tar.zst"
 compression = ".tar.zst"
-filesToMakeExecutable = ["usr/bin/ghostty"]
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://github.com"]
 
 [version]
-main = "1.1.3-1"
-
-[architectureNames]
-amd64 = "x86_64"
+main = "1.1.3"
 
 [directlyDependentSharedLibraries]
-"usr/bin/ghostty" = [
+"bin/ghostty" = [
     "libfreetype.so.6",
     "libharfbuzz.so.0",
     "libfontconfig.so.1",
@@ -29,8 +25,8 @@ amd64 = "x86_64"
     "ld-linux-x86-64.so.2",
 ]
 
-[env."usr/bin/ghostty"]
-GHOSTTY_RESOURCES_DIR = "${ghostty}/usr/share/ghostty:${ghostty-terminfo}/usr/share/terminfo"
+[env."bin/ghostty"]
+GHOSTTY_RESOURCES_DIR = "${ghostty}/share/ghostty"
 
 [checksums]
-"packages/g/ghostty/ghostty-1.1.3-1-x86_64.pkg.tar.zst" = "072f7d1ca3fb58a180cd38e3811b16e14203596ad59e80dd27ba4c4cf2a15275"
+"godalming123/ghostty-bin/releases/download/v1.1.3/ghostty.tar.zst" = "cc022629f8ec915ea423d1cdd4cc29e312799f604032e38263796b66cd59111f"

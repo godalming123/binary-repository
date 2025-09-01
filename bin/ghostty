@@ -1,1 +1,1 @@
-#!/usr/bin/env -S bento exec ghostty usr/bin/ghostty
+#!/usr/bin/env -S bento exec ghostty bin/ghostty
