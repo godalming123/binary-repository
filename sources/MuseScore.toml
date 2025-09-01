@@ -1,12 +1,15 @@
 homepage = "https://musescore.org/"
 programmingLanguage = "C++"
-urlInMirror = "musescore/v${version.main}/MuseScore-Studio-${version.main}.${version.other}-${architecture}.AppImage"
+urlInMirror = "v${version.main}/MuseScore-Studio-${version.main}.${version.other}-${architecture}.AppImage"
 compression = "none"
 filesToMakeExecutable = ["."]
-mirrors = ["https://cdn.jsdelivr.net"]
+mirrors = [
+    "https://cdn.jsdelivr.net/musescore",
+    "https://github.com/musescore/MuseScore/releases/download",
+]
 
 [checksums]
-"musescore/v4.5.2/MuseScore-Studio-4.5.2.251141401-x86_64.AppImage" = "d010b6464c78b4da23077eb4f096f949ae68bac4c809a8b008a0cfbf48e260a5"
+"v4.5.2/MuseScore-Studio-4.5.2.251141401-x86_64.AppImage" = "d010b6464c78b4da23077eb4f096f949ae68bac4c809a8b008a0cfbf48e260a5"
 
 [version]
 main = "4.5.2"
