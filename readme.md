@@ -22,6 +22,7 @@ A repository of binaries from other build systems that is designed to be used wi
 - Lilipod only supports AMD64, but bento has no way of knowing this
 - Cursor only works on x86_64, and bento has no way of knowing this
 - Ghostty only works on x86_64, and bento has no way of knowing this
+- `ols` only works when `odin` is downloaded since `ols` executes `odin root` to try and find where odin's standerd library is
 
 # Missing packages
 
@@ -34,7 +35,6 @@ A repository of binaries from other build systems that is designed to be used wi
 
 ## Missing packages that also aren't packaged in fedora
 
-- [Ols](https://github.com/DanielGavin/ols)
 - Dprint
 
 # Stargazers over time

@@ -1,0 +1,18 @@
+homepage = "https://github.com/DanielGavin/ols"
+programmingLanguage = "Odin"
+urlInMirror = "latest%2F${version.main}/${architecture}-linux-gnu-ols"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/godalming123/ols-bin/releases/download"]
+
+[version]
+main = "2025-09-06"
+
+[directlyDependentSharedLibraries]
+"." = [
+  "libm.so.6",
+  "libc.so.6",
+]
+
+[checksums]
+"latest%2F2025-09-06/amd64-linux-gnu-ols" = "ec87e8a1476e13a8e1097e540f0183176a824685826f269bcb52a55b0f8fbb5d"
