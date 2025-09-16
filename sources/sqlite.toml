@@ -1,7 +1,7 @@
 homepage = "https://www.sqlite.org/"
-urlInMirror = "packages/s/sqlite/sqlite-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "sqlite-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/s/sqlite"]
 
 [version]
 main = "3.50.4-1"
@@ -10,5 +10,5 @@ main = "3.50.4-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/s/sqlite/sqlite-3.50.3-1-x86_64.pkg.tar.zst" = "d17eead32978952ff6f62b96873697028fa5e49230516467ad52c82bba547265"
-"packages/s/sqlite/sqlite-3.50.4-1-x86_64.pkg.tar.zst" = "59b2cb2835eadeb11bf40a5f13ee1bc400d97311de7512dda9d056c8a3c4f10e"
+"sqlite-3.50.3-1-x86_64.pkg.tar.zst" = "d17eead32978952ff6f62b96873697028fa5e49230516467ad52c82bba547265"
+"sqlite-3.50.4-1-x86_64.pkg.tar.zst" = "59b2cb2835eadeb11bf40a5f13ee1bc400d97311de7512dda9d056c8a3c4f10e"

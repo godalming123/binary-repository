@@ -1,15 +1,16 @@
 homepage = "https://nghttp2.org/"
 description = "Framing layer of HTTP/2 is implemented as a reusable C library"
 licenses = ["MIT"]
-urlInMirror = "packages/l/libnghttp2/libnghttp2-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libnghttp2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libnghttp2"]
 
 [version]
-main = "1.66.0-1"
+main = "1.67.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libnghttp2/libnghttp2-1.66.0-1-x86_64.pkg.tar.zst" = "90d3fa2ed2eb4c73a4b1c190cc63be68915b4c24b31f1c74dc48863df776c6be"
+"libnghttp2-1.66.0-1-x86_64.pkg.tar.zst" = "90d3fa2ed2eb4c73a4b1c190cc63be68915b4c24b31f1c74dc48863df776c6be"
+"libnghttp2-1.67.0-1-x86_64.pkg.tar.zst" = "ea1ce6089289b465926d19da9842bdf53f7594a6929bf5097eb93c7f897b143c"

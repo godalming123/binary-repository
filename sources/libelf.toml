@@ -1,7 +1,7 @@
 homepage = "https://sourceware.org/elfutils/"
-urlInMirror = "packages/l/libelf/libelf-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libelf-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libelf"]
 
 [version]
 main = "0.193-5"
@@ -10,5 +10,5 @@ main = "0.193-5"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libelf/libelf-0.193-2-x86_64.pkg.tar.zst" = "4de9844fda6589d6ad1c9414dd9cc3ebb6f7f928fc2fb81a309a2a2ce66b1416"
-"packages/l/libelf/libelf-0.193-5-x86_64.pkg.tar.zst" = "6b38af0e88ed62fb8db0a08de9a1f1518b899c226fceaacc316992475d93a7cc"
+"libelf-0.193-2-x86_64.pkg.tar.zst" = "4de9844fda6589d6ad1c9414dd9cc3ebb6f7f928fc2fb81a309a2a2ce66b1416"
+"libelf-0.193-5-x86_64.pkg.tar.zst" = "6b38af0e88ed62fb8db0a08de9a1f1518b899c226fceaacc316992475d93a7cc"

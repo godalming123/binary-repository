@@ -1,7 +1,7 @@
 homepage = "https://openprinting.github.io/cups/"
-urlInMirror = "packages/l/libcups/libcups-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libcups-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libcups"]
 
 [version]
 main = "2:2.4.12-2"
@@ -10,4 +10,4 @@ main = "2:2.4.12-2"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libcups/libcups-2:2.4.12-2-x86_64.pkg.tar.zst" = "91a0c83de714a8c7fdef5e38f32f70963a545fd62c5797ccffc7090d668c4a58"
+"libcups-2:2.4.12-2-x86_64.pkg.tar.zst" = "91a0c83de714a8c7fdef5e38f32f70963a545fd62c5797ccffc7090d668c4a58"

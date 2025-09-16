@@ -1,7 +1,7 @@
 homepage = "https://www.vulkan.org/"
-urlInMirror = "packages/v/vulkan-icd-loader/vulkan-icd-loader-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "vulkan-icd-loader-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/v/vulkan-icd-loader"]
 
 [version]
 main = "1.4.321.0-1"
@@ -10,4 +10,4 @@ main = "1.4.321.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/v/vulkan-icd-loader/vulkan-icd-loader-1.4.321.0-1-x86_64.pkg.tar.zst" = "5559cd57b8cb72663dac3cf5d9ed8acc6946fc7725c9f601fa369852727237d5"
+"vulkan-icd-loader-1.4.321.0-1-x86_64.pkg.tar.zst" = "5559cd57b8cb72663dac3cf5d9ed8acc6946fc7725c9f601fa369852727237d5"

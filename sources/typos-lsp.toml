@@ -1,0 +1,13 @@
+homepage = "https://github.com/tekumara/typos-lsp"
+urlInMirror = "v${version.main}/typos-lsp-v${version.main}-${architecture}-unknown-linux-gnu.tar.gz"
+mirrors = ["https://github.com/tekumara/typos-lsp/releases/download"]
+compression = ".tar.gz"
+
+[version]
+main = "0.1.43"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v0.1.43/typos-lsp-v0.1.43-x86_64-unknown-linux-gnu.tar.gz" = "f58afd7016d64886f779faa0fe9b7ea8a122f79be7f7ceab8bd65f2879d3184c"

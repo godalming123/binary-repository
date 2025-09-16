@@ -43,11 +43,15 @@ def getChecksum (filePath: string): any -> string {
 let archPackageRepo = "https://archive.archlinux.org/packages"
 
 def getPackageUrl (packageName: string, packageVersion: string, packageArch: string) {
-  $"($archPackageRepo)/($packageName | split chars | get 0)/($packageName)/($packageName)-($packageVersion)-($packageArch).pkg.tar.zst"
+  return [
+    $"($archPackageRepo)/($packageName | split chars | get 0)/($packageName)",
+    $"($packageName)-($packageVersion)-($packageArch).pkg.tar.zst",
+  ]
 }
 
 def downloadPackage (packageName: string, packageVersion: string, packageArch: string) {
-  let url = getPackageUrl $packageName $packageVersion $packageArch
+  let splitUrl = getPackageUrl $packageName $packageVersion $packageArch
+  let url = $splitUrl | str join "/"
   let file = $"/tmp/($packageName)-($packageVersion).tar.zst"
   let dir = $"/tmp/($packageName)-($packageVersion)"
 
@@ -62,10 +66,10 @@ def downloadPackage (packageName: string, packageVersion: string, packageArch: s
     tar --extract --use-compress-program unzstd --file $file --directory $dir
   }
 
-  {url: $url, file: $file, dir: $dir}
+  {url: $splitUrl, file: $file, dir: $dir}
 }
 
-# TODO: For the places that still ask the user what version of a packge to use:
+# TODO: For the places that still ask the user what version of a package to use:
 # Use `getLatestPackages` to get the latest version instead of asking the user
 
 def ensureSourceIsInstalled (sourceName: string) {
@@ -160,11 +164,12 @@ def "main addPackageFromArch" (--arch-agnostic-package, packageName: string, pac
     homepage: ($pkgInfo | getIniValue url)
     description: ($pkgInfo | getIniValue pkgdesc)
     licenses: [($pkgInfo | getIniValue license)] # TODO: Handle a package having multiple licenses
-    url: (getPackageUrl $packageName "${version.main}" (if $arch_agnostic_package {"any"} else {"${architecture}"}))
+    urlInMirror: $"($packageName)-${version.main}-(if $arch_agnostic_package {"any"} else {"${architecture}"}).pkg.tar.zst"
+    mirrors: [$downloadedPackage.url.0],
     compression: ".tar.zst"
     version: {main: $packageVersion}
     architectureNames: {amd64: "x86_64"}
-    checksums: {$downloadedPackage.url: (getChecksum $downloadedPackage.file)}
+    checksums: {$downloadedPackage.url.1: (getChecksum $downloadedPackage.file)}
   } | to toml | save $"($env.FILE_PWD)/sources/($packageName).toml"
   main setupSource $packageName
 
@@ -266,10 +271,11 @@ def "main updatePackages" () {
   ls sources | each {
     |sourceFile|
     let source = open $sourceFile.name
-    if ($source.url | str starts-with $archPackageRepo) {
-      let urlComponents = $source.url | split row "/"
+    if ($source.mirrors.0 | str starts-with "https://archive.archlinux.org") {
+    let url = $source.mirrors.0 ++ "/" ++ $source.urlInMirror
+      let urlComponents = $url | split row "/"
       let packageName = $urlComponents.5
-      let architectureAgnostic = not ("${architecture}" in $source.url)
+      let architectureAgnostic = not ("${architecture}" in $url)
       let packageVersions = $packages | where name == $packageName | each {
         |package|
         match [$architectureAgnostic $package.architectureAgnostic] {
@@ -286,7 +292,7 @@ def "main updatePackages" () {
         }
       })}
       let downloadedPackage = downloadPackage $packageName $newVersion.main (if $architectureAgnostic {"any"} else {"x86_64"})
-      let newChecksums = $source.checksums | upsert $downloadedPackage.url (getChecksum $downloadedPackage.file)
+      let newChecksums = $source.checksums | upsert $downloadedPackage.url.1 (getChecksum $downloadedPackage.file)
       $source
       | update "version" $newVersion
       | update "checksums" $newChecksums

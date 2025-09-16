@@ -1,14 +1,15 @@
 homepage = "https://www.mesa3d.org/"
-urlInMirror = "packages/m/mesa/mesa-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "mesa-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/m/mesa"]
 
 [version]
-main = "1:25.2.1-4"
+main = "1:25.2.2-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/m/mesa/mesa-1:25.1.7-1-x86_64.pkg.tar.zst" = "e5552c5364978668aba6b822c1238b2d6b9d4044ff14df3921e787690370594e"
-"packages/m/mesa/mesa-1:25.2.1-4-x86_64.pkg.tar.zst" = "f07c27031dece4c63c90516ffa5937d663144a9ed93cd3b8a85bf8c7f6647df5"
+"mesa-1:25.1.7-1-x86_64.pkg.tar.zst" = "e5552c5364978668aba6b822c1238b2d6b9d4044ff14df3921e787690370594e"
+"mesa-1:25.2.1-4-x86_64.pkg.tar.zst" = "f07c27031dece4c63c90516ffa5937d663144a9ed93cd3b8a85bf8c7f6647df5"
+"mesa-1:25.2.2-2-x86_64.pkg.tar.zst" = "2e61d9fc95777222dd2b47dff219b47eabb403c6d14cd20014760ff5541a03d5"

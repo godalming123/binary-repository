@@ -1,7 +1,7 @@
 homepage = "https://xkbcommon.org/"
-urlInMirror = "packages/l/libxkbcommon/libxkbcommon-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxkbcommon-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxkbcommon"]
 
 [version]
 main = "1.11.0-1"
@@ -10,5 +10,5 @@ main = "1.11.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxkbcommon/libxkbcommon-1.10.0-1-x86_64.pkg.tar.zst" = "fd6d107fa8068a9bc07a78fb30fff618c25fd6c14a9aad10034d20fb1f23af21"
-"packages/l/libxkbcommon/libxkbcommon-1.11.0-1-x86_64.pkg.tar.zst" = "6c7206057e97e08812c429106a7f639411d4919ba15c193f0582743dd5b7cfe6"
+"libxkbcommon-1.10.0-1-x86_64.pkg.tar.zst" = "fd6d107fa8068a9bc07a78fb30fff618c25fd6c14a9aad10034d20fb1f23af21"
+"libxkbcommon-1.11.0-1-x86_64.pkg.tar.zst" = "6c7206057e97e08812c429106a7f639411d4919ba15c193f0582743dd5b7cfe6"

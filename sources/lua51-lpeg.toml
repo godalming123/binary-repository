@@ -1,7 +1,7 @@
 homepage = "https://www.inf.puc-rio.br/~roberto/lpeg/"
-urlInMirror = "packages/l/lua51-lpeg/lua51-lpeg-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "lua51-lpeg-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/lua51-lpeg"]
 
 [version]
 main = "1.1.0-4"
@@ -10,5 +10,5 @@ main = "1.1.0-4"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/lua51-lpeg/lua51-lpeg-1.1.0-3-x86_64.pkg.tar.zst" = "a20c6b002c3d251c1790d9f7ada9cb9b6ec5de439053a5e73e1ba501ae5c4baf"
-"packages/l/lua51-lpeg/lua51-lpeg-1.1.0-4-x86_64.pkg.tar.zst" = "b4be9da8032f3ea86cadd5c8837356a3d23cf0aebbbe192f1c0766a4dbedca78"
+"lua51-lpeg-1.1.0-3-x86_64.pkg.tar.zst" = "a20c6b002c3d251c1790d9f7ada9cb9b6ec5de439053a5e73e1ba501ae5c4baf"
+"lua51-lpeg-1.1.0-4-x86_64.pkg.tar.zst" = "b4be9da8032f3ea86cadd5c8837356a3d23cf0aebbbe192f1c0766a4dbedca78"

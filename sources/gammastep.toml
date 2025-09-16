@@ -1,7 +1,7 @@
 homepage = "https://gitlab.com/chinstrap/gammastep"
-urlInMirror = "packages/g/gammastep/gammastep-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "gammastep-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/g/gammastep"]
 
 [version]
 main = "2.0.11-1"
@@ -10,4 +10,4 @@ main = "2.0.11-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/g/gammastep/gammastep-2.0.11-1-x86_64.pkg.tar.zst" = "981188856d975485839ce82848e57e8638fd04715658768d3db9f9d7166d04bd"
+"gammastep-2.0.11-1-x86_64.pkg.tar.zst" = "981188856d975485839ce82848e57e8638fd04715658768d3db9f9d7166d04bd"

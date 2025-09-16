@@ -1,7 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/xorg/lib/libxext"
-urlInMirror = "packages/l/libxext/libxext-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxext-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxext"]
 
 [version]
 main = "1.3.6-1"
@@ -10,4 +10,4 @@ main = "1.3.6-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxext/libxext-1.3.6-1-x86_64.pkg.tar.zst" = "a6e51c38f10bf22728091c71fac64c3e02ccb37b847dd953773d23d4657560a3"
+"libxext-1.3.6-1-x86_64.pkg.tar.zst" = "a6e51c38f10bf22728091c71fac64c3e02ccb37b847dd953773d23d4657560a3"

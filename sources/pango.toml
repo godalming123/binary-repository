@@ -1,14 +1,15 @@
 homepage = "https://www.pango.org/"
-urlInMirror = "packages/p/pango/pango-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "pango-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/p/pango"]
 
 [version]
-main = "1:1.56.4-1"
+main = "1:1.56.4-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/p/pango/pango-1:1.56.4-1-x86_64.pkg.tar.zst" = "aad7e42a5dc72ba86c454ddbaccd1d0d0a1012c6d8ebd7078c8b9c9b6e0bfc41"
-"packages/p/pango/pango-1:1.57.0-1-x86_64.pkg.tar.zst" = "a4ce30ed15ee4fcdc018c2c3f7a5943e0b4fb51a71d7471ba32e707c12cd4816"
+"pango-1:1.56.4-1-x86_64.pkg.tar.zst" = "aad7e42a5dc72ba86c454ddbaccd1d0d0a1012c6d8ebd7078c8b9c9b6e0bfc41"
+"pango-1:1.57.0-1-x86_64.pkg.tar.zst" = "a4ce30ed15ee4fcdc018c2c3f7a5943e0b4fb51a71d7471ba32e707c12cd4816"
+"pango-1:1.56.4-2-x86_64.pkg.tar.zst" = "4bab2240cead83b5195755d715bfea61dda4eff6ea501e35a61231d7ba6ade8b"

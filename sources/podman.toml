@@ -1,10 +1,10 @@
 homepage = "https://podman.io/"
-urlInMirror = "packages/p/podman/podman-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "podman-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/p/podman"]
 
 [version]
-main = "5.6.0-1"
+main = "5.6.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -19,5 +19,6 @@ amd64 = "x86_64"
 ]
 
 [checksums]
-"packages/p/podman/podman-5.5.2-1-x86_64.pkg.tar.zst" = "04b6fe029d0893223241b052e018ae295cd85ccd0b68c6f72628c74905bc09aa"
-"packages/p/podman/podman-5.6.0-1-x86_64.pkg.tar.zst" = "2d70195dc71ef2610031c3b8d290eab88525b1427cbe3c891cd76d32f9e9c4f1"
+"podman-5.5.2-1-x86_64.pkg.tar.zst" = "04b6fe029d0893223241b052e018ae295cd85ccd0b68c6f72628c74905bc09aa"
+"podman-5.6.0-1-x86_64.pkg.tar.zst" = "2d70195dc71ef2610031c3b8d290eab88525b1427cbe3c891cd76d32f9e9c4f1"
+"podman-5.6.1-1-x86_64.pkg.tar.zst" = "d86ca66d50749b72430bf3d226dc45ca92c814a315a9b06e9763349d2d7f5859"

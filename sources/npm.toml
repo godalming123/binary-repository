@@ -1,18 +1,19 @@
 homepage = "https://www.npmjs.com"
 description = "JavaScript package manager"
 licenses = ["Artistic-2.0"]
-urlInMirror = "packages/n/npm/npm-${version.main}-any.pkg.tar.zst"
+urlInMirror = "npm-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/n/npm"]
 
 [version]
-main = "11.5.2-1"
+main = "11.6.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/n/npm/npm-11.5.2-1-any.pkg.tar.zst" = "293013247a822283c3015fc11fd31406b83835524fa1d58e606a1c84a937a89b"
+"npm-11.5.2-1-any.pkg.tar.zst" = "293013247a822283c3015fc11fd31406b83835524fa1d58e606a1c84a937a89b"
+"npm-11.6.0-1-any.pkg.tar.zst" = "8df608a93f80eb56ddd01a3e669899b649b950bbb788e63780a30a6aa196f68e"
 
 [env."usr/lib/node_modules/npm/bin/npm-cli.js"]
 NODE_PATH = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"

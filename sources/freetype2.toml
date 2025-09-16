@@ -1,13 +1,14 @@
 homepage = "https://freetype.org/"
-urlInMirror = "packages/f/freetype2/freetype2-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "freetype2-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/f/freetype2"]
 
 [version]
-main = "2.13.3-3"
+main = "2.14.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/f/freetype2/freetype2-2.13.3-3-x86_64.pkg.tar.zst" = "130217614d85ad4a7bc4a565e2ef2be51e71712287263bc7463fc07f4bc2f985"
+"freetype2-2.13.3-3-x86_64.pkg.tar.zst" = "130217614d85ad4a7bc4a565e2ef2be51e71712287263bc7463fc07f4bc2f985"
+"freetype2-2.14.1-1-x86_64.pkg.tar.zst" = "defbf42bbef8a03565762432ebd1eacadd1893b967b2e133822cbd518062f711"

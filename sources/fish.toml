@@ -1,8 +1,8 @@
 homepage = "https://fishshell.com/"
 description = "Smart and user friendly shell intended mostly for interactive use"
-urlInMirror = "packages/f/fish/fish-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "fish-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/f/fish"]
 
 [version]
 main = "4.0.2-1"
@@ -11,7 +11,7 @@ main = "4.0.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/f/fish/fish-4.0.2-1-x86_64.pkg.tar.zst" = "307242754bea69f45faedc54008c48c91d69e71f94684292500b74fe3d634a22"
+"fish-4.0.2-1-x86_64.pkg.tar.zst" = "307242754bea69f45faedc54008c48c91d69e71f94684292500b74fe3d634a22"
 
 [directlyDependentSharedLibraries]
 "usr/bin/fish" = [

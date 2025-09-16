@@ -1,7 +1,7 @@
 homepage = "https://dri.freedesktop.org/"
-urlInMirror = "packages/l/libdrm/libdrm-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libdrm-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libdrm"]
 
 [version]
 main = "2.4.125-1"
@@ -10,4 +10,4 @@ main = "2.4.125-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libdrm/libdrm-2.4.125-1-x86_64.pkg.tar.zst" = "53c724b1d1a06e913bc75e28a4cbbecb12a5da812d54cf3e1fb418b99e9a6f73"
+"libdrm-2.4.125-1-x86_64.pkg.tar.zst" = "53c724b1d1a06e913bc75e28a4cbbecb12a5da812d54cf3e1fb418b99e9a6f73"

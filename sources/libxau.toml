@@ -1,7 +1,7 @@
 homepage = "https://xorg.freedesktop.org/"
-urlInMirror = "packages/l/libxau/libxau-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxau-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxau"]
 
 [version]
 main = "1.0.12-1"
@@ -10,4 +10,4 @@ main = "1.0.12-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxau/libxau-1.0.12-1-x86_64.pkg.tar.zst" = "605c8b059c36792f4e0cc235acadf39d0762df6c7878825a1be01a00ae7ea21e"
+"libxau-1.0.12-1-x86_64.pkg.tar.zst" = "605c8b059c36792f4e0cc235acadf39d0762df6c7878825a1be01a00ae7ea21e"

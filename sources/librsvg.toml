@@ -1,14 +1,15 @@
 homepage = "https://wiki.gnome.org/Projects/LibRsvg"
-urlInMirror = "packages/l/librsvg/librsvg-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "librsvg-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/librsvg"]
 
 [version]
-main = "2:2.61.0-1"
+main = "2:2.61.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/librsvg/librsvg-2:2.60.0-2-x86_64.pkg.tar.zst" = "50e158c76479d85e65b91b624059d97961c2a1c18efa0388dfbfb295b2dbd230"
-"packages/l/librsvg/librsvg-2:2.61.0-1-x86_64.pkg.tar.zst" = "084067d5ef599972d7c4abc134fd3959b47cb9f7dc857c8a506d5e2b81e77944"
+"librsvg-2:2.60.0-2-x86_64.pkg.tar.zst" = "50e158c76479d85e65b91b624059d97961c2a1c18efa0388dfbfb295b2dbd230"
+"librsvg-2:2.61.0-1-x86_64.pkg.tar.zst" = "084067d5ef599972d7c4abc134fd3959b47cb9f7dc857c8a506d5e2b81e77944"
+"librsvg-2:2.61.1-1-x86_64.pkg.tar.zst" = "2134c9dd4d0a84bee8cf7be0120244bea1811da1fc24261bb56ad1528c21f25d"

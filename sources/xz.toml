@@ -1,7 +1,7 @@
 homepage = "https://tukaani.org/xz/"
-urlInMirror = "packages/x/xz/xz-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "xz-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/x/xz"]
 
 [version]
 main = "5.8.1-1"
@@ -10,4 +10,4 @@ main = "5.8.1-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/x/xz/xz-5.8.1-1-x86_64.pkg.tar.zst" = "aeecc6315b7b6d6af8d43a375b1e2795e313563bfde8a5df5866952b087eb6ad"
+"xz-5.8.1-1-x86_64.pkg.tar.zst" = "aeecc6315b7b6d6af8d43a375b1e2795e313563bfde8a5df5866952b087eb6ad"

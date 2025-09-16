@@ -1,7 +1,7 @@
 homepage = "https://gitlab.gnome.org/GNOME/libgudev"
-urlInMirror = "packages/l/libgudev/libgudev-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libgudev-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libgudev"]
 
 [version]
 main = "238-3"
@@ -10,4 +10,4 @@ main = "238-3"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libgudev/libgudev-238-3-x86_64.pkg.tar.zst" = "2eb60ecec6a7c1c2b18ae9c259afeb45ad18abb4cdfa486ff38f333557ed520f"
+"libgudev-238-3-x86_64.pkg.tar.zst" = "2eb60ecec6a7c1c2b18ae9c259afeb45ad18abb4cdfa486ff38f333557ed520f"

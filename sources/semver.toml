@@ -1,9 +1,9 @@
 homepage = "https://github.com/npm/node-semver"
 description = "The semantic version parser used by npm"
 licenses = ["ISC"]
-urlInMirror = "packages/s/semver/semver-${version.main}-any.pkg.tar.zst"
+urlInMirror = "semver-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/s/semver"]
 
 [version]
 main = "7.7.2-1"
@@ -12,4 +12,4 @@ main = "7.7.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/s/semver/semver-7.7.2-1-any.pkg.tar.zst" = "8b86fb7c61be1917ab50997788c6527fd19131d0629b84e10629bd3364aa5740"
+"semver-7.7.2-1-any.pkg.tar.zst" = "8b86fb7c61be1917ab50997788c6527fd19131d0629b84e10629bd3364aa5740"

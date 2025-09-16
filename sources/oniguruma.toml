@@ -1,7 +1,7 @@
 homepage = "https://github.com/kkos/oniguruma"
-urlInMirror = "packages/o/oniguruma/oniguruma-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "oniguruma-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/o/oniguruma"]
 
 [version]
 main = "6.9.10-1"
@@ -10,4 +10,4 @@ main = "6.9.10-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/o/oniguruma/oniguruma-6.9.10-1-x86_64.pkg.tar.zst" = "25b7266753b04ed80dd771b7499d2750ad859a90fa87b37b891687891c108efe"
+"oniguruma-6.9.10-1-x86_64.pkg.tar.zst" = "25b7266753b04ed80dd771b7499d2750ad859a90fa87b37b891687891c108efe"

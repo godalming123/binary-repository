@@ -1,7 +1,7 @@
 homepage = "https://cairographics.org/"
-urlInMirror = "packages/c/cairo/cairo-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "cairo-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/c/cairo"]
 
 [version]
 main = "1.18.4-1"
@@ -10,4 +10,4 @@ main = "1.18.4-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/c/cairo/cairo-1.18.4-1-x86_64.pkg.tar.zst" = "280a524ba7dce88990aace1496abd742b000a7c98a5ec6abd054a4b19f2f4c96"
+"cairo-1.18.4-1-x86_64.pkg.tar.zst" = "280a524ba7dce88990aace1496abd742b000a7c98a5ec6abd054a4b19f2f4c96"

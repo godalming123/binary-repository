@@ -1,7 +1,7 @@
 homepage = "https://www.cl.cam.ac.uk/~mgk25/jbigkit/"
-urlInMirror = "packages/j/jbigkit/jbigkit-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "jbigkit-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/j/jbigkit"]
 
 [directlyDependentSharedLibraries]
 "usr/bin/jbgtopbm" = [
@@ -28,4 +28,4 @@ main = "2.1-8"
 amd64 = "x86_64"
 
 [checksums]
-"packages/j/jbigkit/jbigkit-2.1-8-x86_64.pkg.tar.zst" = "ca53fa884681273162aadcf99c30514a7010d5e621eb0a5ae491500ae8dc52c9"
+"jbigkit-2.1-8-x86_64.pkg.tar.zst" = "ca53fa884681273162aadcf99c30514a7010d5e621eb0a5ae491500ae8dc52c9"

@@ -1,7 +1,7 @@
 homepage = "https://xorg.freedesktop.org/"
-urlInMirror = "packages/l/libxrandr/libxrandr-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxrandr-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxrandr"]
 
 [version]
 main = "1.5.4-1"
@@ -10,4 +10,4 @@ main = "1.5.4-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxrandr/libxrandr-1.5.4-1-x86_64.pkg.tar.zst" = "f58fbb7db4b6c6a35aa388f28f63ae847a2834f331fa7ed4e18ad1ce6e40f064"
+"libxrandr-1.5.4-1-x86_64.pkg.tar.zst" = "f58fbb7db4b6c6a35aa388f28f63ae847a2834f331fa7ed4e18ad1ce6e40f064"

@@ -1,7 +1,7 @@
 homepage = "https://github.com/libuv/libuv"
-urlInMirror = "packages/l/libuv/libuv-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libuv-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libuv"]
 
 [version]
 main = "1.51.0-1"
@@ -10,4 +10,4 @@ main = "1.51.0-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libuv/libuv-1.51.0-1-x86_64.pkg.tar.zst" = "4a4e992621b881a221becb6b9669bb4092ffebec8d87bd90f235866356cc5c35"
+"libuv-1.51.0-1-x86_64.pkg.tar.zst" = "4a4e992621b881a221becb6b9669bb4092ffebec8d87bd90f235866356cc5c35"

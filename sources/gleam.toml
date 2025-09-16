@@ -1,7 +1,7 @@
 homepage = "https://gleam.run/"
 description = "Gleam is a friendly language for building type-safe systems that scale!"
 licenses = ["Apache 2.0"]
-programmingLanguge = "rust"
+programmingLanguage = "rust"
 urlInMirror = "gleam-lang/gleam/releases/download/v${version.main}/gleam-v${version.main}-${architecture}-unknown-linux-musl.tar.gz"
 compression = ".tar.gz"
 mirrors = ["https://github.com"]

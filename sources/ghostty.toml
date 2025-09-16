@@ -5,7 +5,7 @@ compression = ".tar.zst"
 mirrors = ["https://github.com"]
 
 [version]
-main = "1.1.3"
+main = "1.2.0"
 
 [directlyDependentSharedLibraries]
 "bin/ghostty" = [
@@ -23,6 +23,7 @@ main = "1.1.3"
     "libm.so.6",
     "libc.so.6",
     "ld-linux-x86-64.so.2",
+    "libgtk4-layer-shell.so.0",
 ]
 
 [env."bin/ghostty"]
@@ -30,3 +31,4 @@ GHOSTTY_RESOURCES_DIR = "${ghostty}/share/ghostty"
 
 [checksums]
 "godalming123/ghostty-bin/releases/download/v1.1.3/ghostty.tar.zst" = "cc022629f8ec915ea423d1cdd4cc29e312799f604032e38263796b66cd59111f"
+"godalming123/ghostty-bin/releases/download/v1.2.0/ghostty.tar.zst" = "d2e4f9590568c66cf54f0efb32f2d9a5c7761ca596c16afe538de8458306ade3"

@@ -1,13 +1,14 @@
 homepage = "https://libjpeg-turbo.org/"
-urlInMirror = "packages/l/libjpeg-turbo/libjpeg-turbo-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libjpeg-turbo-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libjpeg-turbo"]
 
 [version]
-main = "3.1.1-1"
+main = "3.1.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libjpeg-turbo/libjpeg-turbo-3.1.1-1-x86_64.pkg.tar.zst" = "989f0511ecfe0c06f87dfac3271f14659285e4ee96d87e05861662985020d2a3"
+"libjpeg-turbo-3.1.1-1-x86_64.pkg.tar.zst" = "989f0511ecfe0c06f87dfac3271f14659285e4ee96d87e05861662985020d2a3"
+"libjpeg-turbo-3.1.2-1-x86_64.pkg.tar.zst" = "e51374456eaa0b2bca72f6b953525b7838ea5f7fbc8ea102ca8b3f4a0b770d45"

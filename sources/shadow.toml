@@ -1,7 +1,7 @@
 homepage = "https://github.com/shadow-maint/shadow"
-urlInMirror = "packages/s/shadow/shadow-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "shadow-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/s/shadow"]
 
 [version]
 main = "4.18.0-1"
@@ -13,4 +13,4 @@ amd64 = "x86_64"
 "usr/bin/getsubids" = ["libsubid.so.5"]
 
 [checksums]
-"packages/s/shadow/shadow-4.18.0-1-x86_64.pkg.tar.zst" = "4aaee1e60d263afa755504bc35a28c785a54cdb0f9c0fa33b559642f7a2f49b4"
+"shadow-4.18.0-1-x86_64.pkg.tar.zst" = "4aaee1e60d263afa755504bc35a28c785a54cdb0f9c0fa33b559642f7a2f49b4"

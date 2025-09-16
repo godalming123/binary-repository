@@ -1,9 +1,9 @@
 homepage = "https://www.openssl.org"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
 licenses = ["Apache-2.0"]
-urlInMirror = "packages/o/openssl/openssl-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "openssl-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/o/openssl"]
 
 [version]
 main = "3.5.2-1"
@@ -12,8 +12,8 @@ main = "3.5.2-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/o/openssl/openssl-3.5.1-1-x86_64.pkg.tar.zst" = "3b740ed216c18f3a7a5c8ea655164e9a45c077f60a783bc3a1109caa13a87368"
-"packages/o/openssl/openssl-3.5.2-1-x86_64.pkg.tar.zst" = "5fa821ee2b8e1db38946acc1cbda8700eea8e8b59255dac5681198828c342d0d"
+"openssl-3.5.1-1-x86_64.pkg.tar.zst" = "3b740ed216c18f3a7a5c8ea655164e9a45c077f60a783bc3a1109caa13a87368"
+"openssl-3.5.2-1-x86_64.pkg.tar.zst" = "5fa821ee2b8e1db38946acc1cbda8700eea8e8b59255dac5681198828c342d0d"
 
 [directlyDependentSharedLibraries]
 "usr/bin/openssl" = [

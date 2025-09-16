@@ -1,7 +1,7 @@
 homepage = "https://www.freedesktop.org/software/colord/"
-urlInMirror = "packages/l/libcolord/libcolord-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libcolord-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libcolord"]
 
 [version]
 main = "1.4.8-1"
@@ -10,4 +10,4 @@ main = "1.4.8-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libcolord/libcolord-1.4.8-1-x86_64.pkg.tar.zst" = "8e440c51060be0f6ea808462a2569f2d9f1dfe454f15723a32bb61f43dc0c286"
+"libcolord-1.4.8-1-x86_64.pkg.tar.zst" = "8e440c51060be0f6ea808462a2569f2d9f1dfe454f15723a32bb61f43dc0c286"

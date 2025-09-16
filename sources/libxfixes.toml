@@ -1,13 +1,14 @@
 homepage = "https://xorg.freedesktop.org/"
-urlInMirror = "packages/l/libxfixes/libxfixes-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxfixes-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxfixes"]
 
 [version]
-main = "6.0.1-2"
+main = "6.0.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxfixes/libxfixes-6.0.1-2-x86_64.pkg.tar.zst" = "59ee4926edc79a6e7feb0f79d80e1a1a74108cd1e47328a28521fab23a2ecb83"
+"libxfixes-6.0.1-2-x86_64.pkg.tar.zst" = "59ee4926edc79a6e7feb0f79d80e1a1a74108cd1e47328a28521fab23a2ecb83"
+"libxfixes-6.0.2-1-x86_64.pkg.tar.zst" = "d58ab2dbf326e36cf84792fe0dc12c34239ea04ac34159006a566103203db272"

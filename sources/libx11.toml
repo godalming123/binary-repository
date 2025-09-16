@@ -1,7 +1,7 @@
 homepage = "https://gitlab.freedesktop.org/xorg/lib/libx11"
-urlInMirror = "packages/l/libx11/libx11-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libx11-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libx11"]
 
 [version]
 main = "1.8.12-1"
@@ -10,4 +10,4 @@ main = "1.8.12-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libx11/libx11-1.8.12-1-x86_64.pkg.tar.zst" = "8fbb5cb33aceafc97d1726c0697626a37b1934b4e43d423785c81cb31daec4d7"
+"libx11-1.8.12-1-x86_64.pkg.tar.zst" = "8fbb5cb33aceafc97d1726c0697626a37b1934b4e43d423785c81cb31daec4d7"

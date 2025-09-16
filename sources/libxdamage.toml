@@ -1,7 +1,7 @@
 homepage = "https://xorg.freedesktop.org/"
-urlInMirror = "packages/l/libxdamage/libxdamage-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libxdamage-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libxdamage"]
 
 [version]
 main = "1.1.6-2"
@@ -10,4 +10,4 @@ main = "1.1.6-2"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libxdamage/libxdamage-1.1.6-2-x86_64.pkg.tar.zst" = "9832fffabc38afb4901d0329a04d2097bc47d4e79cd7b84ab5087b83b637324c"
+"libxdamage-1.1.6-2-x86_64.pkg.tar.zst" = "9832fffabc38afb4901d0329a04d2097bc47d4e79cd7b84ab5087b83b637324c"

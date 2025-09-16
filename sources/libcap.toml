@@ -1,7 +1,7 @@
 homepage = "https://sites.google.com/site/fullycapable/"
-urlInMirror = "packages/l/libcap/libcap-${version.main}-${architecture}.pkg.tar.zst"
+urlInMirror = "libcap-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org"]
+mirrors = ["https://archive.archlinux.org/packages/l/libcap"]
 
 [version]
 main = "2.76-1"
@@ -10,4 +10,4 @@ main = "2.76-1"
 amd64 = "x86_64"
 
 [checksums]
-"packages/l/libcap/libcap-2.76-1-x86_64.pkg.tar.zst" = "2b8e51caff26ef7d70aea69b0c079eda5f942010c7f7db88b064228c845a7cbb"
+"libcap-2.76-1-x86_64.pkg.tar.zst" = "2b8e51caff26ef7d70aea69b0c079eda5f942010c7f7db88b064228c845a7cbb"

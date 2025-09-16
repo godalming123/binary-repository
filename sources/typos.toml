@@ -1,0 +1,13 @@
+homepage = "https://github.com/crate-ci/typos"
+urlInMirror = "v${version.main}/typos-v${version.main}-${architecture}-unknown-linux-musl.tar.gz"
+mirrors = ["https://github.com/crate-ci/typos/releases/download"]
+compression = ".tar.gz"
+
+[version]
+main = "1.36.2"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v1.36.2/typos-v1.36.2-x86_64-unknown-linux-musl.tar.gz" = "d255f509aca7d43a50854cdc5ea94480b13918459992e3b5f2d0d8c4eadddb49"
