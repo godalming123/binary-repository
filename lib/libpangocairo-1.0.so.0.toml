@@ -1,6 +1,6 @@
 source = "pango"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libpango-1.0.so.0",
   "libpangoft2-1.0.so.0",
   "libm.so.6",

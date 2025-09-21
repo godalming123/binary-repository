@@ -1,6 +1,6 @@
 source = "libcloudproviders"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libglib-2.0.so.0",
   "libgio-2.0.so.0",
   "libgobject-2.0.so.0",

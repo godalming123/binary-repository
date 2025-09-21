@@ -1,5 +1,5 @@
 source = "bzip2"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libc.so.6",
 ]

@@ -9,7 +9,7 @@ main = "1.5.0-2"
 [architectureNames]
 amd64 = "x86_64"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/grim" = [
     "libm.so.6",
     "libpixman-1.so.0",

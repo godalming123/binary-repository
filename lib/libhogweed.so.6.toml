@@ -1,6 +1,6 @@
 source = "nettle"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libnettle.so.8",
   "libgmp.so.10",
   "libc.so.6",

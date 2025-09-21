@@ -1,10 +1,14 @@
+installationWarnings = [
+    "Zed tries to auto update itself",
+    "I haven't tested it, but pressing the auto update button in zed might break your zed installation",
+]
 homepage = "https://zed.dev/"
 urlInMirror = "zed-industries/zed/releases/download/v${version.main}/zed-linux-${architecture}.tar.gz"
 compression = ".tar.gz"
 mirrors = ["https://github.com"]
 
 [version]
-main = "0.198.5"
+main = "0.204.1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +16,4 @@ amd64 = "x86_64"
 [checksums]
 "zed-industries/zed/releases/download/v0.198.2/zed-linux-x86_64.tar.gz" = "a0b05f6e686ceab30da8ecb0ee2290cc3f811f78b69dd085e676451df390dd50"
 "zed-industries/zed/releases/download/v0.198.5/zed-linux-x86_64.tar.gz" = "f672fc47be6a65f33ceaca58ed4abf938b40e076cb8b7a5c69bf6a20325f5ad6"
+"zed-industries/zed/releases/download/v0.204.1/zed-linux-x86_64.tar.gz" = "47d8acc95ad4245535eb6d972c2434c02fd01697cd30f79ee4b5ca0b05a0d9e7"

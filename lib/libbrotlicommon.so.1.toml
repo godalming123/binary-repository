@@ -1,5 +1,5 @@
 source = "brotli"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libc.so.6",
 ]

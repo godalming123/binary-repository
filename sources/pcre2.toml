@@ -14,7 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "pcre2-10.46-1-x86_64.pkg.tar.zst" = "7ed688c073b3bb605d15a36e9e5865577096601788e851027ad8e3e81b2445a2"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/pcre2grep" = [
     "libz.so.1",
     "libbz2.so.1.0",

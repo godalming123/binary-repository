@@ -2,7 +2,7 @@ source = "system"
 
 # source = "libxcb"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libxcb.so.1",
 #   "libc.so.6",
 # ]

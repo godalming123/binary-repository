@@ -2,7 +2,7 @@ source = "system"
 
 # source = "libcups"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libavahi-common.so.3",
 #   "libavahi-client.so.3",
 #   "libgnutls.so.30",

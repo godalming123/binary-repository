@@ -1,6 +1,6 @@
 source = "gcc-libs"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libm.so.6",
   "libc.so.6",
   "ld-linux-x86-64.so.2",

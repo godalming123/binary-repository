@@ -1,3 +1,10 @@
+installationWarnings = [
+    "Ghostty only works on x86_64, and bento has no way of knowing this",
+]
+knownIssues = [
+    "The close button is incorrectly rendered when you hover over it",
+    "Ghostty only works with glibc version 2.41, and not version 2.42 for some reason",
+]
 homepage = "https://ghostty.org/"
 programmingLanguage = "Zig"
 urlInMirror = "godalming123/ghostty-bin/releases/download/v${version.main}/ghostty.tar.zst"
@@ -7,7 +14,7 @@ mirrors = ["https://github.com"]
 [version]
 main = "1.2.0"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "bin/ghostty" = [
     "libfreetype.so.6",
     "libharfbuzz.so.0",

@@ -1,3 +1,4 @@
+installationWarnings = ["Bento's fish package is partially disfunction as it cannot find it's asset files (see [this issue](https://github.com/fish-shell/fish-shell/issues/11765))"]
 homepage = "https://fishshell.com/"
 description = "Smart and user friendly shell intended mostly for interactive use"
 urlInMirror = "fish-${version.main}-${architecture}.pkg.tar.zst"
@@ -13,7 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "fish-4.0.2-1-x86_64.pkg.tar.zst" = "307242754bea69f45faedc54008c48c91d69e71f94684292500b74fe3d634a22"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/fish" = [
     "libpcre2-8.so.0",
     "libpcre2-32.so.0",

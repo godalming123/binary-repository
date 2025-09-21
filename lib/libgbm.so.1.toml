@@ -2,7 +2,7 @@ source = "system"
 
 # source = "mesa"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libdrm.so.2",
 #   "libexpat.so.1",
 #   "libm.so.6",

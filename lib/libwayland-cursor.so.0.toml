@@ -2,7 +2,7 @@ source = "system"
 
 # source = "wayland"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libwayland-client.so.0",
 #   "libc.so.6",
 # ]

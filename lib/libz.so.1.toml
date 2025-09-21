@@ -1,5 +1,5 @@
 source = "zlib"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libc.so.6",
 ]

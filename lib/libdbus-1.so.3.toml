@@ -2,7 +2,7 @@ source = "system"
 
 # source = "dbus"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libsystemd.so.0",
 #   "libc.so.6",
 # ]

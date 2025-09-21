@@ -2,4 +2,4 @@ source = "system"
 
 # source = "libx11"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = []
+# directSharedLibraryDependencies = []

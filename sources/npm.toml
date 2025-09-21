@@ -1,9 +1,11 @@
+installationWarnings = ["`npx` does not recognise binaries installed with `npm install -g`"]
 homepage = "https://www.npmjs.com"
 description = "JavaScript package manager"
 licenses = ["Artistic-2.0"]
 urlInMirror = "npm-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/n/npm"]
+executableDependencies = [["nodejs", "usr/bin/node"]]
 
 [version]
 main = "11.6.0-1"

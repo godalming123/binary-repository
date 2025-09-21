@@ -1,6 +1,6 @@
 source = "cairo"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libcairo.so.2",
   "libm.so.6",
   "libz.so.1",

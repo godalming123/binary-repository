@@ -13,7 +13,7 @@ amd64 = "x86_64"
 "nodejs-24.6.0-1-x86_64.pkg.tar.zst" = "a04a5291e16da1d9f86a01d46f9189ee206b5fc5805e7ab1a60917f86f16018c"
 "nodejs-24.7.0-1-x86_64.pkg.tar.zst" = "74842de6cf7a024bc8d7003893e77129e38f31c6ec547e663271ed6b4b66587b"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/node" = [
     "libz.so.1",
     "libuv.so.1",

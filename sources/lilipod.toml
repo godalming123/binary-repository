@@ -1,3 +1,4 @@
+installationWarnings = ["Lilipod only supports AMD64, and bento has no way of knowing this"]
 homepage = "https://github.com/89luca89/lilipod"
 urlInMirror = "89luca89/lilipod/releases/download/v${version.main}/lilipod-linux-${architecture}"
 compression = "none"

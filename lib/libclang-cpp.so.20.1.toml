@@ -1,6 +1,6 @@
 source = "clang"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libLLVM.so.20.1",
   "libstdc++.so.6",
   "libm.so.6",

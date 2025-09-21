@@ -1,6 +1,6 @@
 source = "libthai"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libdatrie.so.1",
   "libc.so.6",
 ]

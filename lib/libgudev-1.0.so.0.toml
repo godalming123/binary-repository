@@ -2,7 +2,7 @@ source = "system"
 
 # source = "libgudev"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libglib-2.0.so.0",
 #   "libgobject-2.0.so.0",
 #   "libudev.so.1",

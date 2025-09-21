@@ -1,6 +1,6 @@
 source = "gnutls"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libleancrypto.so.1",
   "libp11-kit.so.0",
   "libidn2.so.0",

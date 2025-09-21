@@ -2,7 +2,7 @@ source = "system"
 
 # source = "libglvnd"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libGLdispatch.so.0",
 #   "libc.so.6",
 # ]

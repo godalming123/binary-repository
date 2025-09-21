@@ -1,6 +1,6 @@
 source = "harfbuzz"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libharfbuzz.so.0",
   "libm.so.6",
   "libc.so.6",

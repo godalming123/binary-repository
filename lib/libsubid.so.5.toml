@@ -2,7 +2,7 @@ source = "system"
 
 # source = "shadow"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libaudit.so.1",
 #   "libc.so.6",
 # ]

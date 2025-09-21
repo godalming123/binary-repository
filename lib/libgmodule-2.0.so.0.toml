@@ -1,6 +1,6 @@
 source = "glib2"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libglib-2.0.so.0",
   "libc.so.6",
 ]

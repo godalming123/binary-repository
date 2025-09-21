@@ -1,3 +1,4 @@
+installationWarnings = ["Bento's podman package does not work and there is no binary for podman in bin because podman has no option to load default configuration files (https://docs.podman.io/en/stable/markdown/podman.1.html#configuration-files) from a directory other then `/usr/share/containers` while still allowing the user to override some of the configuration files with files in `$HOME/.config/containers`. Apparently config parsing will be consolidated in podman 6, so hopefully this option can be added then."]
 homepage = "https://podman.io/"
 urlInMirror = "podman-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
@@ -9,7 +10,7 @@ main = "5.6.1-1"
 [architectureNames]
 amd64 = "x86_64"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/podman" = [
     "libsubid.so.5",
     "libgpgme.so.45",

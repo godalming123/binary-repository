@@ -1,0 +1,16 @@
+homepage = "https://opam.ocaml.org/"
+description = "OCaml package manager"
+licenses = ["LGPL-2.1"]
+urlInMirror = "${version.main}/opam-${version.main}-${architecture}-linux"
+mirrors = ["https://github.com/ocaml/opam/releases/download"]
+compression = "none"
+filesToMakeExecutable = ["."]
+
+[version]
+main = "2.4.1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"2.4.1/opam-2.4.1-x86_64-linux" = "30da8eb20c8f4cfd3818db867d85f26df1ca5ca27cb25910c0235c5a02e12d3b"

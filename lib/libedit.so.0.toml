@@ -1,6 +1,6 @@
 source = "libedit"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libncursesw.so.6",
   "libc.so.6",
 ]

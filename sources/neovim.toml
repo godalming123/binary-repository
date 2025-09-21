@@ -10,7 +10,7 @@ main = "0.11.3"
 [architectureNames]
 amd64 = "x86_64"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "bin/nvim" = [
     "libm.so.6",
     "libgcc_s.so.1",

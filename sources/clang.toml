@@ -14,7 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "clang-20.1.8-1-x86_64.pkg.tar.zst" = "77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/amdgpu-arch" = [
     "libLLVM.so.20.1",
     "libstdc++.so.6",

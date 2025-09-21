@@ -4,6 +4,7 @@ licenses = ["BSD-3-Clause"]
 urlInMirror = "odin-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/o/odin"]
+executableDependencies = [["clang", "usr/bin/clang-20"]]
 
 [version]
 main = "dev_2025_09-1"
@@ -16,7 +17,7 @@ amd64 = "x86_64"
 "odin-dev_2025_08-2-x86_64.pkg.tar.zst" = "e84072073ee4aeea15010dab3fe61ae1602138b9efaaff2c3214e5b6d66d2654"
 "odin-dev_2025_09-1-x86_64.pkg.tar.zst" = "14f151072366e4977b76bac8809749633e911a9ea7885e15b59113cd7278eacf"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/lib/odin/odin" = [
     "libm.so.6",
     "libstdc++.so.6",

@@ -1,6 +1,6 @@
 source = "gstreamer"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libgstreamer-1.0.so.0",
   "libglib-2.0.so.0",
   "libgobject-2.0.so.0",

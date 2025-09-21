@@ -2,7 +2,7 @@ source = "system"
 
 # source = "systemd-libs"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libcap.so.2",
 #   "libm.so.6",
 #   "libgcc_s.so.1",

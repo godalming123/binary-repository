@@ -1,5 +1,5 @@
 source = "libtasn1"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libc.so.6",
 ]

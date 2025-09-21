@@ -2,7 +2,7 @@ source = "system"
 
 # source = "libxrender"
 # directory = "usr/lib"
-# directlyDependentSharedLibraries = [
+# directSharedLibraryDependencies = [
 #   "libX11.so.6",
 #   "libc.so.6",
 # ]

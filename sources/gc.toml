@@ -1,0 +1,15 @@
+homepage = "https://www.hboehm.info/gc/"
+description = "A garbage collector for C and C++"
+licenses = ["LicenseRef-GC"]
+urlInMirror = "gc-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/g/gc"]
+compression = ".tar.zst"
+
+[version]
+main = "8.2.8-2"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"gc-8.2.8-2-x86_64.pkg.tar.zst" = "c7b5e6816e7977a407e3f862b4ac51e7cf70e522c7fe1a72c2eca49431679712"

@@ -1,6 +1,6 @@
 source = "llvm-libs"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libffi.so.8",
   "libedit.so.0",
   "libz.so.1",

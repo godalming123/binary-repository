@@ -14,7 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "ncurses-6.5-4-x86_64.pkg.tar.zst" = "2d06710b287264cbf2e27fdd25f99fb080b2e8ecff53302af965435c0b83ec6a"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/tic" = [
     "libncursesw.so.6",
     "libc.so.6",

@@ -1,6 +1,6 @@
 source = "lcms2"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libm.so.6",
   "libc.so.6",
 ]

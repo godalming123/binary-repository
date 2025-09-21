@@ -1,5 +1,5 @@
 source = "ncurses"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libc.so.6",
 ]

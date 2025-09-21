@@ -1,0 +1,35 @@
+installationWarnings = [
+    "Crystal only works when the gc library is installed on the host system, below are the commands to install gc",
+    "Arch linux: `sudo pacman -S gc`",
+    "Fedora linux: `sudo dnf install gc-devel`",
+]
+homepage = "https://crystal-lang.org"
+description = "The Crystal Programming Language"
+licenses = ["Apache-2.0"]
+urlInMirror = "crystal-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/c/crystal"]
+compression = ".tar.zst"
+
+[version]
+main = "1.17.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"crystal-1.17.1-1-x86_64.pkg.tar.zst" = "99aa9bdeaac97a3d14d3a3287b79e224acf4b8aaa1a305edd0466656b05602f3"
+
+[env."usr/bin/crystal"]
+CRYSTAL_PATH="${crystal}/usr/lib/crystal/"
+
+[directSharedLibraryDependencies]
+"usr/bin/crystal" = [
+    "libLLVM.so.20.1",
+    "libpcre2-8.so.0",
+    "libm.so.6",
+    "libgc.so.1",
+    "libffi.so.8",
+    "libgcc_s.so.1",
+    "libc.so.6",
+    "ld-linux-x86-64.so.2",
+]

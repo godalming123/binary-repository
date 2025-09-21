@@ -1,3 +1,4 @@
+installationWarnings = ["Cursor only works on x86_64, and bento has no way of knowing this"]
 homepage = "https://cursor.com/"
 licenses = ["Proprietary"]
 urlInMirror = "production/${version.other}/linux/x64/Cursor-${version.main}-${architecture}.AppImage"

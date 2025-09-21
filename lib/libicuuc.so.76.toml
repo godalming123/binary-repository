@@ -1,6 +1,6 @@
 source = "icu"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libicudata.so.76",
   "libstdc++.so.6",
   "libm.so.6",

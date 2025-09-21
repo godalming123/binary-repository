@@ -1,6 +1,6 @@
 source = "libelf"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
   "libelf.so.1",
   "libz.so.1",
   "libzstd.so.1",

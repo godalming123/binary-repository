@@ -9,7 +9,7 @@ main = "4.18.0-1"
 [architectureNames]
 amd64 = "x86_64"
 
-[directlyDependentSharedLibraries]
+[directSharedLibraryDependencies]
 "usr/bin/getsubids" = ["libsubid.so.5"]
 
 [checksums]
