@@ -1,4 +1,4 @@
-insallationWarnings = ["Act uses docker by default, but docker has not been packaged. The plan is for bento to setup act to use podman by default once podman works because podman does not require root priviladges unlike docker."]
+installationWarnings = ["Act uses docker by default, but docker has not been packaged. The plan is for bento to setup act to use podman by default once podman works because podman does not require root priviladges unlike docker."]
 homepage = "https://nektosact.com/"
 urlInMirror = "nektos/act/releases/download/v${version.main}/act_linux_${architecture}.tar.gz"
 compression = ".tar.gz"

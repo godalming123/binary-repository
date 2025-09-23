@@ -1,1 +1,0 @@
-#!/usr/bin/env -S bento exec ncurses usr/bin/ncursesw6-config

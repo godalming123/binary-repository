@@ -1,0 +1,14 @@
+homepage = "https://kotlinlang.org/"
+urlInMirror = "v${version.main}/kotlin-native-prebuilt-linux-${architecture}-${version.main}.tar.gz"
+compression = ".tar.gz"
+rootPath = "kotlin-native-prebuilt-linux-${architecture}-${version.main}"
+mirrors = ["https://github.com/JetBrains/kotlin/releases/download"]
+
+[version]
+main = "2.2.20"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v2.2.20/kotlin-native-prebuilt-linux-x86_64-2.2.20.tar.gz" = "d857fee2b4e3fd6d2d401a3a9400dc40c20de1d023df652721717d3d199ed0dc"

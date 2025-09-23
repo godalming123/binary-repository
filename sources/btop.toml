@@ -1,4 +1,4 @@
-installationWarnings = ["Bento's btop package is partially disfunctional as it cannot find it's themes"]
+installationWarnings = ["Bento's btop package is partially dysfunctional as it cannot find it's themes"]
 homepage = "https://github.com/aristocratos/btop"
 programmingLanguage = "C++"
 urlInMirror = "aristocratos/btop/releases/download/v${version.main}/btop-${architecture}-linux-musl.tbz"
