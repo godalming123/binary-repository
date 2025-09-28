@@ -7,7 +7,7 @@ filesToMakeExecutable = ["."]
 mirrors = ["https://github.com"]
 
 [version]
-main = "1.15.1b"
+main = "1.16.1b"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -15,3 +15,4 @@ amd64 = "x86_64"
 [checksums]
 "zen-browser/desktop/releases/download/1.14.11b/zen-x86_64.AppImage" = "301a0825fe1d80624ef4d31910b0f49264319f513581f02de134daa440107d7d"
 "zen-browser/desktop/releases/download/1.15.1b/zen-x86_64.AppImage" = "fcc7883e3d5b637928911919e108f9f17131299e6989cd23f0fb4793aeaf71fc"
+"zen-browser/desktop/releases/download/1.16.1b/zen-x86_64.AppImage" = "9d76daa290aad37ed2cadd9758fbb7f36716733cac18d2e4c046f944e46681ad"
