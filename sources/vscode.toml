@@ -1,0 +1,16 @@
+homepage = "https://code.visualstudio.com/"
+description = "The open source AI code editor"
+mirrors = ["https://vscode.download.prss.microsoft.com/dbazure/download/stable"]
+urlInMirror = "${version.0}/code-stable-${architecture}-${version.1}.tar.gz"
+compression = ".tar.gz"
+rootPath = "VSCode-linux-${architecture}"
+
+[version]
+0 = "e3a5acfb517a443235981655413d566533107e92"
+1 = "1758714233"
+
+[architectureNames]
+amd64 = "x64"
+
+[checksums]
+"e3a5acfb517a443235981655413d566533107e92/code-stable-x64-1758714233.tar.gz" = "d3382c4749e4f73b0e78470a86b98015b021bca28536c0bc7d78c29f115c9dd1"

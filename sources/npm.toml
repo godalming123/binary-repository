@@ -1,4 +1,4 @@
-installationWarnings = ["`npx` does not recognise binaries installed with `npm install -g`"]
+installationWarnings = ["Reinstalling npm uninstalls any globally installed npm packages"]
 homepage = "https://www.npmjs.com"
 description = "JavaScript package manager"
 licenses = ["Artistic-2.0"]

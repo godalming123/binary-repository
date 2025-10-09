@@ -1,0 +1,13 @@
+homepage = "https://taskfile.dev/"
+description = "A fast, cross-platform build tool inspired by Make, designed for modern workflows."
+licenses = ["MIT"]
+programmingLanguage = "Go"
+mirrors = ["https://github.com/go-task/task/releases/download"]
+urlInMirror = "v${version.main}/task_linux_${architecture}.tar.gz"
+compression = ".tar.gz"
+
+[version]
+main = "3.45.4"
+
+[checksums]
+"v3.45.4/task_linux_amd64.tar.gz" = "4367eba04abcbcb407578d18d2439ee32604a872419601abec76a829c797fb82"

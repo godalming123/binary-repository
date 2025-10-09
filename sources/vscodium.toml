@@ -1,0 +1,16 @@
+filesToMakeExecutable = ["."]
+homepage = "https://vscodium.com/"
+description = "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code."
+licenses = ["MIT"]
+mirrors = ["https://github.com/VSCodium/vscodium/releases/download/"]
+urlInMirror = "${version.main}/VSCodium-${version.main}.glibc2.29-${architecture}.AppImage"
+compression = "none"
+
+[version]
+main = "1.104.26450"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"1.104.26450/VSCodium-1.104.26450.glibc2.29-x86_64.AppImage" = "6c5ed214e9e0375bfc2f68584b4e2c7968d76f3aa4fb783d823182aa9689a23a"
