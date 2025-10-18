@@ -1,0 +1,12 @@
+homepage = "https://github.com/TomWright/dasel"
+description = "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package."
+compression = "none"
+mirrors = ["https://github.com/TomWright/dasel/releases/download"]
+urlInMirror = "v${version.main}/dasel_linux_${architecture}"
+filesToMakeExecutable = ["."]
+
+[version]
+main = "2.8.1"
+
+[checksums]
+"v2.8.1/dasel_linux_amd64" = "21fda0a4dc3c779c42737eca4b37e4f187d7ab91ba6301eed97b801af84a9ea2"

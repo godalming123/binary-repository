@@ -10,10 +10,11 @@ mirrors = [
 
 [checksums]
 "v4.5.2/MuseScore-Studio-4.5.2.251141401-x86_64.AppImage" = "d010b6464c78b4da23077eb4f096f949ae68bac4c809a8b008a0cfbf48e260a5"
+"v4.6.2/MuseScore-Studio-4.6.2.252830930-x86_64.AppImage" = "1802663e1a719d54ca154f0a08865fc85642cb989cd7f64b2e48ef81000a3b61"
 
 [version]
-main = "4.5.2"
-other = "251141401"
+main = "4.6.2"
+other = "252830930"
 
 [architectureNames]
 amd64 = "x86_64"
