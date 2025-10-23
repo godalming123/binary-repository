@@ -4,6 +4,7 @@ installationWarnings = [
 knownIssues = [
     "The close button is incorrectly rendered when you hover over it",
     "Ghostty only works with glibc version 2.41, and not version 2.42 for some reason",
+    "Ghostty only works with pango 1.56, and not version 1.57 for some reason",
 ]
 homepage = "https://ghostty.org/"
 programmingLanguage = "Zig"
@@ -12,7 +13,7 @@ compression = ".tar.zst"
 mirrors = ["https://github.com"]
 
 [version]
-main = "1.2.0"
+main = "1.2.2"
 
 [directSharedLibraryDependencies]
 "bin/ghostty" = [
@@ -39,3 +40,4 @@ GHOSTTY_RESOURCES_DIR = "${ghostty}/share/ghostty"
 [checksums]
 "godalming123/ghostty-bin/releases/download/v1.1.3/ghostty.tar.zst" = "cc022629f8ec915ea423d1cdd4cc29e312799f604032e38263796b66cd59111f"
 "godalming123/ghostty-bin/releases/download/v1.2.0/ghostty.tar.zst" = "d2e4f9590568c66cf54f0efb32f2d9a5c7761ca596c16afe538de8458306ade3"
+"godalming123/ghostty-bin/releases/download/v1.2.2/ghostty.tar.zst" = "1aa7cb2273130d743849e61f8bd07e7266c99631ff5cafb4e0a1831e91d01cb3"

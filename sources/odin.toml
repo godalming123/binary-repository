@@ -4,7 +4,10 @@ licenses = ["BSD-3-Clause"]
 urlInMirror = "odin-${version.main}-${architecture}.pkg.tar.zst"
 compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/o/odin"]
-executableDependencies = [["clang", "usr/bin/clang-20"]]
+executableDependencies = [[
+    "clang",
+    "usr/bin/clang-20",
+]]
 
 [version]
 main = "dev_2025_10-3"

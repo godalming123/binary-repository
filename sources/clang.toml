@@ -6,13 +6,14 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/c/clang"]
 
 [version]
-main = "20.1.8-1"
+main = "21.1.4-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "clang-20.1.8-1-x86_64.pkg.tar.zst" = "77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545"
+"clang-21.1.4-2-x86_64.pkg.tar.zst" = "e3f1331b4f7121c66df837a87bc4e078d60165a27b2e5375d86755aacac117e0"
 
 [directSharedLibraryDependencies]
 "usr/bin/amdgpu-arch" = [

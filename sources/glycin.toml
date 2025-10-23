@@ -1,0 +1,27 @@
+homepage = "https://gnome.pages.gitlab.gnome.org/glycin/"
+description = "Sandboxed and extendable image decoding"
+licenses = ["MPL-2.0 OR LGPL-2.1-or-later"]
+urlInMirror = "glycin-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/g/glycin"]
+compression = ".tar.zst"
+
+[version]
+main = "2.0.4-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"glycin-2.0.4-1-x86_64.pkg.tar.zst" = "d44a58bfe094d8eb913ce3917b39f4471e19eb657d897a5ec566f43e819b3669"
+
+[directlyDependentSharedLibraries]
+"usr/bin/glycin-thumbnailer" = [
+    "liblcms2.so.2",
+    "libfontconfig.so.1",
+    "libseccomp.so.2",
+    "libgio-2.0.so.0",
+    "libgobject-2.0.so.0",
+    "libglib-2.0.so.0",
+    "libgcc_s.so.1",
+    "libc.so.6",
+]

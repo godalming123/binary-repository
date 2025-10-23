@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/t/tinysparql"]
 
 [version]
-main = "3.9.2-2"
+main = "3.10.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "tinysparql-3.9.2-2-x86_64.pkg.tar.zst" = "73f4afebafa4d94193f30ff13da2a308cee79f886fb305dc6c8389ad75be6828"
+"tinysparql-3.10.1-1-x86_64.pkg.tar.zst" = "7f7999d8bd6979ab088214249adff22bd8d2d33ef02ffef427e665b01dbe8051"

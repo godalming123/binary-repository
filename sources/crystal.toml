@@ -11,16 +11,17 @@ mirrors = ["https://archive.archlinux.org/packages/c/crystal"]
 compression = ".tar.zst"
 
 [version]
-main = "1.17.1-1"
+main = "1.18.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "crystal-1.17.1-1-x86_64.pkg.tar.zst" = "99aa9bdeaac97a3d14d3a3287b79e224acf4b8aaa1a305edd0466656b05602f3"
+"crystal-1.18.2-1-x86_64.pkg.tar.zst" = "9437636527de2477e3ab428b8bb34eff4018c6c6630df166456b3ab95a0a5979"
 
 [env."usr/bin/crystal"]
-CRYSTAL_PATH="${crystal}/usr/lib/crystal/"
+CRYSTAL_PATH = "${crystal}/usr/lib/crystal/"
 
 [directSharedLibraryDependencies]
 "usr/bin/crystal" = [

@@ -6,7 +6,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/llvm-libs"]
 
 [version]
-main = "21.1.3-3"
+main = "21.1.4-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 [checksums]
 "llvm-libs-20.1.8-1-x86_64.pkg.tar.zst" = "710e552406edbc6badab91a2ce47bb12a6c3ebf85758448d953211be7d610486"
 "llvm-libs-21.1.3-3-x86_64.pkg.tar.zst" = "6446010ebfac1d95f6b97534bd2d68fd456898ade41f845b270b3a43918ab574"
+"llvm-libs-21.1.4-1-x86_64.pkg.tar.zst" = "6b213d7594e0e34d1a97f84821bb7bf5666d20fbec859ec9eac26faa49df8c36"

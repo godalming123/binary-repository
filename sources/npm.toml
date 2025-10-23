@@ -5,10 +5,13 @@ licenses = ["Artistic-2.0"]
 urlInMirror = "npm-${version.main}-any.pkg.tar.zst"
 compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/n/npm"]
-executableDependencies = [["nodejs", "usr/bin/node"]]
+executableDependencies = [[
+    "nodejs",
+    "usr/bin/node",
+]]
 
 [version]
-main = "11.6.0-1"
+main = "11.6.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -16,6 +19,7 @@ amd64 = "x86_64"
 [checksums]
 "npm-11.5.2-1-any.pkg.tar.zst" = "293013247a822283c3015fc11fd31406b83835524fa1d58e606a1c84a937a89b"
 "npm-11.6.0-1-any.pkg.tar.zst" = "8df608a93f80eb56ddd01a3e669899b649b950bbb788e63780a30a6aa196f68e"
+"npm-11.6.2-1-any.pkg.tar.zst" = "5b8e1f1635788b60b7b454cc333f1fd44dfb871f3fcb0b460c8089dc00bf0e18"
 
 [env."usr/lib/node_modules/npm/bin/npm-cli.js"]
 NODE_PATH = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"

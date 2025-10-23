@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libtiff"]
 
 [version]
-main = "4.7.0-2"
+main = "4.7.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "libtiff-4.7.0-1-x86_64.pkg.tar.zst" = "aff14fafcb3565002b52914473f393a5c3e8148f28eeb1c61c7d87d9f717f276"
 "libtiff-4.7.0-2-x86_64.pkg.tar.zst" = "79132b78b1e62c305a1c6007dc4af8de2e48705c61a62dfce934b97580a40d97"
+"libtiff-4.7.1-1-x86_64.pkg.tar.zst" = "1b056117b524b62566005cfda6c66807be1a91efbfbe5b9668d74c078ad05610"

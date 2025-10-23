@@ -6,10 +6,11 @@ mirrors = ["https://archive.archlinux.org/packages/g/gc"]
 compression = ".tar.zst"
 
 [version]
-main = "8.2.8-2"
+main = "8.2.10-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "gc-8.2.8-2-x86_64.pkg.tar.zst" = "c7b5e6816e7977a407e3f862b4ac51e7cf70e522c7fe1a72c2eca49431679712"
+"gc-8.2.10-2-x86_64.pkg.tar.zst" = "16e9f60c65fba9911c77df1c378c1b68e3d5e4d10f6622564a03a5cc1e9142bc"

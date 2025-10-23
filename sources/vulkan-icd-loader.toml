@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/v/vulkan-icd-loader"]
 
 [version]
-main = "1.4.321.0-1"
+main = "1.4.328.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "vulkan-icd-loader-1.4.321.0-1-x86_64.pkg.tar.zst" = "5559cd57b8cb72663dac3cf5d9ed8acc6946fc7725c9f601fa369852727237d5"
+"vulkan-icd-loader-1.4.328.1-1-x86_64.pkg.tar.zst" = "6d24becbda77f6f4435a0b81bf77242da2ee5898a12cfa8f84926282499d551c"

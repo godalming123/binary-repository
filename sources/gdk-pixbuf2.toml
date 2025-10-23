@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gdk-pixbuf2"]
 
 [version]
-main = "2.42.12-2"
+main = "2.44.4-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "gdk-pixbuf2-2.42.12-2-x86_64.pkg.tar.zst" = "63de2d2a476cd8985bf4962f5693fb46d59288828f2b461c289af4e3b2546138"
 "gdk-pixbuf2-2.43.5-1-x86_64.pkg.tar.zst" = "d6a5bcc8d91408537c9e1673ac5979f125b990d205268377bd33118c76c623d1"
+"gdk-pixbuf2-2.44.4-1-x86_64.pkg.tar.zst" = "89bf8c2771cda0ad03430140a2d657c8d4d216ba87844391feeda1c720ab638e"

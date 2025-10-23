@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gtk4"]
 
 [version]
-main = "1:4.19.4-1"
+main = "1:4.20.2-3"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "gtk4-1:4.19.2-1-x86_64.pkg.tar.zst" = "9fbb06d0b6cf3bb2e6be67f602e3ab690f3a0e2bb77403e5f5d7c2469fba0868"
 "gtk4-1:4.19.4-1-x86_64.pkg.tar.zst" = "b197374108399f51703fb43a1765310a8dece1641c08df2a065813b451a58c22"
 "gtk4-1:4.18.6-1-x86_64.pkg.tar.zst" = "d68f422986495c8e7a926cc048e0c9d14e5ef382f40419dd57379107cedf5529"
+"gtk4-1:4.20.2-3-x86_64.pkg.tar.zst" = "c1990ee4f3ccc5962e4dbc4d6f97b3ce3b62d206b5837335a42c468f4a953e1d"

@@ -6,7 +6,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/o/openssl"]
 
 [version]
-main = "3.5.2-1"
+main = "3.6.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "openssl-3.5.1-1-x86_64.pkg.tar.zst" = "3b740ed216c18f3a7a5c8ea655164e9a45c077f60a783bc3a1109caa13a87368"
 "openssl-3.5.2-1-x86_64.pkg.tar.zst" = "5fa821ee2b8e1db38946acc1cbda8700eea8e8b59255dac5681198828c342d0d"
+"openssl-3.6.0-1-x86_64.pkg.tar.zst" = "dbf2da03d7ed846e9441e95b4c6a9ad7df12e463d6dd6cadfea030893dbcd32e"
 
 [directSharedLibraryDependencies]
 "usr/bin/openssl" = [

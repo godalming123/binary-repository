@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libp11-kit"]
 
 [version]
-main = "0.25.7-1"
+main = "0.25.10-2"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "libp11-kit-0.25.5-1-x86_64.pkg.tar.zst" = "e3e16d93bda4890e19bf480d84f3b3c65c924b78287a3cc3da879721afc3c7a4"
 "libp11-kit-0.25.7-1-x86_64.pkg.tar.zst" = "41ff1be586ccc99f37fcfb83cdc7adb91e09b1edd6c7910fc6d839d6e1fae100"
+"libp11-kit-0.25.10-2-x86_64.pkg.tar.zst" = "311992c4461c4f6d549137661d24cbdb52407c23b3f4ec2ba75f6146cc324945"

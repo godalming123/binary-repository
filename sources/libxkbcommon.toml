@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libxkbcommon"]
 
 [version]
-main = "1.11.0-1"
+main = "1.12.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "libxkbcommon-1.10.0-1-x86_64.pkg.tar.zst" = "fd6d107fa8068a9bc07a78fb30fff618c25fd6c14a9aad10034d20fb1f23af21"
 "libxkbcommon-1.11.0-1-x86_64.pkg.tar.zst" = "6c7206057e97e08812c429106a7f639411d4919ba15c193f0582743dd5b7cfe6"
+"libxkbcommon-1.12.2-1-x86_64.pkg.tar.zst" = "9ed6e9e6b63f2b2ebd24fcafcbe7868a2e1302dbac861ea8a46e65e45c418e07"

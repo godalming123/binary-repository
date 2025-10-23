@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/m/mesa"]
 
 [version]
-main = "1:25.2.2-2"
+main = "1:25.2.5-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "mesa-1:25.1.7-1-x86_64.pkg.tar.zst" = "e5552c5364978668aba6b822c1238b2d6b9d4044ff14df3921e787690370594e"
 "mesa-1:25.2.1-4-x86_64.pkg.tar.zst" = "f07c27031dece4c63c90516ffa5937d663144a9ed93cd3b8a85bf8c7f6647df5"
 "mesa-1:25.2.2-2-x86_64.pkg.tar.zst" = "2e61d9fc95777222dd2b47dff219b47eabb403c6d14cd20014760ff5541a03d5"
+"mesa-1:25.2.5-1-x86_64.pkg.tar.zst" = "a23b5320eea05b3ddef8122ee03455ec4601328d4c9b3c6d495bb77d805c9608"

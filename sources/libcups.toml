@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libcups"]
 
 [version]
-main = "2:2.4.12-2"
+main = "2:2.4.14-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libcups-2:2.4.12-2-x86_64.pkg.tar.zst" = "91a0c83de714a8c7fdef5e38f32f70963a545fd62c5797ccffc7090d668c4a58"
+"libcups-2:2.4.14-1-x86_64.pkg.tar.zst" = "57a0a8f2fe6e063f1d2686c83b05594e33610aa953bb39cff41365306efea710"

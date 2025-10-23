@@ -1,0 +1,22 @@
+mirrors = ["https://github.com/oven-sh/bun/releases/download"]
+urlInMirror = "bun-v${version.main}/bun-linux-${architecture}.zip"
+compression = ".zip"
+rootPath = "bun-linux-${architecture}"
+
+[directSharedLibraryDependencies]
+"bun" = [
+  "libc.so.6",
+  "ld-linux-x86-64.so.2",
+  "libpthread.so.0",
+  "libdl.so.2",
+  "libm.so.6",
+]
+
+[version]
+main = "1.3.0"
+
+[architectureNames]
+amd64 = "x64"
+
+[checksums]
+"bun-v1.3.0/bun-linux-x64.zip" = "60c39d92b8bd090627524c98b3012f0c08dc89024cfdaa7c9c98cb5fd4359376"

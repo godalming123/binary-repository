@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/j/json-glib"]
 
 [version]
-main = "1.10.6-1"
+main = "1.10.8-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "json-glib-1.10.6-1-x86_64.pkg.tar.zst" = "af1d40b1abbb579ccbb3b02bf40d0bbfc1d914946a60420f44726d24f9ef8a9f"
+"json-glib-1.10.8-1-x86_64.pkg.tar.zst" = "3c2ec1b51d45f7c2d0cee7d28520b0772cc6d01fa09b808536e08dca7dd638eb"

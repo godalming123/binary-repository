@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/t/tree-sitter"]
 
 [version]
-main = "0.25.9-1"
+main = "0.25.10-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "tree-sitter-0.25.8-1-x86_64.pkg.tar.zst" = "4fa692336576a27aef54d7b9aeedc26dab4ebabc40b6c07e2c26a3d83da0e306"
 "tree-sitter-0.25.9-1-x86_64.pkg.tar.zst" = "cbf0e0c89221efdfb6625f462a3162a6d4801b37bf7776c207ab9ac5a6e7465c"
+"tree-sitter-0.25.10-1-x86_64.pkg.tar.zst" = "5c8323875ae49cb32072d06d21230ef1632ee5ec566b81e9fcb4f4e51e282ef0"

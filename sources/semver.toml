@@ -6,10 +6,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/s/semver"]
 
 [version]
-main = "7.7.2-1"
+main = "7.7.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "semver-7.7.2-1-any.pkg.tar.zst" = "8b86fb7c61be1917ab50997788c6527fd19131d0629b84e10629bd3364aa5740"
+"semver-7.7.3-1-any.pkg.tar.zst" = "9f72cd976ef5b940a41f262b6cf9a5e30753578f5eeeae30065fdb8059cf199b"

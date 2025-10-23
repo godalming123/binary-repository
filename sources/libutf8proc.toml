@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libutf8proc"]
 
 [version]
-main = "2.10.0-1"
+main = "2.10.0-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libutf8proc-2.10.0-1-x86_64.pkg.tar.zst" = "b7b149c8ab9cc3ac3c4e1418dea1c41d554cb94c4a18ef03970f872ea49a3a9d"
+"libutf8proc-2.10.0-2-x86_64.pkg.tar.zst" = "dbbbf47eb59aa31318f684a9eb56ede2d7912c4653940440d32bbdeba15bd4cf"

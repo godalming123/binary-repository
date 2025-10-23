@@ -6,13 +6,14 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/p/pcre2"]
 
 [version]
-main = "10.46-1"
+main = "10.47-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "pcre2-10.46-1-x86_64.pkg.tar.zst" = "7ed688c073b3bb605d15a36e9e5865577096601788e851027ad8e3e81b2445a2"
+"pcre2-10.47-1-x86_64.pkg.tar.zst" = "54e0d8c998d2748f47fead1926b04357719bdd00fa1cea84901c3af501aab002"
 
 [directSharedLibraryDependencies]
 "usr/bin/pcre2grep" = [

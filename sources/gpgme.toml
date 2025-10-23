@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gpgme"]
 
 [version]
-main = "2.0.0-1"
+main = "2.0.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "gpgme-2.0.0-1-x86_64.pkg.tar.zst" = "f63e5510da98ea38777b6cb3c2fa44d2240b48190c5c2e4597c4e9889ab087f7"
+"gpgme-2.0.1-1-x86_64.pkg.tar.zst" = "b8d8c347b32ac890716ca9b6f97dea36c7874712668c7d152a9a72e72eb6850c"

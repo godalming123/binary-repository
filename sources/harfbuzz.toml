@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/h/harfbuzz"]
 
 [version]
-main = "11.5.0-1"
+main = "12.1.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "harfbuzz-11.2.1-1-x86_64.pkg.tar.zst" = "9ffe4e898c506a568fcb6d7e23da8f11a92332d8bb27b343cf00bf4763e5a466"
 "harfbuzz-11.4.4-1-x86_64.pkg.tar.zst" = "967cd22f0b09df3cdc360eea451bdbf2054d51e0c4eafd17d41edd8500b476dc"
 "harfbuzz-11.5.0-1-x86_64.pkg.tar.zst" = "ad524134eccd92d7cb4b7f002c4904ea481ea1684d1797ea7306fcde4eb5b319"
+"harfbuzz-12.1.0-1-x86_64.pkg.tar.zst" = "9cfec568b617ba4f4efbd0f84c0b31bb7e85a0c302ea068002fa7d02d15d0603"
