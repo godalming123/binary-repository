@@ -1,0 +1,13 @@
+description = "A Git-compatible VCS that is both simple and powerful"
+urlInMirror = "v${version.main}/jj-v${version.main}-${architecture}-unknown-linux-musl.tar.gz"
+mirrors = ["https://github.com/jj-vcs/jj/releases/download"]
+compression = ".tar.gz"
+
+[version]
+main = "0.34.0"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v0.34.0/jj-v0.34.0-x86_64-unknown-linux-musl.tar.gz" = "1e8e1ede656fecba91ceb8248a76402a110017ad677d0ecfd1f2040f5543cfa3"

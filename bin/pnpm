@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec pnpm usr/lib/node_modules/pnpm/bin/pnpm.cjs

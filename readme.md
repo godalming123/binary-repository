@@ -20,6 +20,7 @@ A repository of binaries from other build systems that is designed to be used wi
 - Jq
 - Python3
 - Cloc
+- Uv
 
 ## Missing packages that also aren't packaged in fedora
 

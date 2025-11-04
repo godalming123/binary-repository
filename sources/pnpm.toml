@@ -1,0 +1,17 @@
+homepage = "https://pnpm.io"
+description = "Fast, disk space efficient package manager"
+licenses = ["MIT"]
+urlInMirror = "pnpm-${version.main}-any.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/p/pnpm"]
+compression = ".tar.zst"
+
+[version]
+main = "10.19.0-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"pnpm-10.19.0-1-any.pkg.tar.zst" = "3c9d592de389913f32da297f363f9019c9940ee7517aafa5e8f63f3573b69382"
+
+[directlyDependentSharedLibraries]
