@@ -1,0 +1,14 @@
+homepage = "https://grain-lang.org/"
+urlInMirror = "grain-v${version.main}/grain-linux-${architecture}"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/grain-lang/grain/releases/download"]
+
+[checksums]
+"grain-v0.7.1/grain-linux-x64" = "5a6a8bbb59a0ad077b4b889fab2577d4cf12d026225cfa51e47c807329406880"
+
+[version]
+main = "0.7.1"
+
+[architectureNames]
+amd64 = "x64"

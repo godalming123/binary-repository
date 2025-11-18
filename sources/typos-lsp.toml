@@ -4,10 +4,11 @@ mirrors = ["https://github.com/tekumara/typos-lsp/releases/download"]
 compression = ".tar.gz"
 
 [version]
-main = "0.1.43"
+main = "0.1.45"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v0.1.43/typos-lsp-v0.1.43-x86_64-unknown-linux-gnu.tar.gz" = "f58afd7016d64886f779faa0fe9b7ea8a122f79be7f7ceab8bd65f2879d3184c"
+"v0.1.45/typos-lsp-v0.1.45-x86_64-unknown-linux-gnu.tar.gz" = "5b745c15a8ce429fd34299230c224f254de55f950cf4309eef0ba5e83728195f"
