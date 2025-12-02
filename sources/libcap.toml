@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libcap"]
 
 [version]
-main = "2.76-1"
+main = "2.77-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libcap-2.76-1-x86_64.pkg.tar.zst" = "2b8e51caff26ef7d70aea69b0c079eda5f942010c7f7db88b064228c845a7cbb"
+"libcap-2.77-1-x86_64.pkg.tar.zst" = "16a575cf5266f6187d0a11930f8cfa9ba38df92a842f430c9e965dba689063bd"

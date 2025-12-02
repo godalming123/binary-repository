@@ -5,7 +5,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/p/podman"]
 
 [version]
-main = "5.6.2-1"
+main = "5.7.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -24,3 +24,4 @@ amd64 = "x86_64"
 "podman-5.6.0-1-x86_64.pkg.tar.zst" = "2d70195dc71ef2610031c3b8d290eab88525b1427cbe3c891cd76d32f9e9c4f1"
 "podman-5.6.1-1-x86_64.pkg.tar.zst" = "d86ca66d50749b72430bf3d226dc45ca92c814a315a9b06e9763349d2d7f5859"
 "podman-5.6.2-1-x86_64.pkg.tar.zst" = "e92aebb895f06c4486b08c8a2449bb804c01e2be6b07cb8f8f8172182f0a7481"
+"podman-5.7.0-1-x86_64.pkg.tar.zst" = "d0e82e42f24660a2a4158df94cb3e720ef66cd81206044315efbdf607f7c481b"

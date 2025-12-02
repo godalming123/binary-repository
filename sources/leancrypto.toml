@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/leancrypto"]
 
 [version]
-main = "1.5.1-1"
+main = "1.6.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "leancrypto-1.5.1-1-x86_64.pkg.tar.zst" = "30f2f0d7e95615761cb4d15c8c66d292702ddcb0c81f1947ccad5603c545dde1"
+"leancrypto-1.6.0-1-x86_64.pkg.tar.zst" = "2a20a50708410f2c36c7a407e2ab78d05595ff94c85776f8b3b55753c8b0c678"

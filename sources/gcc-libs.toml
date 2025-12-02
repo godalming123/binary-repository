@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gcc-libs"]
 
 [version]
-main = "15.2.1+r22+gc4e96a094636-1"
+main = "15.2.1+r301+gf24307422d1d-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "gcc-libs-15.1.1+r7+gf36ec88aa85a-1-x86_64.pkg.tar.zst" = "6eedd2e4afc53e377b5f1772b5d413de3647197e36ce5dc4a409f993668aa5ed"
 "gcc-libs-15.2.1+r22+gc4e96a094636-1-x86_64.pkg.tar.zst" = "5db107a847b0cb6993252f4027b2252a527360c00c2474283c8707f59141b87f"
+"gcc-libs-15.2.1+r301+gf24307422d1d-1-x86_64.pkg.tar.zst" = "71a004a5bdea8e3f0de3af3e766ffada658dd3f4f19351973d0ffa445b90029e"

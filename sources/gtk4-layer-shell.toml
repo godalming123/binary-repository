@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gtk4-layer-shell"]
 
 [version]
-main = "1.2.0-1"
+main = "1.3.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "gtk4-layer-shell-1.0.3-1-x86_64.pkg.tar.zst" = "c8d69e83cbaffe4a438ac28c3944afaa5edc920477829c7e92a75942ed479e5c"
 "gtk4-layer-shell-1.2.0-1-x86_64.pkg.tar.zst" = "1c33c65e0c48d8abb24e7cb752d0e598f9af7f7a20f7cb97360154066354e793"
+"gtk4-layer-shell-1.3.0-1-x86_64.pkg.tar.zst" = "fdfcc5a8b21f58380a8c108194aa3fcb574c03802605d0b62737f8b1e4e276c4"

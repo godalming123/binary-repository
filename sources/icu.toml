@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/i/icu"]
 
 [version]
-main = "76.1-1"
+main = "78.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "icu-76.1-1-x86_64.pkg.tar.zst" = "8e0745f79b330395e04cb6c2119dd901b0adb35f031ab5b4240bb7e72e688157"
+"icu-78.1-1-x86_64.pkg.tar.zst" = "e10eeafcb177337c29d4a8f67d7366e3183755ee507ae141d314381669e14cba"

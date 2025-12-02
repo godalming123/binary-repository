@@ -1,0 +1,13 @@
+homepage = "https://koka-lang.github.io"
+mirrors = ["https://github.com/koka-lang/koka/releases/download"]
+urlInMirror = "v${version.main}/koka-v${version.main}-linux-${architecture}.tar.gz"
+compression = ".tar.gz"
+
+[version]
+main = "3.2.2"
+
+[architectureNames]
+amd64 = "x64"
+
+[checksums]
+"v3.2.2/koka-v3.2.2-linux-x64.tar.gz" = "484c56fdf4c1b4b3fd1dc7711f39141f1b3892d2f93e414d1d066887e7d0b3e2"

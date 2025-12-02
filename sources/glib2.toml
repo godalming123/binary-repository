@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/glib2"]
 
 [version]
-main = "2.86.0-2"
+main = "2.86.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "glib2-2.84.4-2-x86_64.pkg.tar.zst" = "18c3e6de7770d12294ba9da02e18058a5597b992b093e0c21ba56d414514c349"
 "glib2-2.85.4-1-x86_64.pkg.tar.zst" = "e17982677ddb1e3647dbaaa95e302d98d4fd387d97a0e63357e88d7a3d86c52e"
 "glib2-2.86.0-2-x86_64.pkg.tar.zst" = "7bde6900fe2148a45da14395864b07da30c45b81d096f871a41d123e4489c822"
+"glib2-2.86.2-1-x86_64.pkg.tar.zst" = "4f4e570c4523e651283c0e169361d3ed9ecdd1d8417a539035a599d04b39ab7c"

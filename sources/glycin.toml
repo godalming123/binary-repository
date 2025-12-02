@@ -6,13 +6,14 @@ mirrors = ["https://archive.archlinux.org/packages/g/glycin"]
 compression = ".tar.zst"
 
 [version]
-main = "2.0.4-1"
+main = "2.0.7-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "glycin-2.0.4-1-x86_64.pkg.tar.zst" = "d44a58bfe094d8eb913ce3917b39f4471e19eb657d897a5ec566f43e819b3669"
+"glycin-2.0.7-1-x86_64.pkg.tar.zst" = "5ab8c9b61b9e9438a86078dbee67371ab1c828d6cd8265535ed21a9c6c3c48bd"
 
 [directlyDependentSharedLibraries]
 "usr/bin/glycin-thumbnailer" = [

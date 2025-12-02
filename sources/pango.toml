@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/p/pango"]
 
 [version]
-main = "1:1.56.4-2"
+main = "1:1.57.0-2"
 
 [architectureNames]
 amd64 = "x86_64"

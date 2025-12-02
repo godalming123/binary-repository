@@ -10,7 +10,7 @@ executableDependencies = [[
 ]]
 
 [version]
-main = "dev_2025_10-3"
+main = "dev_2025_11-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -20,6 +20,7 @@ amd64 = "x86_64"
 "odin-dev_2025_08-2-x86_64.pkg.tar.zst" = "e84072073ee4aeea15010dab3fe61ae1602138b9efaaff2c3214e5b6d66d2654"
 "odin-dev_2025_09-1-x86_64.pkg.tar.zst" = "14f151072366e4977b76bac8809749633e911a9ea7885e15b59113cd7278eacf"
 "odin-dev_2025_10-3-x86_64.pkg.tar.zst" = "31045ec560843ef3b17841dc4c448419ba03d0a0ab59b9d3d0c1aca88af29ba8"
+"odin-dev_2025_11-1-x86_64.pkg.tar.zst" = "50ea24d3b978e9a4019df741a3c41dac1ca2548a8b59cb4470637f4f98a67622"
 
 [directSharedLibraryDependencies]
 "usr/lib/odin/odin" = [

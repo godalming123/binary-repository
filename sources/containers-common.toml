@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/c/containers-common"]
 
 [version]
-main = "1:0.64.2-1"
+main = "1:0.66.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "containers-common-1:0.64.1-1-any.pkg.tar.zst" = "8355640ae889c95e576351a6d5850211c915d391a82759ef1525811af9ae7c2e"
 "containers-common-1:0.64.2-1-any.pkg.tar.zst" = "c986e61d362e4b5b3f7c3b1c75d031f346816552708aba29f20cbbfae4a65464"
+"containers-common-1:0.66.0-1-any.pkg.tar.zst" = "05b5ffc39bd2e3bed19e014b38321ef4895d88a4f1d840b2fe4fb871b91134b0"

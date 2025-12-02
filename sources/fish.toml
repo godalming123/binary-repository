@@ -6,7 +6,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/f/fish"]
 
 [version]
-main = "4.1.2-1"
+main = "4.2.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "fish-4.0.2-1-x86_64.pkg.tar.zst" = "307242754bea69f45faedc54008c48c91d69e71f94684292500b74fe3d634a22"
 "fish-4.1.2-1-x86_64.pkg.tar.zst" = "1058f821f69a2ebf964f048992bab5b5c0b6e4427f863a10db67ff007f18b0c9"
+"fish-4.2.1-1-x86_64.pkg.tar.zst" = "2424bde89e3bb35f2ee359fe57e26a47b2371606357ea49724f85906d93becf6"
 
 [directSharedLibraryDependencies]
 "usr/bin/fish" = [

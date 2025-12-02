@@ -1,5 +1,5 @@
 knownIssues = [
-    "The `librt.so.1`, `libdl.so.1`, `libpthread.so.1`, and `libtinfo.so.6` shared library dependencies are not specified because they have not been packaged in bento, roc seems to work either without them or by using the system packages, and roc is being rewritten in zig (https://github.com/roc-lang/roc/tree/main/src), so the shared library dependencies will probably change soon anyways"
+    "The `librt.so.1`, `libdl.so.1`, and `libpthread.so.1` shared library dependencies are not specified because they have not been packaged in bento, roc seems to work either without them or by using the system packages, and roc is being rewritten in zig (https://github.com/roc-lang/roc/tree/main/src), so the shared library dependencies will probably change soon anyways"
 ]
 homepage = "https://www.roc-lang.org/"
 description = "A fast, friendly, functional language."
@@ -26,6 +26,7 @@ amd64 = "x86_64"
     "libgcc_s.so.1",
     "libc.so.6",
     "ld-linux-x86-64.so.2",
+    "libtinfo.so.6",
 ]
 
 [checksums]

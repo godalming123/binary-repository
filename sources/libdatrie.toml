@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libdatrie"]
 
 [version]
-main = "0.2.13-4"
+main = "0.2.14-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libdatrie-0.2.13-4-x86_64.pkg.tar.zst" = "b0869b4745655b0ac32e6293534f3e82160068d8d496be98e79645df3dd4ccd1"
+"libdatrie-0.2.14-1-x86_64.pkg.tar.zst" = "f5ad651ed99afa29d44c662da4f2c6e93764e8a1d47487f41837be1c94ddd38e"

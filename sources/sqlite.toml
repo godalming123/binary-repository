@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/s/sqlite"]
 
 [version]
-main = "3.50.4-2"
+main = "3.51.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "sqlite-3.50.3-1-x86_64.pkg.tar.zst" = "d17eead32978952ff6f62b96873697028fa5e49230516467ad52c82bba547265"
 "sqlite-3.50.4-1-x86_64.pkg.tar.zst" = "59b2cb2835eadeb11bf40a5f13ee1bc400d97311de7512dda9d056c8a3c4f10e"
 "sqlite-3.50.4-2-x86_64.pkg.tar.zst" = "a105275542632ba9e40729777ba13ec2fdb9980eaad83e61d64203c666985d5c"
+"sqlite-3.51.1-1-x86_64.pkg.tar.zst" = "6aa4c0a7a2c1835c7de4cda99f7b42bb26a42a465d979b5ceadd18390200b5f5"

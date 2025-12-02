@@ -1,0 +1,2 @@
+source = "ncurses"
+directory = "usr/lib"
