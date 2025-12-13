@@ -1,0 +1,7 @@
+source = "krb5"
+directory = "usr/lib"
+directSharedLibraryDependencies = [
+    "libkeyutils.so.1",
+    "libresolv.so.2",
+    "libc.so.6",
+]

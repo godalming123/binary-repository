@@ -4,10 +4,11 @@ mirrors = ["https://github.com/jj-vcs/jj/releases/download"]
 compression = ".tar.gz"
 
 [version]
-main = "0.34.0"
+main = "0.36.0"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v0.34.0/jj-v0.34.0-x86_64-unknown-linux-musl.tar.gz" = "1e8e1ede656fecba91ceb8248a76402a110017ad677d0ecfd1f2040f5543cfa3"
+"v0.36.0/jj-v0.36.0-x86_64-unknown-linux-musl.tar.gz" = "b9526754d35ee643dd7f91a927d0e5650563e1092ffa599765624a3f212277ab"

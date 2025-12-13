@@ -1,0 +1,189 @@
+homepage = "https://web.mit.edu/kerberos/"
+description = "The Kerberos network authentication system"
+licenses = ["custom"]
+urlInMirror = "krb5-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/k/krb5"]
+compression = ".tar.zst"
+
+[version]
+main = "1.21.3-2"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"krb5-1.21.3-2-x86_64.pkg.tar.zst" = "3144390d52f29bb5204cdf1bee1675c3c31adcfb301fbb0f88a1ce03de3944c0"
+
+[directSharedLibraryDependencies]
+"usr/bin/gss-client" = [
+    "libgssapi_krb5.so.2",
+    "libc.so.6",
+]
+"usr/bin/gss-server" = [
+    "libgssapi_krb5.so.2",
+    "libc.so.6",
+]
+"usr/bin/kadmin" = [
+    "libss.so.2",
+    "libkadm5clnt_mit.so.12",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/kadmin.local" = [
+    "libss.so.2",
+    "libkadm5srv_mit.so.12",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/kadmind" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libgssrpc.so.4",
+    "libgssapi_krb5.so.2",
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libverto.so.1",
+    "libc.so.6",
+]
+"usr/bin/kdb5_ldap_util" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libkdb_ldap.so.1",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kdb5_util" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libgssrpc.so.4",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kdestroy" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/kinit" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/klist" = [
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kpasswd" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/kprop" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kpropd" = [
+    "libkdb5.so.10",
+    "libkadm5clnt_mit.so.12",
+    "libgssrpc.so.4",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kproplog" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libgssrpc.so.4",
+    "libkrb5.so.3",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/krb5kdc" = [
+    "libkadm5srv_mit.so.12",
+    "libkdb5.so.10",
+    "libgssrpc.so.4",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libverto.so.1",
+    "libc.so.6",
+]
+"usr/bin/ksu" = [
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kswitch" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/ktutil" = [
+    "libss.so.2",
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/kvno" = [
+    "libkrb5.so.3",
+    "libk5crypto.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/sclient" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libkrb5support.so.0",
+    "libc.so.6",
+]
+"usr/bin/sim_client" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/sim_server" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/sserver" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/uuclient" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]
+"usr/bin/uuserver" = [
+    "libkrb5.so.3",
+    "libcom_err.so.2",
+    "libc.so.6",
+]

@@ -1,6 +1,5 @@
 installationWarnings = [
-    "Zed tries to auto update itself",
-    "I haven't tested it, but pressing the auto update button in zed might break your zed installation",
+    "Zed auto updates itself, which replaces the version of zed installed by bento",
 ]
 homepage = "https://zed.dev/"
 urlInMirror = "v${version.main}/zed-linux-${architecture}.tar.gz"
@@ -8,7 +7,7 @@ compression = ".tar.gz"
 mirrors = ["https://github.com/zed-industries/zed/releases/download"]
 
 [version]
-main = "0.212.6"
+main = "0.216.1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -18,3 +17,4 @@ amd64 = "x86_64"
 "v0.198.5/zed-linux-x86_64.tar.gz" = "f672fc47be6a65f33ceaca58ed4abf938b40e076cb8b7a5c69bf6a20325f5ad6"
 "v0.204.1/zed-linux-x86_64.tar.gz" = "47d8acc95ad4245535eb6d972c2434c02fd01697cd30f79ee4b5ca0b05a0d9e7"
 "v0.212.6/zed-linux-x86_64.tar.gz" = "09dc28addef1cd77637e889781290d54c2c78d87622f6c7b4011f63b112a53d2"
+"v0.216.1/zed-linux-x86_64.tar.gz" = "647fabf392624390f420e1cf61656e6f9f8653eabccf668a1151affa7cf89e15"

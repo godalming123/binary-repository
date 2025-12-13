@@ -1,0 +1,3 @@
+source = "libnghttp3"
+directory = "usr/lib"
+directSharedLibraryDependencies = ["libc.so.6"]

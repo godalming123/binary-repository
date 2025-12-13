@@ -1,0 +1,7 @@
+source = "lld"
+directory = "usr/lib"
+directSharedLibraryDependencies = [
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]

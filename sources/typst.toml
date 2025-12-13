@@ -7,10 +7,11 @@ urlInMirror = "v${version.main}/typst-${architecture}-unknown-linux-musl.tar.xz"
 compression = ".tar.xz"
 
 [version]
-main = "0.13.1"
+main = "0.14.2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v0.13.1/typst-x86_64-unknown-linux-musl.tar.xz" = "7d214bfeffc2e585dc422d1a09d2b144969421281e8c7f5d784b65fc69b5673f"
+"v0.14.2/typst-x86_64-unknown-linux-musl.tar.xz" = "a6044cbad2a954deb921167e257e120ac0a16b20339ec01121194ff9d394996d"

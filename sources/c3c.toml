@@ -1,0 +1,30 @@
+homepage = "https://github.com/c3lang/c3c"
+description = "Compiler for the C3 language"
+licenses = ["LGPL-3.0-or-later"]
+urlInMirror = "c3c-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/c/c3c"]
+compression = ".tar.zst"
+
+[version]
+main = "0.7.7-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"c3c-0.7.5-1-x86_64.pkg.tar.zst" = "ce9bc123200842e270d38c1694c2d18cd3cdf8b84ac4ef4e01022d3fb27726a4"
+"c3c-0.7.7-1-x86_64.pkg.tar.zst" = "88eb42862c830024e4aed744d64c5af30d2b708c74d6de7dafa8b22237b47374"
+
+[directSharedLibraryDependencies]
+"usr/lib/c3c/c3c" = [
+    "libLLVM.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldCommon.so.20.1",
+    "libcurl.so.4",
+    "libstdc++.so.6",
+    "libm.so.6",
+    "libc.so.6",
+]

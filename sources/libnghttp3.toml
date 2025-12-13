@@ -1,0 +1,16 @@
+homepage = "https://github.com/ngtcp2/nghttp3"
+description = "HTTP/3 library written in C"
+licenses = ["MIT"]
+urlInMirror = "libnghttp3-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/l/libnghttp3"]
+compression = ".tar.zst"
+
+[version]
+main = "1.13.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"libnghttp3-1.11.0-1-x86_64.pkg.tar.zst" = "999020969f1bf6fee2ebf29d3e65bd47ec13b05703ec5fc9202dbb8d773219db"
+"libnghttp3-1.13.1-1-x86_64.pkg.tar.zst" = "c4b45ba8c20598b8b6a59edae22d93db1378bd25eb67609bc604f5d77fae0cb0"

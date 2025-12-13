@@ -1,0 +1,3 @@
+source = "keyutils"
+directory = "usr/lib"
+directSharedLibraryDependencies = ["libc.so.6"]

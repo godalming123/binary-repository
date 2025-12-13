@@ -1,0 +1,17 @@
+source = "curl"
+directory = "usr/lib"
+directSharedLibraryDependencies = [
+    "libnghttp3.so.9",
+    "libnghttp2.so.14",
+    "libidn2.so.0",
+    "libssh2.so.1",
+    "libpsl.so.5",
+    "libssl.so.3",
+    "libcrypto.so.3",
+    "libgssapi_krb5.so.2",
+    "libzstd.so.1",
+    "libbrotlidec.so.1",
+    "libz.so.1",
+    "libgcc_s.so.1",
+    "libc.so.6",
+]

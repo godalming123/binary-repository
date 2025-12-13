@@ -1,0 +1,30 @@
+homepage = "https://www.kernel.org/"
+description = "Linux Key Management Utilities"
+licenses = ["GPL2"]
+urlInMirror = "keyutils-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/k/keyutils"]
+compression = ".tar.zst"
+
+[version]
+main = "1.6.3-3"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"keyutils-1.6.3-3-x86_64.pkg.tar.zst" = "8d61c8798ed6383280da2abc067d3f29e9cf2d1d60b57a705e62e8bd9ab89f69"
+
+[directSharedLibraryDependencies]
+"usr/bin/key.dns_resolver" = [
+    "libkeyutils.so.1",
+    "libresolv.so.2",
+    "libc.so.6",
+]
+"usr/bin/keyctl" = [
+    "libkeyutils.so.1",
+    "libc.so.6",
+]
+"usr/bin/request-key" = [
+    "libkeyutils.so.1",
+    "libc.so.6",
+]

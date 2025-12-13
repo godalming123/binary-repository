@@ -1,0 +1,8 @@
+source = "libssh2"
+directory = "usr/lib"
+directSharedLibraryDependencies = [
+    "libssl.so.3",
+    "libcrypto.so.3",
+    "libz.so.1",
+    "libc.so.6",
+]

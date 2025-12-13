@@ -1,0 +1,15 @@
+homepage = "https://www.libssh2.org/"
+description = "A library implementing the SSH2 protocol as defined by Internet Drafts"
+licenses = ["BSD"]
+urlInMirror = "libssh2-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/l/libssh2"]
+compression = ".tar.zst"
+
+[version]
+main = "1.11.1-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"libssh2-1.11.1-1-x86_64.pkg.tar.zst" = "c13dba4c4786918ec25f4ccdf1c4567c8063a4caae8565c2a241488584621bad"

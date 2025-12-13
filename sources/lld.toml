@@ -1,0 +1,73 @@
+homepage = "https://lld.llvm.org/"
+description = "Linker from the LLVM project"
+licenses = ["Apache-2.0 WITH LLVM-exception"]
+urlInMirror = "lld-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/l/lld"]
+compression = ".tar.zst"
+
+[version]
+main = "21.1.6-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"lld-20.1.8-1-x86_64.pkg.tar.zst" = "f47e53d7608c833816b9b7861f9e57ad167c409edca84e3dc12ecfc1cdd1b8a8"
+"lld-21.1.6-1-x86_64.pkg.tar.zst" = "48189317fd1719ed54c5e180c26f6cd12c66b8bfd21548bc314003d19b84bdbf"
+
+[directSharedLibraryDependencies]
+"usr/bin/ld.lld" = [
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldMinGW.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldCommon.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]
+"usr/bin/ld64.lld" = [
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldMinGW.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldCommon.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]
+"usr/bin/lld" = [
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldMinGW.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldCommon.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]
+"usr/bin/lld-link" = [
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldMinGW.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldCommon.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]
+"usr/bin/wasm-ld" = [
+    "liblldELF.so.20.1",
+    "liblldMachO.so.20.1",
+    "liblldMinGW.so.20.1",
+    "liblldWasm.so.20.1",
+    "liblldCOFF.so.20.1",
+    "liblldCommon.so.20.1",
+    "libLLVM.so.20.1",
+    "libstdc++.so.6",
+    "libc.so.6",
+]
