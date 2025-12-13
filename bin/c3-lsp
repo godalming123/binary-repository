@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec c3-lsp server/bin/release/c3lsp

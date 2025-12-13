@@ -1,0 +1,3 @@
+source = "glibc"
+directory = "usr/lib"
+directSharedLibraryDependencies = ["libc.so.6"]

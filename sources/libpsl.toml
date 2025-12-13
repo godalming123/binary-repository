@@ -1,0 +1,21 @@
+homepage = "https://github.com/rockdaboot/libpsl"
+description = "Public Suffix List library"
+licenses = ["MIT"]
+urlInMirror = "libpsl-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/l/libpsl"]
+compression = ".tar.zst"
+
+[version]
+main = "0.21.5-2"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"libpsl-0.21.5-2-x86_64.pkg.tar.zst" = "e07925c2487bd7deffdd57808b19561e80a4cb25a33e51dbd94efb673bc81944"
+
+[directSharedLibraryDependencies]
+"usr/bin/psl" = [
+    "libpsl.so.5",
+    "libc.so.6",
+]

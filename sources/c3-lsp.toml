@@ -1,0 +1,10 @@
+homepage = "https://github.com/pherrymason/c3-lsp"
+urlInMirror = "v${version.main}/c3lsp-linux-${architecture}.tar.gz"
+compression = ".tar.gz"
+mirrors = ["https://github.com/pherrymason/c3-lsp/releases/download"]
+
+[version]
+main = "0.4.0"
+
+[checksums]
+"v0.4.0/c3lsp-linux-amd64.tar.gz" = "3cc35e64c262d990bee69ef85e78a330fdb92cb9ba5c9dbc12411afad4d70b26"

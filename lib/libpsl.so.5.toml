@@ -1,0 +1,7 @@
+source = "libpsl"
+directory = "usr/lib"
+directSharedLibraryDependencies = [
+    "libunistring.so.5",
+    "libidn2.so.0",
+    "libc.so.6",
+]
