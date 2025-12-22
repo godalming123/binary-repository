@@ -1,0 +1,17 @@
+installationWarnings = [
+  "This package seems to only work when you pass in the `--no-sandbox` option. See https://github.com/Voxelum/x-minecraft-launcher/issues/1142",
+]
+homepage = "https://xmcl.app/"
+urlInMirror = "v${version.main}/xmcl-${version.main}-${architecture}.AppImage"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/Voxelum/x-minecraft-launcher/releases/download"]
+
+[version]
+main = "0.53.2"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v0.53.2/xmcl-0.53.2-x86_64.AppImage" = "59215242a836ae977c28890b258800d35ca8865751ed2eea564b23a953e5b662"

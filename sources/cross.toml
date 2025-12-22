@@ -1,0 +1,13 @@
+homepage = "https://github.com/cross-rs/cross"
+urlInMirror = "v${version.main}/cross-${architecture}-unknown-linux-musl.tar.gz"
+compression = ".tar.gz"
+mirrors = ["https://github.com/cross-rs/cross/releases/download"]
+
+[version]
+main = "0.2.5"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v0.2.5/cross-x86_64-unknown-linux-musl.tar.gz" = "a486cefa6cb486971b97be321ea9dfc2e90c1979550295314a368f53fab6d588"
