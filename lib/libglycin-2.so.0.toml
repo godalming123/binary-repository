@@ -1,6 +1,6 @@
 source = "glycin"
 directory = "usr/lib"
-directlyDependentSharedLibraries = [
+directSharedLibraryDependencies = [
     "liblcms2.so.2",
     "libfontconfig.so.1",
     "libseccomp.so.2",

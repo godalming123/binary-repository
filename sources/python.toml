@@ -1,0 +1,33 @@
+homepage = "https://www.python.org/"
+description = "The Python programming language"
+licenses = ["PSF-2.0"]
+urlInMirror = "python-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/p/python"]
+compression = ".tar.zst"
+
+[version]
+main = "3.14.2-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"python-3.14.2-1-x86_64.pkg.tar.zst" = "b3e6581259dd7353b449bedba9d712fe1f335081c86458d359ba74e5ae1bdf47"
+
+[env."usr/bin/python3.14"]
+PYTHONPATH="${python}/usr/lib/python3.14"
+
+[env."usr/bin/python3.14-config"]
+PYTHONPATH="${python}/usr/lib/python3.14"
+
+[env."usr/bin/pydoc3.14"]
+PYTHONPATH="${python}/usr/lib/python3.14"
+
+[directSharedLibraryDependencies]
+"usr/bin/python3.14" = [
+    "libpython3.14.so.1.0",
+    "libc.so.6",
+
+    # The following may be dynamically loaded when libraries are imported in python
+    "libbz2.so.1.0", # import bz2
+]

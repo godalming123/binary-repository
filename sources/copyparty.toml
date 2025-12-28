@@ -1,0 +1,12 @@
+homepage = "https://github.com/9001/copyparty"
+urlInMirror = "v${version.main}/copyparty-sfx.py"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/9001/copyparty/releases/download"]
+executableDependencies = [["python", "usr/bin/python3"]]
+
+[version]
+main = "1.19.23"
+
+[checksums]
+"v1.19.23/copyparty-sfx.py" = "399e957a731201f6a88a11b732fa2864a0d4de9eac1de4034d9fb9343ab6a412"

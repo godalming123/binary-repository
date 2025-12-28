@@ -1,0 +1,40 @@
+homepage = "https://erlang.org/"
+description = "Erlang core components (compiler, crypto, erts, kernel, stdlib)"
+licenses = ["Apache-2.0"]
+urlInMirror = "erlang-core-${version.main}-${architecture}.pkg.tar.zst"
+mirrors = ["https://archive.archlinux.org/packages/e/erlang-core"]
+compression = ".tar.zst"
+
+[version]
+main = "28.2-1"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"erlang-core-28.0.4-1-x86_64.pkg.tar.zst" = "3e69af8b1c818beb5b2d57d09b58378663323ed25925ba633ebf422a312f62a7"
+"erlang-core-28.2-1-x86_64.pkg.tar.zst" = "124a62f410b6cb51e8d40fdfcdb8ba8ab6e4f3ff8d33a0762923c51f1b95fc83"
+
+[directSharedLibraryDependencies]
+"usr/lib/erlang/erts-16.1.2/bin/epmd" = [
+    "libm.so.6",
+    "libc.so.6",
+]
+"usr/lib/erlang/bin/erlc" = [
+    "libm.so.6",
+    "libc.so.6",
+]
+"usr/lib/erlang/bin/escript" = [
+    "libm.so.6",
+    "libc.so.6",
+]
+"usr/lib/erlang/erts-16.1.2/bin/beam.smp" = [
+    "libm.so.6",
+    "libc.so.6",
+    "libncursesw.so.6",
+    "libz.so.1",
+    "libstdc++.so.6",
+    "libgcc_s.so.1",
+]
+"usr/lib/erlang/bin/run_erl" = ["libc.so.6"]
+"usr/lib/erlang/bin/to_erl" = ["libc.so.6"]

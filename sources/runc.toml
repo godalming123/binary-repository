@@ -1,0 +1,11 @@
+homepage = "https://github.com/opencontainers/runc"
+urlInMirror = "v${version.main}/runc.${architecture}"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/opencontainers/runc/releases/download"]
+
+[version]
+main = "1.4.0"
+
+[checksums]
+"v1.4.0/runc.amd64" = "c5d4995c5aec204d7e1827d9d9a6b45042602736f7f415f484252e576dcdac28"

@@ -1,0 +1,1 @@
+#!/usr/bin/env -S bento exec python usr/bin/pydoc3.14

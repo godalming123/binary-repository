@@ -18,7 +18,6 @@ A repository of binaries from other build systems that is designed to be used wi
 - Zoxide
 - Sway
 - Jq
-- Python3
 - Cloc
 - Uv
 

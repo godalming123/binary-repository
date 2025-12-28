@@ -1,4 +1,3 @@
-installationWarnings = ["Bento's gleam package is partially dysfunctional as the erlang backend does not work"]
 homepage = "https://gleam.run/"
 description = "Gleam is a friendly language for building type-safe systems that scale!"
 licenses = ["Apache-2.0"]
@@ -6,13 +5,17 @@ programmingLanguage = "rust"
 urlInMirror = "gleam-lang/gleam/releases/download/v${version.main}/gleam-v${version.main}-${architecture}-unknown-linux-musl.tar.gz"
 compression = ".tar.gz"
 mirrors = ["https://github.com"]
-# executableDependencies = [["erlang-core", "usr/lib/erlang/bin/escript"]]
+executableDependencies = [
+  ["erlang-core", "usr/lib/erlang/bin/escript"],
+  ["erlang-core", "usr/lib/erlang/erts-16.1.2/bin/beam.smp"],
+]
 
 [version]
-main = "1.12.0"
+main = "1.14.0"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "gleam-lang/gleam/releases/download/v1.12.0/gleam-v1.12.0-x86_64-unknown-linux-musl.tar.gz" = "039a87bd7294d3cfd2425f56e8ffef508b170ecec42e760806833fb1e0319d49"
+"gleam-lang/gleam/releases/download/v1.14.0/gleam-v1.14.0-x86_64-unknown-linux-musl.tar.gz" = "5dc66abbf3eb80f209f1c261ecfc44dc1404dd8ac503e483369d37182a4fcce8"

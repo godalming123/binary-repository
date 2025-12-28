@@ -112,7 +112,7 @@ def getLibraryDeps [libraryName: string]: any -> list<record> {
     let source = open $"($env.FILE_PWD)/sources/($library.source).toml"
     let libraryProps = {source: $library.source, version: $source.version.main}
     $library
-    | get --optional directlyDependentSharedLibraries
+    | get --optional directSharedLibraryDependencies
     | replaceNull []
     | reduce --fold [$libraryProps, {$libraryName: $libraryProps}] {
       |dependentLibraryName, acc|
@@ -127,7 +127,7 @@ def getLibraryDeps [libraryName: string]: any -> list<record> {
 
 def getExecutableDeps [sourceName: string, executablePathInSource: string]: any -> list<record> {
   open $"($env.FILE_PWD)/sources/($sourceName).toml"
-  | get --optional directlyDependentSharedLibraries
+  | get --optional directSharedLibraryDependencies
   | get --optional $executablePathInSource
   | replaceNull []
   | reduce --fold [{}, {}] {
@@ -205,9 +205,9 @@ def "main setupSource" (sourceName: string) {
       |binary|
       {libraryPath: $binary.pathWithinSource, deps: (getDirectDeps $binary.fullPath)}
     }
-    let newDirectlyDependentSharedLibraries = ($binaryDeps | reduce --fold {} {|dep, acc| $acc | upsert $dep.libraryPath $dep.deps})
+    let newDirectSharedLibraryDeps = ($binaryDeps | reduce --fold {} {|dep, acc| $acc | upsert $dep.libraryPath $dep.deps})
     $toml
-    | upsert directlyDependentSharedLibraries $newDirectlyDependentSharedLibraries
+    | upsert directSharedLibraryDependencies $newDirectSharedLibraryDeps
     | to toml
     | save --force $tomlFile
   }
@@ -229,7 +229,7 @@ def "main addLibrary" (sourceName: string, libraryName: string) {
   let contents = {
     source: $sourceName,
     directory: "usr/lib",
-    directlyDependentSharedLibraries: (getDirectDeps $libraryPath)
+    directSharedLibraryDependencies: (getDirectDeps $libraryPath)
   } | to toml
   $contents | save $path
   print $"Created file ($path) with the following contents:\n($contents)"

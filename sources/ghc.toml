@@ -1,0 +1,15 @@
+homepage = "https://www.haskell.org/ghc/"
+urlInMirror = "${version.main}/ghc-${version.main}-${architecture}-alpine${version.alpine}-linux-static-int_native.tar.gz"
+compression = ".tar.gz"
+rootPath = "ghc-${version.main}-${architecture}-unknown-linux"
+mirrors = ["https://downloads.haskell.org/~ghc"]
+
+[version]
+main = "9.12.3"
+alpine = "3_12"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"9.12.3/ghc-9.12.3-x86_64-alpine3_12-linux-static-int_native.tar.gz" = "d115e334f3d3ec6f9cf7d9f789d27408251793736566285bc511b429e6e084b2"
