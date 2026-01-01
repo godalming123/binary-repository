@@ -8,10 +8,11 @@ filesToMakeExecutable = ["."]
 mirrors = ["https://github.com/Voxelum/x-minecraft-launcher/releases/download"]
 
 [version]
-main = "0.53.2"
+main = "0.53.3"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v0.53.2/xmcl-0.53.2-x86_64.AppImage" = "59215242a836ae977c28890b258800d35ca8865751ed2eea564b23a953e5b662"
+"v0.53.3/xmcl-0.53.3-x86_64.AppImage" = "f4befba285eb238d7c25fb907d645a41b7b23938f8cb078207f4a70943b5ea6e"

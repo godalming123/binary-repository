@@ -1,38 +1,14 @@
-installationWarnings = ["Bento's fish package is partially disfunction as it cannot find it's asset files (see [this issue](https://github.com/fish-shell/fish-shell/issues/11765))"]
 homepage = "https://fishshell.com/"
 description = "Smart and user friendly shell intended mostly for interactive use"
-urlInMirror = "fish-${version.main}-${architecture}.pkg.tar.zst"
-compression = ".tar.zst"
-mirrors = ["https://archive.archlinux.org/packages/f/fish"]
+urlInMirror = "${version.main}/fish-${version.main}-linux-${architecture}.tar.xz"
+compression = ".tar.xz"
+mirrors = ["https://github.com/fish-shell/fish-shell/releases/download"]
 
 [version]
-main = "4.2.1-1"
+main = "4.3.2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
-"fish-4.0.2-1-x86_64.pkg.tar.zst" = "307242754bea69f45faedc54008c48c91d69e71f94684292500b74fe3d634a22"
-"fish-4.1.2-1-x86_64.pkg.tar.zst" = "1058f821f69a2ebf964f048992bab5b5c0b6e4427f863a10db67ff007f18b0c9"
-"fish-4.2.1-1-x86_64.pkg.tar.zst" = "2424bde89e3bb35f2ee359fe57e26a47b2371606357ea49724f85906d93becf6"
-
-[directSharedLibraryDependencies]
-"usr/bin/fish" = [
-    "libpcre2-8.so.0",
-    "libpcre2-32.so.0",
-    "libgcc_s.so.1",
-    "libm.so.6",
-    "libc.so.6",
-]
-"usr/bin/fish_indent" = [
-    "libpcre2-8.so.0",
-    "libpcre2-32.so.0",
-    "libgcc_s.so.1",
-    "libm.so.6",
-    "libc.so.6",
-]
-"usr/bin/fish_key_reader" = [
-    "libpcre2-32.so.0",
-    "libgcc_s.so.1",
-    "libc.so.6",
-]
+"4.3.2/fish-4.3.2-linux-x86_64.tar.xz" = "1a6f4b422e085cb2431f0decf1446db55bb4372c2d45dd5c275c8679819c0322"
