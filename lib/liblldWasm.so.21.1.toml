@@ -1,9 +1,8 @@
 source = "lld"
 directory = "usr/lib"
 directSharedLibraryDependencies = [
-    "liblldCommon.so.20.1",
-    "libLLVM.so.20.1",
+    "liblldCommon.so.21.1",
+    "libLLVM.so.21.1",
     "libstdc++.so.6",
     "libc.so.6",
-    "ld-linux-x86-64.so.2",
 ]

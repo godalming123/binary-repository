@@ -5,7 +5,7 @@ filesToMakeExecutable = ["zls"]
 mirrors = ["https://github.com"]
 
 [version]
-main = "0.15.0"
+main = "0.15.1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 [checksums]
 "zigtools/zls/releases/download/0.14.0/zls-x86_64-linux.tar.xz" = "661f8d402ba3dc9b04b6e9bc3026495be7b838d2f18d148db2bd98bd699c1360"
 "zigtools/zls/releases/download/0.15.0/zls-x86_64-linux.tar.xz" = "508bfe3fd637d2a02f07f3fc7da8900351f407116b03685c5dae26b4f01a30de"
+"zigtools/zls/releases/download/0.15.1/zls-x86_64-linux.tar.xz" = "3bb38f522cb23213e8c075ac6b170273fe49b4274b8c12b034cc496407400067"

@@ -25,7 +25,7 @@ CRYSTAL_PATH = "${crystal}/usr/lib/crystal/"
 
 [directSharedLibraryDependencies]
 "usr/bin/crystal" = [
-    "libLLVM.so.20.1",
+    "libLLVM.so.21.1",
     "libpcre2-8.so.0",
     "libm.so.6",
     "libgc.so.1",

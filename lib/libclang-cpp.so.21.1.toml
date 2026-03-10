@@ -1,7 +1,7 @@
 source = "clang"
 directory = "usr/lib"
 directSharedLibraryDependencies = [
-  "libLLVM.so.20.1",
+  "libLLVM.so.21.1",
   "libstdc++.so.6",
   "libm.so.6",
   "libgcc_s.so.1",

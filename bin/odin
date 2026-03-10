@@ -1,1 +1,1 @@
-#!/usr/bin/env -S bento exec odin usr/lib/odin/odin
+#!/usr/bin/env -S bento exec odin odin
