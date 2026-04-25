@@ -11,11 +11,12 @@ executableDependencies = [[
 ]]
 
 [version]
-main = "2026-03"
-day = "03"
+main = "2026-04"
+day = "02"
 
 [checksums]
 "dev-2026-03/odin-linux-amd64-dev-2026-03.tar.gz" = "60ff31bfb5807617eaa63d4a516f9d64f45e3cd1f5bba952298353036dbe8464"
+"dev-2026-04/odin-linux-amd64-dev-2026-04.tar.gz" = "8bfa62d459f505609cd0343746b4116f3e6866eb2d5b4b91bb8365db72f04e47"
 
 [directSharedLibraryDependencies]
 "usr/lib/odin/odin" = [
