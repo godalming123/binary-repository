@@ -11,7 +11,7 @@ executableDependencies = [[
 ]]
 
 [version]
-main = "11.6.4-1"
+main = "11.13.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -21,6 +21,7 @@ amd64 = "x86_64"
 "npm-11.6.0-1-any.pkg.tar.zst" = "8df608a93f80eb56ddd01a3e669899b649b950bbb788e63780a30a6aa196f68e"
 "npm-11.6.2-1-any.pkg.tar.zst" = "5b8e1f1635788b60b7b454cc333f1fd44dfb871f3fcb0b460c8089dc00bf0e18"
 "npm-11.6.4-1-any.pkg.tar.zst" = "883d78c47f8bd18470bf74a14440551a54da205546f66da48fbb8952c921257f"
+"npm-11.13.0-1-any.pkg.tar.zst" = "9e9099b326e6c5bf7da82a8634c2bddbb670e9f8f1ccece8a50248fec09cf366"
 
 [env."usr/lib/node_modules/npm/bin/npm-cli.js"]
 NODE_PATH = "${semver}/usr/lib/node_modules:${nodejs-nopt}/usr/lib/node_modules:${node-gyp}/usr/lib/node_modules"

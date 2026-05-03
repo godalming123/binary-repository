@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/a/avahi"]
 
 [version]
-main = "1:0.9rc2-1"
+main = "1:0.9rc4-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "avahi-1:0.9rc2-1-x86_64.pkg.tar.zst" = "50e772c2d1ae29a56efee64c5488cf0a61cd259f0a2a35d329e6761de3258bae"
+"avahi-1:0.9rc4-1-x86_64.pkg.tar.zst" = "8c06c6c4ea716aa15ad476b95053e5d2af7a3f5100e795ecdf82290ef7df59bb"

@@ -6,10 +6,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libedit"]
 
 [version]
-main = "20250104_3.1-1"
+main = "20251016_3.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libedit-20250104_3.1-1-x86_64.pkg.tar.zst" = "9b4167ade67f899d5f4d1e0d3e8e8f18b5edfdd076f5aeffd100cb3093117987"
+"libedit-20251016_3.1-1-x86_64.pkg.tar.zst" = "62fd156cc247c3feb8a750efdfbf5842d9a7c07327890339d4342095d6c86f51"

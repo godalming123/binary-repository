@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/c/c3c"]
 compression = ".tar.zst"
 
 [version]
-main = "0.7.7-1"
+main = "0.7.11-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "c3c-0.7.5-1-x86_64.pkg.tar.zst" = "ce9bc123200842e270d38c1694c2d18cd3cdf8b84ac4ef4e01022d3fb27726a4"
 "c3c-0.7.7-1-x86_64.pkg.tar.zst" = "88eb42862c830024e4aed744d64c5af30d2b708c74d6de7dafa8b22237b47374"
+"c3c-0.7.11-1-x86_64.pkg.tar.zst" = "014153eba65b35402e1814f266d9ef00ef769b5fc9d2ab1b8d35e18053f17cc3"
 
 [directSharedLibraryDependencies]
 "usr/lib/c3c/c3c" = [

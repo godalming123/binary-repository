@@ -5,8 +5,9 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/d/distrobox"]
 
 [version]
-main = "1.8.2.2-1"
+main = "1.8.2.5-1"
 
 [checksums]
 "distrobox-1.8.1.2-1-any.pkg.tar.zst" = "6ef704090c6eb6dcff7299941877d9124a1c698d81e410f43f75f75684efd24a"
 "distrobox-1.8.2.2-1-any.pkg.tar.zst" = "ed33431033e91f79c45e67b12722c36a1adf77cfefd8ac764480037b3648e074"
+"distrobox-1.8.2.5-1-any.pkg.tar.zst" = "94b37aa0340e16c9a9e9ac2bbb830f1bec1d1495a1a18b92330c4dd5806affa2"

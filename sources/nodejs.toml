@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/n/nodejs"]
 
 [version]
-main = "25.2.1-1"
+main = "25.9.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 "nodejs-24.7.0-1-x86_64.pkg.tar.zst" = "74842de6cf7a024bc8d7003893e77129e38f31c6ec547e663271ed6b4b66587b"
 "nodejs-24.9.0-1-x86_64.pkg.tar.zst" = "5813b7d89b06410a9138db011999644b085c2259f64507a6245023d9ac81f849"
 "nodejs-25.2.1-1-x86_64.pkg.tar.zst" = "c8a35403c920f903af32a99833d7a7646aa855e516d5bcf88231e328ad415209"
+"nodejs-25.9.0-1-x86_64.pkg.tar.zst" = "08975d1fcf4d711ecd1c59ac6248eec1c7827a3dcc58cdd627f6d4bc38c9f4bc"
 
 [directSharedLibraryDependencies]
 "usr/bin/node" = [

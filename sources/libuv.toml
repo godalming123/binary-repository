@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libuv"]
 
 [version]
-main = "1.51.0-1"
+main = "1.52.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libuv-1.51.0-1-x86_64.pkg.tar.zst" = "4a4e992621b881a221becb6b9669bb4092ffebec8d87bd90f235866356cc5c35"
+"libuv-1.52.1-1-x86_64.pkg.tar.zst" = "a77eec1bc392f68df6b199d4eb912e0720a40eed214f1ce09b8cbaf00a382dcc"

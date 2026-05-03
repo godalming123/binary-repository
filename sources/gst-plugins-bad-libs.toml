@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gst-plugins-bad-libs"]
 
 [version]
-main = "1.26.9-1"
+main = "1.28.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "gst-plugins-bad-libs-1.26.5-2-x86_64.pkg.tar.zst" = "08f0fafc64f0a74a2e47a0d3330248697b681b297d8eaaa952213af0a71e3dfb"
 "gst-plugins-bad-libs-1.26.7-1-x86_64.pkg.tar.zst" = "990e7c6dec96c86d33070aff85ae641cc48b0855bf657f8a474cbb6fbff37bf8"
 "gst-plugins-bad-libs-1.26.9-1-x86_64.pkg.tar.zst" = "43da2ce6406b276669ef0e8e8ffba3414d0dc7ee21b985e91e44d8f5995ce01e"
+"gst-plugins-bad-libs-1.28.2-1-x86_64.pkg.tar.zst" = "f3e7eaf6058ca5f05c93cbd8f89f10e62112fe41452e57847a3966a6cafe5088"

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gnutls"]
 
 [version]
-main = "3.8.11-2"
+main = "3.8.13-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "gnutls-3.8.10-1-x86_64.pkg.tar.zst" = "01c7e088a306767c3d7932a2f9ec305eb57097a2816e6e929fce28c86ffde438"
 "gnutls-3.8.11-2-x86_64.pkg.tar.zst" = "49b9f170e9a8e82739c350621d93c1da6cda6cf9d9551aa1ec633a66fe5776a0"
+"gnutls-3.8.13-1-x86_64.pkg.tar.zst" = "80ab12d79be0d705451008ee1002d3a7ea0f561318e9ff3ecb8495a64660f9c0"

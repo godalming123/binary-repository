@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libidn2"]
 
 [version]
-main = "2.3.7-1"
+main = "2.3.8-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libidn2-2.3.7-1-x86_64.pkg.tar.zst" = "390e3a494f38bfa3d2f59fb1eb33f69cc7477f96caa27e4a635c523e13389700"
+"libidn2-2.3.8-1-x86_64.pkg.tar.zst" = "1749bdd4c395913df18c57fdd42820d3de88738b7163b7aa254d13e3da7b1d9d"

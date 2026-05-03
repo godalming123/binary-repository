@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/e/expat"]
 
 [version]
-main = "2.7.3-1"
+main = "2.8.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "expat-2.7.1-1-x86_64.pkg.tar.zst" = "1868255dd1d5a673436887070b4739512529a54af3407ed7d1d0059dadd48d58"
 "expat-2.7.3-1-x86_64.pkg.tar.zst" = "5d026955109397933fd0329505ebfe00387b0628bf0af2f0ab24a22586df8f4f"
+"expat-2.8.0-1-x86_64.pkg.tar.zst" = "9a78f99d44db826d3389224611f7714ddb6186d91e9de64b6d0e0f32f5115104"

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libxml2"]
 
 [version]
-main = "2.15.1-4"
+main = "2.15.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "libxml2-2.14.6-1-x86_64.pkg.tar.zst" = "fe52c0d16cf2ced092477a0cbe57232a77d26acf22625f503cc795a1d653e4ab"
 "libxml2-2.15.1-1-x86_64.pkg.tar.zst" = "81366bfd3ba3a564a9d23a1b1b5e995d809924a1a42faa9547e6612a43189011"
 "libxml2-2.15.1-4-x86_64.pkg.tar.zst" = "c65196abbc7a8c5f045f607ca7e61875fbf3ade05d52b58c45e1d246505f1fee"
+"libxml2-2.15.3-1-x86_64.pkg.tar.zst" = "51807c20a300bf85db48ae7f2f8967bec291439764b29279e3297dff3247ed4f"

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libelf"]
 
 [version]
-main = "0.194-1"
+main = "0.194-2"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "libelf-0.193-2-x86_64.pkg.tar.zst" = "4de9844fda6589d6ad1c9414dd9cc3ebb6f7f928fc2fb81a309a2a2ce66b1416"
 "libelf-0.193-5-x86_64.pkg.tar.zst" = "6b38af0e88ed62fb8db0a08de9a1f1518b899c226fceaacc316992475d93a7cc"
 "libelf-0.194-1-x86_64.pkg.tar.zst" = "e8a0c340301c947e44e77bd1bda1e08ae429050f69597bb6f1bd4db56412f2ff"
+"libelf-0.194-2-x86_64.pkg.tar.zst" = "d070b519260d44681e19767c3525c3042c4dfb8e53a2caac686404d2b1a98d1d"

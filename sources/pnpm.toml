@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/p/pnpm"]
 compression = ".tar.zst"
 
 [version]
-main = "10.24.0-1"
+main = "10.33.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 [checksums]
 "pnpm-10.19.0-1-any.pkg.tar.zst" = "3c9d592de389913f32da297f363f9019c9940ee7517aafa5e8f63f3573b69382"
 "pnpm-10.24.0-1-any.pkg.tar.zst" = "f3bdfc3683734d61420ff8712d89be404b1526114eb24ffa58e3e0afe42c72c9"
+"pnpm-10.33.0-1-any.pkg.tar.zst" = "3f7ea5fcb162de57a1c3b45a6c3fdd0a4f206b7b14f81b1e3cfff5997e8bb5d8"

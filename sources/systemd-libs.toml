@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/s/systemd-libs"]
 
 [version]
-main = "258.2-2"
+main = "260.1-2"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -15,3 +15,4 @@ amd64 = "x86_64"
 "systemd-libs-257.9-1-x86_64.pkg.tar.zst" = "9dabff69504e6c83573530a21608f5ff41b72af73d141b44022b28f478126b39"
 "systemd-libs-258.1-1-x86_64.pkg.tar.zst" = "9750c0f22ed1f47a95b0899e03f3cef74bd2288c4a31202dad396228f2661538"
 "systemd-libs-258.2-2-x86_64.pkg.tar.zst" = "4cb0fc3e0470091fc7ae57350fadc7a00a6caf83283b286a210bda0b61e86e28"
+"systemd-libs-260.1-2-x86_64.pkg.tar.zst" = "f1bb2648ac2c0e932e4525b1eaeb5e694a903ae507dfa49f2a5d79c4cfe2024f"

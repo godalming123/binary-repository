@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/z/zstd"]
 
 [version]
-main = "1.5.7-2"
+main = "1.5.7-3"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "zstd-1.5.7-2-x86_64.pkg.tar.zst" = "7088eb799005899e24874e2d1af4ef73df1ff9a97ee74179245c64c9c4b0fa3c"
+"zstd-1.5.7-3-x86_64.pkg.tar.zst" = "d4cf0049137124c8a025eedfad267a3e8a02310c9efb9d1ae4a61aa1d02789fc"

@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/l/libnghttp3"]
 compression = ".tar.zst"
 
 [version]
-main = "1.13.1-1"
+main = "1.15.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 [checksums]
 "libnghttp3-1.11.0-1-x86_64.pkg.tar.zst" = "999020969f1bf6fee2ebf29d3e65bd47ec13b05703ec5fc9202dbb8d773219db"
 "libnghttp3-1.13.1-1-x86_64.pkg.tar.zst" = "c4b45ba8c20598b8b6a59edae22d93db1378bd25eb67609bc604f5d77fae0cb0"
+"libnghttp3-1.15.0-1-x86_64.pkg.tar.zst" = "82e17219935617e3a33b8fc809199bcce666d705e7243799e5455404d598d4a7"

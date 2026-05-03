@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/l/lld"]
 compression = ".tar.zst"
 
 [version]
-main = "21.1.6-1"
+main = "22.1.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "lld-20.1.8-1-x86_64.pkg.tar.zst" = "f47e53d7608c833816b9b7861f9e57ad167c409edca84e3dc12ecfc1cdd1b8a8"
 "lld-21.1.6-1-x86_64.pkg.tar.zst" = "48189317fd1719ed54c5e180c26f6cd12c66b8bfd21548bc314003d19b84bdbf"
+"lld-22.1.3-1-x86_64.pkg.tar.zst" = "e50bd090c398a2e2ca23627040647460acd8a77aff9696061b31d4aa0ac327bd"
 
 [directSharedLibraryDependencies]
 "usr/bin/ld.lld" = [

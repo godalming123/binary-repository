@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libxdmcp"]
 
 [version]
-main = "1.1.5-1"
+main = "1.1.5-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libxdmcp-1.1.5-1-x86_64.pkg.tar.zst" = "1c4b370157e4b092334fa5404508c52a8214c072b1ab6e1dc8d3f6eea6db2b0b"
+"libxdmcp-1.1.5-2-x86_64.pkg.tar.zst" = "623c957c2fd4b427a0f5a531da44931f9f66521391ee0bd0e635479947036b65"

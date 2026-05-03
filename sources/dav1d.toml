@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/d/dav1d"]
 
 [version]
-main = "1.5.2-1"
+main = "1.5.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "dav1d-1.5.1-1-x86_64.pkg.tar.zst" = "6b6857c12c438f283981d2686765c96aa5aeea384864f4a728f6f8da9ffab7e0"
 "dav1d-1.5.2-1-x86_64.pkg.tar.zst" = "0362e1dfc70eb489e589b9d1898a8a0e7b9c3ed29d5dacb183cad4437c610128"
+"dav1d-1.5.3-1-x86_64.pkg.tar.zst" = "c781744d4d1a67e250bf0e786379a2f5b6acf318c4439cee93368b3daf5966fc"

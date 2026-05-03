@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/w/wl-clipboard"]
 
 [version]
-main = "1:2.2.1-3"
+main = "1:2.3.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -21,3 +21,4 @@ amd64 = "x86_64"
 
 [checksums]
 "wl-clipboard-1:2.2.1-3-x86_64.pkg.tar.zst" = "6c3168e2e489d1ee99c7d9dc5bb54ab3414234aecff31d8d0f5094b10b127284"
+"wl-clipboard-1:2.3.0-1-x86_64.pkg.tar.zst" = "3ba82e724f496eeafe16a6e6f2a54f0bbf5e64f28bf8555a0d3ce4efa8c17693"

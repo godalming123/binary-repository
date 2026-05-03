@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libxinerama"]
 
 [version]
-main = "1.1.5-2"
+main = "1.1.6-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libxinerama-1.1.5-2-x86_64.pkg.tar.zst" = "05a41224c7819853f5d79c2e28c8679d6a534a535d45a462ccb05fa8d58b05ad"
+"libxinerama-1.1.6-1-x86_64.pkg.tar.zst" = "7a91e2e649d9b24946b2b8088c3d7f70fa0673a96d3bae80497f403e57fb7654"

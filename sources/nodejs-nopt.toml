@@ -6,10 +6,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/n/nodejs-nopt"]
 
 [version]
-main = "7.2.1-1"
+main = "9.0.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "nodejs-nopt-7.2.1-1-any.pkg.tar.zst" = "272efa4c79c657d997fc56834311f8d5cf118da18a0646bc93319c4b10ed6b42"
+"nodejs-nopt-9.0.0-1-any.pkg.tar.zst" = "4f7bae6fa34b2eb0d965115ad6eaff4166253ef71745b006b248f926b068ceb1"

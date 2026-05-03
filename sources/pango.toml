@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/p/pango"]
 
 [version]
-main = "1:1.57.0-2"
+main = "1:1.57.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "pango-1:1.57.0-1-x86_64.pkg.tar.zst" = "a4ce30ed15ee4fcdc018c2c3f7a5943e0b4fb51a71d7471ba32e707c12cd4816"
 "pango-1:1.56.4-2-x86_64.pkg.tar.zst" = "4bab2240cead83b5195755d715bfea61dda4eff6ea501e35a61231d7ba6ade8b"
 "pango-1:1.57.0-2-x86_64.pkg.tar.zst" = "df2249d9e2c2df8e4c2e2ceeea658cfb67295798ffaf166573378507a580fd4b"
+"pango-1:1.57.1-1-x86_64.pkg.tar.zst" = "69d8d4adab642cbbf93e89d6a45546ac18d9f76d1c1c19a32fe61aaf2a3e4035"

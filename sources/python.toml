@@ -6,22 +6,23 @@ mirrors = ["https://archive.archlinux.org/packages/p/python"]
 compression = ".tar.zst"
 
 [version]
-main = "3.14.2-1"
+main = "3.14.4-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "python-3.14.2-1-x86_64.pkg.tar.zst" = "b3e6581259dd7353b449bedba9d712fe1f335081c86458d359ba74e5ae1bdf47"
+"python-3.14.4-1-x86_64.pkg.tar.zst" = "9dba7f45728db2749509f6ff507f4a79b7e4eb1f9ce7606c823ca7ad316d5259"
 
 [env."usr/bin/python3.14"]
-PYTHONPATH="${python}/usr/lib/python3.14"
+PYTHONPATH = "${python}/usr/lib/python3.14"
 
 [env."usr/bin/python3.14-config"]
-PYTHONPATH="${python}/usr/lib/python3.14"
+PYTHONPATH = "${python}/usr/lib/python3.14"
 
 [env."usr/bin/pydoc3.14"]
-PYTHONPATH="${python}/usr/lib/python3.14"
+PYTHONPATH = "${python}/usr/lib/python3.14"
 
 [directSharedLibraryDependencies]
 "usr/bin/python3.14" = [

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gstreamer"]
 
 [version]
-main = "1.26.9-1"
+main = "1.28.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "gstreamer-1.26.5-2-x86_64.pkg.tar.zst" = "8156fed6b141f224d6e9fad091fd34c62fc5f42b60ea4a30ee8cfdce7a82a33b"
 "gstreamer-1.26.7-1-x86_64.pkg.tar.zst" = "7c83556ea75348e60208579b5e5902d1333c0d97ed4b204ddaacecf241ad10fd"
 "gstreamer-1.26.9-1-x86_64.pkg.tar.zst" = "049e60c98f20248b71520f969aae0195e1d6329f0a39137d9bd4fdbd72aec939"
+"gstreamer-1.28.2-1-x86_64.pkg.tar.zst" = "12d080f498d448a2be7ea23a0913c7aa201dcdc1baebbb3a175370c4ad66382b"

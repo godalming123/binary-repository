@@ -6,13 +6,14 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/n/ncurses"]
 
 [version]
-main = "6.5-4"
+main = "6.6-2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "ncurses-6.5-4-x86_64.pkg.tar.zst" = "2d06710b287264cbf2e27fdd25f99fb080b2e8ecff53302af965435c0b83ec6a"
+"ncurses-6.6-2-x86_64.pkg.tar.zst" = "9b80390fd681121443a45a51b74e2e2ade245ce22af8769915d63165b727e27c"
 
 [directSharedLibraryDependencies]
 "usr/bin/tic" = [

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libjpeg-turbo"]
 
 [version]
-main = "3.1.2-1"
+main = "3.1.4.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "libjpeg-turbo-3.1.1-1-x86_64.pkg.tar.zst" = "989f0511ecfe0c06f87dfac3271f14659285e4ee96d87e05861662985020d2a3"
 "libjpeg-turbo-3.1.2-1-x86_64.pkg.tar.zst" = "e51374456eaa0b2bca72f6b953525b7838ea5f7fbc8ea102ca8b3f4a0b770d45"
+"libjpeg-turbo-3.1.4.1-1-x86_64.pkg.tar.zst" = "edd094eec4aa622e81c03768e29f06fb6a32616dd6fb7885816df1ed36d6909a"

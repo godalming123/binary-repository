@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libdrm"]
 
 [version]
-main = "2.4.129-1"
+main = "2.4.131-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -13,3 +13,4 @@ amd64 = "x86_64"
 "libdrm-2.4.125-1-x86_64.pkg.tar.zst" = "53c724b1d1a06e913bc75e28a4cbbecb12a5da812d54cf3e1fb418b99e9a6f73"
 "libdrm-2.4.126-1-x86_64.pkg.tar.zst" = "ed9000aa78e8278649b4657bc70a4f780d8045188ec74b6d227cd3bb6c2fd142"
 "libdrm-2.4.129-1-x86_64.pkg.tar.zst" = "07bec24f9c58d404f853fd3596989433521ee06e51eff97953f1cfce1cc8ed47"
+"libdrm-2.4.131-1-x86_64.pkg.tar.zst" = "19edc65d6fb2e6d48a709c48ce778e006ea33702eb3b62f81b6833f0c1cc852a"

@@ -6,7 +6,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libnghttp2"]
 
 [version]
-main = "1.68.0-1"
+main = "1.69.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -16,3 +16,4 @@ amd64 = "x86_64"
 "libnghttp2-1.67.0-1-x86_64.pkg.tar.zst" = "ea1ce6089289b465926d19da9842bdf53f7594a6929bf5097eb93c7f897b143c"
 "libnghttp2-1.67.1-1-x86_64.pkg.tar.zst" = "df24c5e19b92f61e69d04474b7800bbc27b85a89a397e825299b75af94397f8d"
 "libnghttp2-1.68.0-1-x86_64.pkg.tar.zst" = "5069aca35ac522e8a7de7ddb2b4d6c62e4d6d05b7e19288b7de2c1e3d9d69d96"
+"libnghttp2-1.69.0-1-x86_64.pkg.tar.zst" = "18846de3571b98cf657098e2f77d9c9b38d6af0c0497cff665f8b80472d0c62a"

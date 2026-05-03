@@ -6,10 +6,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/b/brotli"]
 
 [version]
-main = "1.1.0-3"
+main = "1.2.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "brotli-1.1.0-3-x86_64.pkg.tar.zst" = "34d7d1f09eacbac59d5a3aef6bbef4a971859c9789c13c59caa490178e1ee0cc"
+"brotli-1.2.0-1-x86_64.pkg.tar.zst" = "4a0c95d5967476d0efdaf76d344b61e3eee02cd7920a315e457f3fd96311b7ec"

@@ -6,7 +6,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/s/simdjson"]
 
 [version]
-main = "1:4.2.2-1"
+main = "1:4.6.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -15,3 +15,4 @@ amd64 = "x86_64"
 "simdjson-1:3.13.0-1-x86_64.pkg.tar.zst" = "1dbfffaa176ed7ca5b5feed9e31918ea7d5c82e0a4b28c24a6a82f09d54e523f"
 "simdjson-1:4.0.7-1-x86_64.pkg.tar.zst" = "93e1a6f9d321d7d2a3087e1da48e564773df45b43fc755f86c0e57ab0bd52aa8"
 "simdjson-1:4.2.2-1-x86_64.pkg.tar.zst" = "2f24a5f7a38066ec39ad5d9d525933650a31e1cb338b117793e69312c5b154ae"
+"simdjson-1:4.6.3-1-x86_64.pkg.tar.zst" = "acfb2e56100d17f13767511253c6068848b217c11645fdb1b5be8b7ba4b34100"

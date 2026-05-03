@@ -6,13 +6,14 @@ mirrors = ["https://archive.archlinux.org/packages/k/keyutils"]
 compression = ".tar.zst"
 
 [version]
-main = "1.6.3-3"
+main = "1.6.3-4"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "keyutils-1.6.3-3-x86_64.pkg.tar.zst" = "8d61c8798ed6383280da2abc067d3f29e9cf2d1d60b57a705e62e8bd9ab89f69"
+"keyutils-1.6.3-4-x86_64.pkg.tar.zst" = "e3e5d4226bb7d213a6baddb997bf679a2b1106d95b5c2845b79bf8df1c3ef5fe"
 
 [directSharedLibraryDependencies]
 "usr/bin/key.dns_resolver" = [

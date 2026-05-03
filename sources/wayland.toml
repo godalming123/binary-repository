@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/w/wayland"]
 
 [version]
-main = "1.24.0-1"
+main = "1.25.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "wayland-1.23.1-2-x86_64.pkg.tar.zst" = "9ca6bb8b3dea22e3858433817291486961f7d591a6bb91e9991b8cf0c08e7bc6"
 "wayland-1.24.0-1-x86_64.pkg.tar.zst" = "c5bb589f6ab9ecfd1e3db0af14baaee530da9fe1edd87d19b07e946a0513eb9c"
+"wayland-1.25.0-1-x86_64.pkg.tar.zst" = "abbbdae258e41f07ce9dec597e2fa4007d5bb74f13081032f82070d1f8f9ca71"

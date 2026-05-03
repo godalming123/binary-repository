@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/librsvg"]
 
 [version]
-main = "2:2.61.3-1"
+main = "2:2.62.1-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "librsvg-2:2.61.0-1-x86_64.pkg.tar.zst" = "084067d5ef599972d7c4abc134fd3959b47cb9f7dc857c8a506d5e2b81e77944"
 "librsvg-2:2.61.1-1-x86_64.pkg.tar.zst" = "2134c9dd4d0a84bee8cf7be0120244bea1811da1fc24261bb56ad1528c21f25d"
 "librsvg-2:2.61.3-1-x86_64.pkg.tar.zst" = "4fbf336e621a243b0360ed7c6304d84c404ec8b7fa002df06d6c8888c234433d"
+"librsvg-2:2.62.1-1-x86_64.pkg.tar.zst" = "d582cbc918505d815a3c0faeac43929dade4d17d63bb968694d10c44ec4aaf98"

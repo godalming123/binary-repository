@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/c/curl"]
 compression = ".tar.zst"
 
 [version]
-main = "8.17.0-2"
+main = "8.20.0-3"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "curl-8.16.0-1-x86_64.pkg.tar.zst" = "9879892b6027840862584d25229977b93dcf391d7e4ebf97c6786fe54891a12c"
 "curl-8.17.0-2-x86_64.pkg.tar.zst" = "f8b4bebb561aca45bad829c1da108a2af1ffd4293503bdac15c326856dfd8bb0"
+"curl-8.20.0-3-x86_64.pkg.tar.zst" = "b1c00ebe2f55e4d274b9bf1a70f07d9dcd267edbbe3de6e121366da9ef0bcb5d"
 
 [directSharedLibraryDependencies]
 "usr/bin/curl" = [

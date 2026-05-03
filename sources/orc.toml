@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/o/orc"]
 
 [version]
-main = "0.4.41-1"
+main = "0.4.42-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "orc-0.4.41-1-x86_64.pkg.tar.zst" = "360a9f24cce9f9b7abd3406c465c9a32991c4f060ba6b9c55200c869c1dfad7c"
+"orc-0.4.42-1-x86_64.pkg.tar.zst" = "0c7df3cb2274b72565ca51f1a56d3ab2cf75c019e1da228780a2ed0833494b1d"

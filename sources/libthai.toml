@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libthai"]
 
 [version]
-main = "0.1.29-3"
+main = "0.1.30-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libthai-0.1.29-3-x86_64.pkg.tar.zst" = "40729f2231d3b1829663e451b61edd5163fcadf578e600bb386568a207427058"
+"libthai-0.1.30-1-x86_64.pkg.tar.zst" = "890798f30ac72d0ca3b59dc5fe8eebe8f923bf09bdb1bc2ec75bc200d7aa70a2"

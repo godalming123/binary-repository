@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gmp"]
 
 [version]
-main = "6.3.0-2"
+main = "6.3.0-3"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "gmp-6.3.0-2-x86_64.pkg.tar.zst" = "286c23ed38d46f803a19d06ca46dc67d96805f7805f7b9818cf9c0ca65a69326"
+"gmp-6.3.0-3-x86_64.pkg.tar.zst" = "2969061e117d2a8c19d89427b0b88e1c956a6269bc0602087d41aecd15097064"

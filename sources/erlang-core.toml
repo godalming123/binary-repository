@@ -6,7 +6,7 @@ mirrors = ["https://archive.archlinux.org/packages/e/erlang-core"]
 compression = ".tar.zst"
 
 [version]
-main = "28.2-1"
+main = "28.4.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,6 +14,7 @@ amd64 = "x86_64"
 [checksums]
 "erlang-core-28.0.4-1-x86_64.pkg.tar.zst" = "3e69af8b1c818beb5b2d57d09b58378663323ed25925ba633ebf422a312f62a7"
 "erlang-core-28.2-1-x86_64.pkg.tar.zst" = "124a62f410b6cb51e8d40fdfcdb8ba8ab6e4f3ff8d33a0762923c51f1b95fc83"
+"erlang-core-28.4.2-1-x86_64.pkg.tar.zst" = "16953dd9753c7caa9847e7dbaefc070615bc3ca8642f1907a161f1c76446f899"
 
 [directSharedLibraryDependencies]
 "usr/lib/erlang/erts-16.1.2/bin/epmd" = [

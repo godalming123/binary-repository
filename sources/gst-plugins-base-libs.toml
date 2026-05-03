@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/g/gst-plugins-base-libs"]
 
 [version]
-main = "1.26.9-1"
+main = "1.28.2-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -14,3 +14,4 @@ amd64 = "x86_64"
 "gst-plugins-base-libs-1.26.5-2-x86_64.pkg.tar.zst" = "33c2efbbc4070b2438df207e14cd13b87c461a01967b0a0fb71a7c584e0f1f48"
 "gst-plugins-base-libs-1.26.7-1-x86_64.pkg.tar.zst" = "f26be990d81cd57d9ec1d17379d224ba3758edb469a27453caa5a429cf3842a1"
 "gst-plugins-base-libs-1.26.9-1-x86_64.pkg.tar.zst" = "7fda8ce83c41432fe4d80f33668e08f3d29907db4529b4abaee0c04e532f5032"
+"gst-plugins-base-libs-1.28.2-1-x86_64.pkg.tar.zst" = "352618d5db8e04bf93e91f6f71923ea8f5c091d1b1dd56c623cb333aa8eb7519"

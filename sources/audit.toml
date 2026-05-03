@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/a/audit"]
 
 [version]
-main = "4.1.2-1"
+main = "4.1.4-2"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "audit-4.0.5-1-x86_64.pkg.tar.zst" = "09d03362067b441b343df86d41025cd4be8ce2f10347e610fc8db2c389822ebc"
 "audit-4.1.2-1-x86_64.pkg.tar.zst" = "a484b6a37593d7d520075dbdd84e4a2089baa4c49e359465c8828734116743f4"
+"audit-4.1.4-2-x86_64.pkg.tar.zst" = "386f585b7e3f6560cb97b5c472d632b682f2aee7c92a0f5045ead6ea96f072a2"

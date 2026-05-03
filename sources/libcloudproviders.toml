@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libcloudproviders"]
 
 [version]
-main = "0.3.6-2"
+main = "0.4.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "libcloudproviders-0.3.6-2-x86_64.pkg.tar.zst" = "bf09bc1df797003344599dc2771fcfd9d7ddaf422e0287c56261539e392064d0"
+"libcloudproviders-0.4.0-1-x86_64.pkg.tar.zst" = "1f3c112800499abc69bb2b3520e5d583f88578810d7a2e69a36bceaae993a8cf"

@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/f/freetype2"]
 
 [version]
-main = "2.14.1-1"
+main = "2.14.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -12,3 +12,4 @@ amd64 = "x86_64"
 [checksums]
 "freetype2-2.13.3-3-x86_64.pkg.tar.zst" = "130217614d85ad4a7bc4a565e2ef2be51e71712287263bc7463fc07f4bc2f985"
 "freetype2-2.14.1-1-x86_64.pkg.tar.zst" = "defbf42bbef8a03565762432ebd1eacadd1893b967b2e133822cbd518062f711"
+"freetype2-2.14.3-1-x86_64.pkg.tar.zst" = "fcaa410420dea42779d02aa76f1cc95d8430bdc52071ac6219d33306899b8655"

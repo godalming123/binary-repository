@@ -4,7 +4,7 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/l/libadwaita"]
 
 [version]
-main = "1:1.8.2-1"
+main = "1:1.9.0-1"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -15,3 +15,4 @@ amd64 = "x86_64"
 "libadwaita-1:1.7.7-1-x86_64.pkg.tar.zst" = "6812d1a8c0a40fa2e12f57306be83fbf09bf9ddc975743f1393c84be764c2fd1"
 "libadwaita-1:1.8.1-1-x86_64.pkg.tar.zst" = "5da572224d55bec5632e29ff04eb3998e221240120e8332672cdc9ed231599c6"
 "libadwaita-1:1.8.2-1-x86_64.pkg.tar.zst" = "afad870f8dae693acd3d2f780672adedaee50b4f0b5582361755a3944f7ba7a8"
+"libadwaita-1:1.9.0-1-x86_64.pkg.tar.zst" = "3b6acace5e9bdb18c81573197208d624245e87d4fde4d2111e5cad4049c77572"

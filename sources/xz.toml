@@ -4,10 +4,11 @@ compression = ".tar.zst"
 mirrors = ["https://archive.archlinux.org/packages/x/xz"]
 
 [version]
-main = "5.8.1-1"
+main = "5.8.3-1"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "xz-5.8.1-1-x86_64.pkg.tar.zst" = "aeecc6315b7b6d6af8d43a375b1e2795e313563bfde8a5df5866952b087eb6ad"
+"xz-5.8.3-1-x86_64.pkg.tar.zst" = "03b9eefeb02c27c4f30fce4481cb5bd2922c0391f628665911c156970285d5d9"
