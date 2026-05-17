@@ -7,10 +7,11 @@ filesToMakeExecutable = ["nu"]
 mirrors = ["https://github.com"]
 
 [version]
-main = "0.106.1"
+main = "0.112.2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "nushell/nushell/releases/download/0.106.1/nu-0.106.1-x86_64-unknown-linux-gnu.tar.gz" = "4f0688c71a36ba48a253e10876b5b101c3343f4a4deb19c446906b4572c340c9"
+"nushell/nushell/releases/download/0.112.2/nu-0.112.2-x86_64-unknown-linux-gnu.tar.gz" = "4038c171dd2618f2413a2aa615b8dab7e9d04852be8200f1755df3e422328395"

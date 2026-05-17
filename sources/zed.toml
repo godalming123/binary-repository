@@ -7,7 +7,7 @@ compression = ".tar.gz"
 mirrors = ["https://github.com/zed-industries/zed/releases/download"]
 
 [version]
-main = "0.216.1"
+main = "1.2.6"
 
 [architectureNames]
 amd64 = "x86_64"
@@ -18,3 +18,4 @@ amd64 = "x86_64"
 "v0.204.1/zed-linux-x86_64.tar.gz" = "47d8acc95ad4245535eb6d972c2434c02fd01697cd30f79ee4b5ca0b05a0d9e7"
 "v0.212.6/zed-linux-x86_64.tar.gz" = "09dc28addef1cd77637e889781290d54c2c78d87622f6c7b4011f63b112a53d2"
 "v0.216.1/zed-linux-x86_64.tar.gz" = "647fabf392624390f420e1cf61656e6f9f8653eabccf668a1151affa7cf89e15"
+"v1.2.6/zed-linux-x86_64.tar.gz" = "2103a344f5d46b315eea3ea32dfbb17f2d23e0abc18465287861b29f478d1ff6"
