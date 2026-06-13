@@ -1,0 +1,14 @@
+homepage = "https://t3.codes/"
+urlInMirror = "v${version.main}/T3-Code-${version.main}-${architecture}.AppImage"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/pingdotgg/t3code/releases/download"]
+
+[version]
+main = "0.0.27"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v0.0.27/T3-Code-0.0.27-x86_64.AppImage" = "00b926ef04956c395947b4d655a8373516cfd64bc6250aa6a51d66999bd20805"

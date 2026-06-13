@@ -1,0 +1,13 @@
+homepage = "https://opencode.ai/"
+urlInMirror = "v${version.main}/opencode-linux-${architecture}.tar.gz"
+compression = ".tar.gz"
+mirrors = ["https://github.com/anomalyco/opencode/releases/download"]
+
+[version]
+main = "1.17.4"
+
+[architectureNames]
+amd64 = "x64"
+
+[checksums]
+"v1.17.4/opencode-linux-x64.tar.gz" = "a2ece9181aab3817a6b59fa390b6d459b187e3ec917be802ecbca88b632c5ef9"

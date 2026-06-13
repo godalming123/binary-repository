@@ -1,0 +1,14 @@
+homepage = "https://opencode.ai/"
+urlInMirror = "v${version.main}/opencode-desktop-linux-${architecture}.AppImage"
+compression = "none"
+filesToMakeExecutable = ["."]
+mirrors = ["https://github.com/anomalyco/opencode/releases/download"]
+
+[version]
+main = "1.17.4"
+
+[architectureNames]
+amd64 = "x86_64"
+
+[checksums]
+"v1.17.4/opencode-desktop-linux-x86_64.AppImage" = "c1dd926b06e076be86d3ed27be4fedc65e2c19b77a95db3b3c332990e95f10bf"
