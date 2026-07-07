@@ -5,10 +5,11 @@ mirrors = ["https://github.com/PrismLauncher/PrismLauncher/releases/download"]
 filesToMakeExecutable = ["."]
 
 [version]
-main = "9.4"
+main = "11.0.2"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "9.4/PrismLauncher-Linux-x86_64.AppImage" = "dee0a756462203ce59d2de377583ba0c2c4310d0853707c434a4701bb3fe823c"
+"11.0.2/PrismLauncher-Linux-x86_64.AppImage" = "3c54d593bfc1337de5ce12dd17921fc618c2de2a303f6ffe9ed9f45a656c081e"

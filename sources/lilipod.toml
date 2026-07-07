@@ -9,4 +9,4 @@ mirrors = ["https://github.com"]
 main = "0.0.3"
 
 [checksums]
-"89luca89/lilipod/releases/download/v0.0.3/lilipod-linux-x86_64" = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+"89luca89/lilipod/releases/download/v0.0.3/lilipod-linux-amd64" = "e781e67fd2eb42150f9bbcfd8338d9c248c27f061e720508ffc471731ae0001b"

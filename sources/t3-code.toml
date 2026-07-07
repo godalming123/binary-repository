@@ -5,10 +5,11 @@ filesToMakeExecutable = ["."]
 mirrors = ["https://github.com/pingdotgg/t3code/releases/download"]
 
 [version]
-main = "0.0.27"
+main = "0.0.28"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v0.0.27/T3-Code-0.0.27-x86_64.AppImage" = "00b926ef04956c395947b4d655a8373516cfd64bc6250aa6a51d66999bd20805"
+"v0.0.28/T3-Code-0.0.28-x86_64.AppImage" = "fa6069fb03eb25157f1e96a29901dca81bb0a9970f5936ca255342556ec42e0a"
