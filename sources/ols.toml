@@ -7,7 +7,7 @@ mirrors = ["https://github.com/godalming123/ols-bin/releases/download"]
 executableDependencies = [["odin", "usr/lib/odin/odin"]]
 
 [version]
-main = "2026-04-25"
+main = "2026-07-15"
 
 [directSharedLibraryDependencies]
 "." = [
@@ -21,3 +21,4 @@ main = "2026-04-25"
 "latest%2F2025-09-23/amd64-linux-gnu-ols" = "fcb63feac560b4b598d2ccddaf2c23b1572be372551f65409774f756d06cc860"
 "latest%2F2025-12-22/amd64-linux-gnu-ols" = "0c968809d93c7f9d871df7f76444c0d9ec32f66d322c2ac1751b851c91b0492a"
 "latest%2F2026-04-25/amd64-linux-gnu-ols" = "23174fa557852f693792a06e746eb51668d1845b72bc910ea9247db57893b70f"
+"latest%2F2026-07-15/amd64-linux-gnu-ols" = "e1617672c75360af778305af9971a43efe1f5168d6d6f34b22c8078b1d4af903"

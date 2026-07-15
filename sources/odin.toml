@@ -1,7 +1,7 @@
 homepage = "https://odin-lang.org/"
 description = "Data-oriented programming language"
 licenses = ["BSD-3-Clause"]
-urlInMirror = "dev-${version.main}/odin-linux-${architecture}-dev-${version.main}.tar.gz"
+urlInMirror = "dev-${version.main}${version.patch}/odin-linux-${architecture}-dev-${version.main}${version.patch}.tar.gz"
 rootPath = "odin-linux-${architecture}-nightly+${version.main}-${version.day}"
 compression = ".tar.gz"
 mirrors = ["https://github.com/odin-lang/Odin/releases/download"]
@@ -12,7 +12,8 @@ executableDependencies = [[
 
 [version]
 main = "2026-07"
-day = "06"
+patch = "a"
+day = "10"
 
 [checksums]
 "dev-2026-03/odin-linux-amd64-dev-2026-03.tar.gz" = "60ff31bfb5807617eaa63d4a516f9d64f45e3cd1f5bba952298353036dbe8464"
@@ -20,3 +21,4 @@ day = "06"
 "dev-2026-05/odin-linux-amd64-dev-2026-05.tar.gz" = "cd7ec2cd1ab2840a0b7ebc18e5cb41c671bce87b12f056fddbef3f080b4dde7d"
 "dev-2026-06/odin-linux-amd64-dev-2026-06.tar.gz" = "40f38b462f30914c7f07271c56c8b4b7a7a6e5d82789c8165f75ab569c3b96cc"
 "dev-2026-07/odin-linux-amd64-dev-2026-07.tar.gz" = "43a497f262daac68cd09e8f2b16b7f63929d67886d90c111686239390fac6098"
+"dev-2026-07a/odin-linux-amd64-dev-2026-07a.tar.gz" = "32a7678abc66f1af7353abb5b0b5da47d94b7e663f6d250df29bc9117e864c10"
