@@ -6,7 +6,7 @@ filesToMakeExecutable = ["."]
 mirrors = ["https://github.com/godalming123/ols-bin/releases/download"]
 
 [version]
-main = "2026-07-15"
+main = "2026-08-03"
 
 [directSharedLibraryDependencies]
 "." = [
@@ -21,3 +21,4 @@ main = "2026-07-15"
 "latest%2F2025-12-22/amd64-linux-gnu-odinfmt" = "895bbe886a0702b2d304a439e2c3caba9e373fa9c699f86b3839141a1c99615a"
 "latest%2F2026-04-25/amd64-linux-gnu-odinfmt" = "559ddeaced754ae9f59d3063caa9b2f37c035a38597c8f371d87721a7493d7ac"
 "latest%2F2026-07-15/amd64-linux-gnu-odinfmt" = "ffd3077196d7f5d40889f14aadaeca4d1250b1771fd5317357e6e4154be10844"
+"latest%2F2026-08-03/amd64-linux-gnu-odinfmt" = "b3e4f68aba458251dfd7993086acca92dbcb170ba266b6fdb73f8eac504c327b"
