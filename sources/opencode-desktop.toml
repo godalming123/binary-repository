@@ -5,10 +5,11 @@ filesToMakeExecutable = ["."]
 mirrors = ["https://github.com/anomalyco/opencode/releases/download"]
 
 [version]
-main = "1.17.4"
+main = "1.18.25"
 
 [architectureNames]
 amd64 = "x86_64"
 
 [checksums]
 "v1.17.4/opencode-desktop-linux-x86_64.AppImage" = "c1dd926b06e076be86d3ed27be4fedc65e2c19b77a95db3b3c332990e95f10bf"
+"v1.18.25/opencode-desktop-linux-x86_64.AppImage" = "c8b33e55d7fa1a8abbfaf023e8c0a232f336801d2084e230c70ab0d3283554ca"

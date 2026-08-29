@@ -13,10 +13,11 @@ rootPath = "bun-linux-${architecture}"
 ]
 
 [version]
-main = "1.3.0"
+main = "1.4.0"
 
 [architectureNames]
 amd64 = "x64"
 
 [checksums]
 "bun-v1.3.0/bun-linux-x64.zip" = "60c39d92b8bd090627524c98b3012f0c08dc89024cfdaa7c9c98cb5fd4359376"
+"bun-v1.4.0/bun-linux-x64.zip" = "2d03fb5fb83ac8b567aca0a281b2ce1a1a19d488f56c2968d88c3f25e92fe452"

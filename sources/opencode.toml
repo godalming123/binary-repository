@@ -4,10 +4,11 @@ compression = ".tar.gz"
 mirrors = ["https://github.com/anomalyco/opencode/releases/download"]
 
 [version]
-main = "1.17.4"
+main = "1.18.25"
 
 [architectureNames]
 amd64 = "x64"
 
 [checksums]
 "v1.17.4/opencode-linux-x64.tar.gz" = "a2ece9181aab3817a6b59fa390b6d459b187e3ec917be802ecbca88b632c5ef9"
+"v1.18.25/opencode-linux-x64.tar.gz" = "58a3729a6f3432dd6d2917fcc4a949788891a035818646ad480e12c947f56e78"
