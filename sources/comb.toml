@@ -1,0 +1,11 @@
+homepage = "https://github.com/comb-lang/comb"
+compression = "none"
+filesToMakeExecutable = ["."]
+urlInMirror = "v${version.main}/${architecture}-linux-comb"
+mirrors = ["https://github.com/comb-lang/comb/releases/download"]
+
+[version]
+main = "0.0.1"
+
+[checksums]
+"v0.0.1/amd64-linux-comb" = "5e6878f51a34c863d61e48bb20b9d43c7c431f70d69bc4ae3f20a8d64e74536d"

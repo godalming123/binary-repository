@@ -1,0 +1,11 @@
+homepage = "https://github.com/FrameworkComputer/framework-system"
+compression = "none"
+mirrors = ["https://github.com/FrameworkComputer/framework-system/releases/download"]
+urlInMirror = "v${version.main}/framework_tool"
+filesToMakeExecutable = ["."]
+
+[version]
+main = "0.6.5"
+
+[checksums]
+"v0.6.5/framework_tool" = "0b223b09dbf0c05cfd18878e0be113294e35ea32120b93de1888a26cf6595cfc"

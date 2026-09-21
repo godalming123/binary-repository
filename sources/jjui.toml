@@ -1,0 +1,11 @@
+homepage = "https://github.com/idursun/jjui"
+urlInMirror = "v${version.main}/jjui-${version.main}-linux-${architecture}.zip"
+compression = ".zip"
+rootPath = "jjui-${version.main}-linux-${architecture}"
+mirrors = ["https://github.com/idursun/jjui/releases/download"]
+
+[version]
+main = "0.10.10"
+
+[checksums]
+"v0.10.10/jjui-0.10.10-linux-amd64.zip" = "515a94e15f02dec708c28b8d83bd8da803fe5f27ba52f2bfc4fd0fd7609acfef"
